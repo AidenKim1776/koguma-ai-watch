@@ -30,6 +30,8 @@ TIMEOUT = 25
 RETRIES = 2
 POLITE_DELAY = 1.5
 WINDOW_DAYS = 7
+DEFAULT_MAX_ITEMS = 25      # per source, per run
+DATELESS_MAX_ITEMS = 12     # scrape sources: no dates, so they linger — keep them tight
 
 COMPANIES = ["openai", "anthropic", "google", "xai"]
 
@@ -198,6 +200,9 @@ def load_prev():
 
 def main():
     ap = argparse.ArgumentParser(description="KOGUMA AI Watch collector")
+    ap.add_argument("--baseline", action="store_true",
+                    help="Treat everything collected as already seen. Applied automatically "
+                         "on the first run so that back catalogue is not reported as news.")
     ap.add_argument("--reclassify", action="store_true",
                     help="Re-apply classification rules to every item in the window. "
                          "Use after editing the rules; otherwise only new items are classified.")
@@ -207,6 +212,8 @@ def main():
         sources = json.load(f)["sources"]
 
     prev = load_prev()
+    first_run = not prev.get("items")
+    baseline = args.baseline or first_run
     by_id = {i["id"]: i for i in prev.get("items", [])}
     seen_titles = {norm_title(i["title"]) for i in prev.get("items", [])}
 
@@ -225,6 +232,10 @@ def main():
             continue
         finally:
             time.sleep(POLITE_DELAY)
+
+        cap = src.get("max_items") or (DEFAULT_MAX_ITEMS if src["type"] == "rss"
+                                       else DATELESS_MAX_ITEMS)
+        raw = raw[:cap]   # sources list newest first
 
         if not raw:
             health.append({"label": label, "company": src["company"],
@@ -262,8 +273,8 @@ def main():
             added += 1
 
         health.append({"label": label, "company": src["company"], "status": "ok",
-                       "message": f"{len(raw)} items parsed, {added} new."})
-        print(f"  OK      {label}: {len(raw)} parsed, {added} new")
+                       "message": f"{len(raw)} of newest items kept (cap {cap}), {added} new."})
+        print(f"  OK      {label}: {len(raw)} kept (cap {cap}), {added} new")
 
     # Rolling window: keep items whose effective date is within WINDOW_DAYS.
     cutoff = now - timedelta(days=WINDOW_DAYS)
@@ -306,14 +317,17 @@ def main():
         "window_days": WINDOW_DAYS,
         "companies": COMPANIES,
         "items": keep,
-        "new_ids": [i["id"] for i in fresh],
+        "new_ids": [] if baseline else [i["id"] for i in fresh],
+        "baseline_run": baseline,
         "feed_health": health,
     }
     os.makedirs(os.path.dirname(LATEST), exist_ok=True)
     with open(LATEST, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
 
-    print(f"\n{len(fresh)} new / {len(keep)} in window / {len(retire)} archived"
+    if baseline:
+        print("  BASELINE: this intake is recorded as history, not reported as news.")
+    print(f"\n{len(fresh)} collected / {len(keep)} in window / {len(retire)} archived"
           f"{'  [DEGRADED]' if degraded else ''}")
 
 
