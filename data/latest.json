@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-28T03:20:10.178139+00:00",
- "last_success": "2026-08-28T03:20:10.178139+00:00",
+ "generated_at": "2026-08-28T22:00:15.518018+00:00",
+ "last_success": "2026-08-28T22:00:15.518018+00:00",
  "degraded": false,
  "window_days": 7,
  "companies": [
@@ -596,6 +596,19 @@
    "subscription_signal": false
   },
   {
+   "id": "0b00c80d502cc3ab",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Supporting Thailand’s next generation of AI startups",
+   "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+   "raw_summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+   "published_at": "2026-08-28T02:00:00+00:00",
+   "first_seen_at": "2026-08-28T22:00:15.518018+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "a13e39d4fa54504b",
    "company": "google",
    "source_label": "Google DeepMind Blog",
@@ -776,59 +789,81 @@
    "category": "pricing",
    "materiality": "high",
    "subscription_signal": true
-  },
-  {
-   "id": "06daba08af15aa42",
-   "company": "google",
-   "source_label": "Google DeepMind Blog",
-   "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
-   "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-   "raw_summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
-   "published_at": "2026-08-21T11:59:48+00:00",
-   "first_seen_at": "2026-08-28T03:20:10.178139+00:00",
-   "category": "research",
-   "materiality": "low",
-   "subscription_signal": false
   }
  ],
- "new_ids": [],
- "baseline_run": true,
+ "new_ids": [
+  "0b00c80d502cc3ab",
+  "027379c08484bed2",
+  "cb030de2dd9418a3",
+  "ef913e9fdabc01a8",
+  "9ac0643f24279d08",
+  "e4563871866d3a63",
+  "67f37d861d340b85",
+  "9765648ad527edb6",
+  "68c52c81310f1d0e",
+  "01003c6680bc2ecc",
+  "dfcf73efa3a68602",
+  "7d7eacff40aa330c",
+  "f137d9ea2f9f034d",
+  "068e562e05123807",
+  "f5d9b5f669dc0283",
+  "7fa201e30c7e3776",
+  "06b8d0ad6f63e2ce",
+  "705bd6c095e82bdb",
+  "7909c613945e81a8",
+  "15eb5b1c419aea07",
+  "edd884e3eb651634",
+  "7898549b95c3b8f5",
+  "287800377f1b76b7",
+  "66188580349f59ed",
+  "e29a8bbb0a777ff9",
+  "adbaffb551ff1b45",
+  "0ce8c6adc247f334",
+  "12ceb5f0dc7b30a8",
+  "ae74216dee389070",
+  "d9665153cdf2820d",
+  "90b62352ebbd8dd2",
+  "8065dada88d89276",
+  "9be096effcbb1e03",
+  "89b36a5b3c5b5938"
+ ],
+ "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 24 new."
+   "message": "25 of newest items kept (cap 25), 13 new."
   },
   {
    "label": "Anthropic News",
    "company": "anthropic",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 12 new."
+   "message": "12 of newest items kept (cap 12), 0 new."
   },
   {
    "label": "Google DeepMind Blog",
    "company": "google",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 25 new."
+   "message": "25 of newest items kept (cap 25), 21 new."
   },
   {
    "label": "Gemini API Release Notes",
    "company": "google",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 12 new."
+   "message": "12 of newest items kept (cap 12), 0 new."
   },
   {
    "label": "xAI News",
    "company": "xai",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 12 new."
+   "message": "12 of newest items kept (cap 12), 0 new."
   },
   {
    "label": "xAI API Release Notes",
    "company": "xai",
    "status": "ok",
-   "message": "9 of newest items kept (cap 12), 9 new."
+   "message": "9 of newest items kept (cap 12), 0 new."
   }
  ]
 }
