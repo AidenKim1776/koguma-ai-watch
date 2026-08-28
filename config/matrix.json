@@ -1,0 +1,11 @@
+{
+  "_comment": "The slow axis. Edit by hand when you accept a change. The collector never writes here. Leave a value empty ('') if you have not verified it — the dashboard renders unverified cells as a dash rather than inventing a claim.",
+  "columns": ["Reasoning", "Coding", "Long context", "Multimodal", "Web / search", "Agentic", "My tier"],
+  "rows": {
+    "openai": ["", "", "", "", "", "", ""],
+    "anthropic": ["", "", "", "", "", "", ""],
+    "google": ["", "", "", "", "", "", ""],
+    "xai": ["", "", "", "", "", "", ""]
+  },
+  "last_reviewed": null
+}

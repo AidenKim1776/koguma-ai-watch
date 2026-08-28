@@ -1,0 +1,57 @@
+{
+  "_comment": "Verified 2026-08-25 by Hanna Adler, KOGUMA Press. Edit this file to repair a broken source. type: rss | scrape. For scrape sources, link_pattern is a regex matched against href values on the index page.",
+  "sources": [
+    {
+      "company": "openai",
+      "label": "OpenAI News",
+      "type": "rss",
+      "url": "https://openai.com/news/rss.xml",
+      "verified_at": "2026-08-25",
+      "note": "Official RSS. Includes pubDate and category. High volume — many customer stories, demoted by the classifier."
+    },
+    {
+      "company": "anthropic",
+      "label": "Anthropic News",
+      "type": "scrape",
+      "url": "https://www.anthropic.com/news",
+      "link_pattern": "^/news/[a-z0-9-]+$",
+      "verified_at": "2026-08-25",
+      "note": "No official RSS feed exists. Index page scraped for article links. Dates are not available from the index — first_seen_at is used instead."
+    },
+    {
+      "company": "google",
+      "label": "Google DeepMind Blog",
+      "type": "rss",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "verified_at": "2026-08-25",
+      "note": "Official RSS."
+    },
+    {
+      "company": "google",
+      "label": "Gemini API Release Notes",
+      "type": "scrape",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "link_pattern": "^/gemini-api/docs/[a-z0-9-]+$",
+      "verified_at": "2026-08-25",
+      "note": "Developer changelog. No RSS. Lower yield than the blog but catches API-level changes the blog omits."
+    },
+    {
+      "company": "xai",
+      "label": "xAI News",
+      "type": "scrape",
+      "url": "https://x.ai/news",
+      "link_pattern": "^/news/[a-z0-9-]+$",
+      "verified_at": "2026-08-25",
+      "note": "No RSS. Site now brands as SpaceXAI following the SpaceX acquisition — verify on first run."
+    },
+    {
+      "company": "xai",
+      "label": "xAI API Release Notes",
+      "type": "scrape",
+      "url": "https://docs.x.ai/developers/release-notes",
+      "link_pattern": "^/developers/[a-z0-9-]+$",
+      "verified_at": "2026-08-25",
+      "note": "Developer release notes. No RSS."
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+ "generated_at": "2026-08-24T23:56:13.515032+00:00",
+ "last_success": "2026-08-24T23:56:13.515032+00:00",
+ "degraded": true,
+ "window_days": 7,
+ "companies": [
+  "openai",
+  "anthropic",
+  "google",
+  "xai"
+ ],
+ "items": [
+  {
+   "id": "b29e8bfd2e9ee8c1",
+   "company": "anthropic",
+   "source_label": "Anthropic News",
+   "title": "Introducing Claude Opus 5.1",
+   "url": "https://www.anthropic.com/news/claude-opus-5-1",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-08-24T23:56:13.515032+00:00",
+   "category": "model_release",
+   "materiality": "high",
+   "subscription_signal": false
+  },
+  {
+   "id": "0563f9aed2dcb7ec",
+   "company": "anthropic",
+   "source_label": "Anthropic News",
+   "title": "Updated usage limits for Claude Pro and Max plans",
+   "url": "https://www.anthropic.com/news/usage-limits-update",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-08-24T23:56:13.515032+00:00",
+   "category": "pricing",
+   "materiality": "high",
+   "subscription_signal": true
+  },
+  {
+   "id": "789a240ed4fdcadc",
+   "company": "anthropic",
+   "source_label": "Anthropic News",
+   "title": "New interpretability research on feature steering",
+   "url": "https://www.anthropic.com/news/interpretability-research",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-08-24T23:56:13.515032+00:00",
+   "category": "research",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "abadfb45f943fcd5",
+   "company": "xai",
+   "source_label": "xAI News",
+   "title": "Grok 4.6 is now available to all SuperGrok subscribers",
+   "url": "https://x.ai/news/grok-4-6",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-08-24T23:56:13.515032+00:00",
+   "category": "model_release",
+   "materiality": "high",
+   "subscription_signal": true
+  },
+  {
+   "id": "6d3c25cf2f4e7121",
+   "company": "xai",
+   "source_label": "xAI News",
+   "title": "SpaceX announced today that it has acquired xAI.",
+   "url": "https://x.ai/news/spacex-acquires-xai",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-08-24T23:56:13.515032+00:00",
+   "category": "legal",
+   "materiality": "high",
+   "subscription_signal": false
+  },
+  {
+   "id": "df015003760c1205",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Advancing price-performance for developers with GPT-5.6 in Kiro",
+   "url": "https://openai.com/index/gpt-5-6-in-kiro",
+   "raw_summary": "GPT-5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+   "published_at": "2026-08-24T12:00:00+00:00",
+   "first_seen_at": "2026-08-24T23:56:13.515032+00:00",
+   "category": "pricing",
+   "materiality": "high",
+   "subscription_signal": true
+  },
+  {
+   "id": "0f0c1961f93e8e0c",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Improving GPT-5.6 Sol in ChatGPT-and expanding access to GPT-5.6 Luna for free users",
+   "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+   "raw_summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+   "published_at": "2026-08-23T10:00:00+00:00",
+   "first_seen_at": "2026-08-24T23:56:13.515032+00:00",
+   "category": "pricing",
+   "materiality": "high",
+   "subscription_signal": true
+  },
+  {
+   "id": "dfcf73efa3a68602",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "How NVIDIA scales expertise with ChatGPT Work",
+   "url": "https://openai.com/index/nvidia/chatgpt-work",
+   "raw_summary": "NVIDIA teams use ChatGPT Work to reduce manual tasks and scale successful workflows globally.",
+   "published_at": "2026-08-22T00:00:00+00:00",
+   "first_seen_at": "2026-08-24T23:56:13.515032+00:00",
+   "category": "customer_story",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "de2ca3d7578dd51c",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Testing ads in ChatGPT",
+   "url": "https://openai.com/index/testing-ads-in-chatgpt",
+   "raw_summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling and user control.",
+   "published_at": "2026-08-21T10:00:00+00:00",
+   "first_seen_at": "2026-08-24T23:56:13.515032+00:00",
+   "category": "pricing",
+   "materiality": "high",
+   "subscription_signal": true
+  },
+  {
+   "id": "9e022b7caa78cba4",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+   "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+   "raw_summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization.",
+   "published_at": "2026-08-21T09:00:00+00:00",
+   "first_seen_at": "2026-08-24T23:56:13.515032+00:00",
+   "category": "personnel",
+   "materiality": "low",
+   "subscription_signal": false
+  }
+ ],
+ "new_ids": [
+  "df015003760c1205",
+  "0f0c1961f93e8e0c",
+  "dfcf73efa3a68602",
+  "de2ca3d7578dd51c",
+  "9e022b7caa78cba4",
+  "b29e8bfd2e9ee8c1",
+  "0563f9aed2dcb7ec",
+  "789a240ed4fdcadc",
+  "abadfb45f943fcd5",
+  "6d3c25cf2f4e7121"
+ ],
+ "feed_health": [
+  {
+   "label": "OpenAI News",
+   "company": "openai",
+   "status": "ok",
+   "message": "5 items parsed, 5 new."
+  },
+  {
+   "label": "Anthropic News",
+   "company": "anthropic",
+   "status": "ok",
+   "message": "3 items parsed, 3 new."
+  },
+  {
+   "label": "xAI News",
+   "company": "xai",
+   "status": "ok",
+   "message": "2 items parsed, 2 new."
+  },
+  {
+   "label": "Gemini API Release Notes",
+   "company": "google",
+   "status": "failed",
+   "message": "TimeoutError: simulated network failure"
+  }
+ ]
+}

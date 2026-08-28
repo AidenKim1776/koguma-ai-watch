@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KOGUMA AI Watch</title><style>
+:root{
+  --bg:#0e0f11; --panel:#15171a; --line:#24272c; --line2:#1b1e22;
+  --fg:#e6e4e0; --dim:#8b8f96; --dimmer:#5c6067;
+  --high:#e0a458; --med:#7f93a8; --low:#5c6067;
+  --ok:#5c8a6b; --fail:#b4565a; --new:#e0a458;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font:15px/1.55 ui-sans-serif,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:860px;margin:0 auto;padding:28px 20px 80px}
+h1{font-size:14px;letter-spacing:.22em;font-weight:600;margin:0;text-transform:uppercase}
+h2{font-size:11px;letter-spacing:.2em;color:var(--dim);font-weight:600;
+  text-transform:uppercase;margin:0 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+section{margin-top:42px}
+.head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;
+  padding-bottom:18px;border-bottom:1px solid var(--line)}
+.stamp{font-size:12px;color:var(--dim);text-align:right;line-height:1.7}
+.stamp b{color:var(--fg);font-weight:500}
+.stale{color:var(--fail);font-weight:600}
+.banner{margin-top:16px;padding:10px 14px;border:1px solid var(--fail);
+  border-radius:3px;font-size:13px;color:var(--fail)}
+
+.status{display:grid;grid-template-columns:1fr;gap:1px;background:var(--line2)}
+.srow{display:flex;justify-content:space-between;align-items:center;gap:12px;
+  background:var(--panel);padding:11px 14px}
+.srow.quiet{color:var(--dimmer)}
+.srow .co{font-weight:600;letter-spacing:.04em}
+.srow .co span{color:var(--dim);font-weight:400;font-size:12px;margin-left:8px}
+.srow .n{font-size:12px;color:var(--dim);font-variant-numeric:tabular-nums}
+
+.item{padding:14px 0 14px 14px;border-bottom:1px solid var(--line2);
+  border-left:2px solid transparent}
+.item.unseen{border-left-color:var(--new)}
+.item:last-child{border-bottom:none}
+.item .t{font-size:15px;line-height:1.45}
+.item .t a{color:var(--fg);text-decoration:none;border-bottom:1px solid var(--line)}
+.item .t a:hover{border-bottom-color:var(--dim)}
+.item .s{color:var(--dim);font-size:13px;margin-top:5px}
+.meta{margin-top:7px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--dimmer);display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.chip{padding:1px 7px;border:1px solid var(--line);border-radius:2px}
+.m-high{color:var(--high);border-color:var(--high)}
+.m-medium{color:var(--med);border-color:var(--med)}
+.m-low{color:var(--low)}
+.sub{color:var(--high)}
+.group{margin-bottom:26px}
+.group h3{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);
+  font-weight:600;margin:0 0 4px}
+.none{color:var(--dim);font-size:14px;padding:6px 0}
+
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line2);vertical-align:top}
+th{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);font-weight:600}
+td.co{font-weight:600;white-space:nowrap}
+td.empty{color:var(--dimmer)}
+
+.health{font-size:13px}
+.health div{display:flex;gap:10px;padding:6px 0;border-bottom:1px solid var(--line2)}
+.health .st{width:80px;flex:none;font-size:11px;letter-spacing:.1em;text-transform:uppercase}
+.st.ok{color:var(--ok)} .st.failed{color:var(--fail)} .st.empty{color:var(--high)}
+.health .msg{color:var(--dim)}
+
+button{font:inherit;font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+  background:transparent;color:var(--dim);border:1px solid var(--line);
+  padding:7px 14px;border-radius:2px;cursor:pointer}
+button:hover{color:var(--fg);border-color:var(--dim)}
+footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);
+  font-size:12px;color:var(--dimmer);line-height:1.7}
+@media(max-width:600px){.wrap{padding:20px 14px 60px}.stamp{text-align:left}}
+</style></head><body>
+<div class="wrap">
+
+<div class="head">
+  <h1>KOGUMA AI Watch</h1>
+  <div class="stamp">
+    <b>2026-08-25 08:56 KST</b> · 0 min ago<br>
+    <span class="">
+    10 new · 10-item window · degraded run</span>
+  </div>
+</div>
+
+
+<section><h2>Status</h2><div class="status"><div class="srow"><div class="co">OpenAI<span>Muse</span></div><div class="n">5 new</div></div><div class="srow"><div class="co">Anthropic<span>Hanna</span></div><div class="n">3 new</div></div><div class="srow quiet"><div class="co">Google<span>Vera</span></div><div class="n">—</div></div><div class="srow"><div class="co">xAI<span>Scarlett</span></div><div class="n">2 new</div></div></div></section>
+
+<section><h2>What changed</h2><div class="group"><h3>OpenAI</h3><div class="item" data-id="df015003760c1205" data-seen="2026-08-24T23:56:13.515032+00:00">
+  <div class="t"><a href="https://openai.com/index/gpt-5-6-in-kiro" target="_blank" rel="noopener">Advancing price-performance for developers with GPT-5.6 in Kiro</a></div>
+  <div class="s">GPT-5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.</div>
+  <div class="meta">
+    <span class="chip m-high">high</span>
+    <span class="chip">pricing</span>
+    <span class="chip sub">subscription</span>
+    <span>OpenAI News</span>
+  </div>
+</div><div class="item" data-id="0f0c1961f93e8e0c" data-seen="2026-08-24T23:56:13.515032+00:00">
+  <div class="t"><a href="https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt" target="_blank" rel="noopener">Improving GPT-5.6 Sol in ChatGPT-and expanding access to GPT-5.6 Luna for free users</a></div>
+  <div class="s">ChatGPT introduces improved GPT-5.6 Sol with better accuracy, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.</div>
+  <div class="meta">
+    <span class="chip m-high">high</span>
+    <span class="chip">pricing</span>
+    <span class="chip sub">subscription</span>
+    <span>OpenAI News</span>
+  </div>
+</div><div class="item" data-id="de2ca3d7578dd51c" data-seen="2026-08-24T23:56:13.515032+00:00">
+  <div class="t"><a href="https://openai.com/index/testing-ads-in-chatgpt" target="_blank" rel="noopener">Testing ads in ChatGPT</a></div>
+  <div class="s">OpenAI begins testing ads in ChatGPT to support free access, with clear labeling and user control.</div>
+  <div class="meta">
+    <span class="chip m-high">high</span>
+    <span class="chip">pricing</span>
+    <span class="chip sub">subscription</span>
+    <span>OpenAI News</span>
+  </div>
+</div><div class="item" data-id="dfcf73efa3a68602" data-seen="2026-08-24T23:56:13.515032+00:00">
+  <div class="t"><a href="https://openai.com/index/nvidia/chatgpt-work" target="_blank" rel="noopener">How NVIDIA scales expertise with ChatGPT Work</a></div>
+  <div class="s">NVIDIA teams use ChatGPT Work to reduce manual tasks and scale successful workflows globally.</div>
+  <div class="meta">
+    <span class="chip m-low">low</span>
+    <span class="chip">customer story</span>
+    
+    <span>OpenAI News</span>
+  </div>
+</div><div class="item" data-id="9e022b7caa78cba4" data-seen="2026-08-24T23:56:13.515032+00:00">
+  <div class="t"><a href="https://openai.com/index/dali-rajic-chief-revenue-officer" target="_blank" rel="noopener">OpenAI appoints Dali Rajic as Chief Revenue Officer</a></div>
+  <div class="s">OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization.</div>
+  <div class="meta">
+    <span class="chip m-low">low</span>
+    <span class="chip">personnel</span>
+    
+    <span>OpenAI News</span>
+  </div>
+</div></div><div class="group"><h3>Anthropic</h3><div class="item" data-id="b29e8bfd2e9ee8c1" data-seen="2026-08-24T23:56:13.515032+00:00">
+  <div class="t"><a href="https://www.anthropic.com/news/claude-opus-5-1" target="_blank" rel="noopener">Introducing Claude Opus 5.1</a></div>
+  
+  <div class="meta">
+    <span class="chip m-high">high</span>
+    <span class="chip">model release</span>
+    
+    <span>Anthropic News</span>
+  </div>
+</div><div class="item" data-id="0563f9aed2dcb7ec" data-seen="2026-08-24T23:56:13.515032+00:00">
+  <div class="t"><a href="https://www.anthropic.com/news/usage-limits-update" target="_blank" rel="noopener">Updated usage limits for Claude Pro and Max plans</a></div>
+  
+  <div class="meta">
+    <span class="chip m-high">high</span>
+    <span class="chip">pricing</span>
+    <span class="chip sub">subscription</span>
+    <span>Anthropic News</span>
+  </div>
+</div><div class="item" data-id="789a240ed4fdcadc" data-seen="2026-08-24T23:56:13.515032+00:00">
+  <div class="t"><a href="https://www.anthropic.com/news/interpretability-research" target="_blank" rel="noopener">New interpretability research on feature steering</a></div>
+  
+  <div class="meta">
+    <span class="chip m-low">low</span>
+    <span class="chip">research</span>
+    
+    <span>Anthropic News</span>
+  </div>
+</div></div><div class="group"><h3>xAI</h3><div class="item" data-id="abadfb45f943fcd5" data-seen="2026-08-24T23:56:13.515032+00:00">
+  <div class="t"><a href="https://x.ai/news/grok-4-6" target="_blank" rel="noopener">Grok 4.6 is now available to all SuperGrok subscribers</a></div>
+  
+  <div class="meta">
+    <span class="chip m-high">high</span>
+    <span class="chip">model release</span>
+    <span class="chip sub">subscription</span>
+    <span>xAI News</span>
+  </div>
+</div><div class="item" data-id="6d3c25cf2f4e7121" data-seen="2026-08-24T23:56:13.515032+00:00">
+  <div class="t"><a href="https://x.ai/news/spacex-acquires-xai" target="_blank" rel="noopener">SpaceX announced today that it has acquired xAI.</a></div>
+  
+  <div class="meta">
+    <span class="chip m-high">high</span>
+    <span class="chip">legal</span>
+    
+    <span>xAI News</span>
+  </div>
+</div></div></section>
+
+<section><h2>Capability matrix</h2>
+<table><thead><tr><th></th><th>Reasoning</th><th>Coding</th><th>Long context</th><th>Multimodal</th><th>Web / search</th><th>Agentic</th><th>My tier</th></tr></thead><tbody><tr><td class="co">OpenAI</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td></tr><tr><td class="co">Anthropic</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td></tr><tr><td class="co">Google</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td></tr><tr><td class="co">xAI</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td></tr></tbody></table>
+<p class="none">Slow axis — edited by hand in <code>config/matrix.json</code>. Last reviewed: never reviewed.</p>
+</section>
+
+<section><h2>Judgement</h2>
+<p class="none">Analysis is deliberately not automated. Copy the digest and take it to Hanna when something looks like it moves the subscription decision.</p>
+<button id="copy">Copy digest</button>
+</section>
+
+<section><h2>Feed health</h2><div class="health"><div><span class="st ok">ok</span><span>OpenAI News</span><span class="msg">5 items parsed, 5 new.</span></div><div><span class="st ok">ok</span><span>Anthropic News</span><span class="msg">3 items parsed, 3 new.</span></div><div><span class="st ok">ok</span><span>xAI News</span><span class="msg">2 items parsed, 2 new.</span></div><div><span class="st failed">failed</span><span>Gemini API Release Notes</span><span class="msg">TimeoutError: simulated network failure</span></div></div></section>
+
+<footer>
+KOGUMA Systems · central monitoring · sources read in English<br>
+The unseen marker is stored in this browser only and does not sync across devices.
+</footer>
+</div>
+
+<script>
+(function(){
+  var KEY='koguma-ai-watch-last-visit';
+  var prev=localStorage.getItem(KEY);
+  document.querySelectorAll('.item').forEach(function(el){
+    if(!prev || el.dataset.seen > prev) el.classList.add('unseen');
+  });
+  localStorage.setItem(KEY, new Date().toISOString());
+  var d=[{"company": "anthropic", "title": "Introducing Claude Opus 5.1", "url": "https://www.anthropic.com/news/claude-opus-5-1", "category": "model_release", "materiality": "high", "subscription_signal": false}, {"company": "anthropic", "title": "Updated usage limits for Claude Pro and Max plans", "url": "https://www.anthropic.com/news/usage-limits-update", "category": "pricing", "materiality": "high", "subscription_signal": true}, {"company": "anthropic", "title": "New interpretability research on feature steering", "url": "https://www.anthropic.com/news/interpretability-research", "category": "research", "materiality": "low", "subscription_signal": false}, {"company": "xai", "title": "Grok 4.6 is now available to all SuperGrok subscribers", "url": "https://x.ai/news/grok-4-6", "category": "model_release", "materiality": "high", "subscription_signal": true}, {"company": "xai", "title": "SpaceX announced today that it has acquired xAI.", "url": "https://x.ai/news/spacex-acquires-xai", "category": "legal", "materiality": "high", "subscription_signal": false}, {"company": "openai", "title": "Advancing price-performance for developers with GPT-5.6 in Kiro", "url": "https://openai.com/index/gpt-5-6-in-kiro", "category": "pricing", "materiality": "high", "subscription_signal": true}, {"company": "openai", "title": "Improving GPT-5.6 Sol in ChatGPT-and expanding access to GPT-5.6 Luna for free users", "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt", "category": "pricing", "materiality": "high", "subscription_signal": true}, {"company": "openai", "title": "How NVIDIA scales expertise with ChatGPT Work", "url": "https://openai.com/index/nvidia/chatgpt-work", "category": "customer_story", "materiality": "low", "subscription_signal": false}, {"company": "openai", "title": "Testing ads in ChatGPT", "url": "https://openai.com/index/testing-ads-in-chatgpt", "category": "pricing", "materiality": "high", "subscription_signal": true}, {"company": "openai", "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer", "url": "https://openai.com/index/dali-rajic-chief-revenue-officer", "category": "personnel", "materiality": "low", "subscription_signal": false}];
+  document.getElementById('copy').addEventListener('click', function(){
+    navigator.clipboard.writeText(JSON.stringify(d,null,1)).then(function(){
+      var b=document.getElementById('copy'); b.textContent='Copied';
+      setTimeout(function(){b.textContent='Copy digest';},1600);
+    });
+  });
+})();
+</script>
+</body></html>
