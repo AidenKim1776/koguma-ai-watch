@@ -1,0 +1,37 @@
+name: KOGUMA AI Watch
+
+on:
+  schedule:
+    # 20:00 UTC = 05:00 KST. GitHub delays cron under load; the dashboard's
+    # own timestamp is the source of truth, not this schedule.
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # No pip install anywhere. The project is standard library only, by design:
+      # nothing to break, nothing to audit, no supply chain.
+      - name: Collect
+        run: python3 collector/run.py
+
+      - name: Render
+        run: python3 renderer/run.py
+
+      - name: Commit
+        run: |
+          git config user.name  "koguma-ai-watch"
+          git config user.email "actions@users.noreply.github.com"
+          git add data docs
+          git diff --staged --quiet || git commit -m "watch: $(date -u +%Y-%m-%d) [skip ci]"
+          git push
