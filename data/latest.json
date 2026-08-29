@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-28T22:00:15.518018+00:00",
- "last_success": "2026-08-28T22:00:15.518018+00:00",
+ "generated_at": "2026-08-29T20:06:58.681799+00:00",
+ "last_success": "2026-08-29T20:06:58.681799+00:00",
  "degraded": false,
  "window_days": 7,
  "companies": [
@@ -596,6 +596,19 @@
    "subscription_signal": false
   },
   {
+   "id": "092c8de02e8b135e",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Our decision on Cursor following its acquisition by SpaceX",
+   "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+   "raw_summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+   "published_at": "2026-08-28T06:00:00+00:00",
+   "first_seen_at": "2026-08-29T20:06:58.681799+00:00",
+   "category": "legal",
+   "materiality": "high",
+   "subscription_signal": false
+  },
+  {
    "id": "0b00c80d502cc3ab",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -792,8 +805,8 @@
   }
  ],
  "new_ids": [
-  "0b00c80d502cc3ab",
-  "027379c08484bed2",
+  "092c8de02e8b135e",
+  "afca402187c86ebe",
   "cb030de2dd9418a3",
   "ef913e9fdabc01a8",
   "9ac0643f24279d08",
@@ -804,7 +817,7 @@
   "01003c6680bc2ecc",
   "dfcf73efa3a68602",
   "7d7eacff40aa330c",
-  "f137d9ea2f9f034d",
+  "06daba08af15aa42",
   "068e562e05123807",
   "f5d9b5f669dc0283",
   "7fa201e30c7e3776",
@@ -833,7 +846,7 @@
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 13 new."
+   "message": "25 of newest items kept (cap 25), 12 new."
   },
   {
    "label": "Anthropic News",
@@ -845,7 +858,7 @@
    "label": "Google DeepMind Blog",
    "company": "google",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 21 new."
+   "message": "25 of newest items kept (cap 25), 22 new."
   },
   {
    "label": "Gemini API Release Notes",
