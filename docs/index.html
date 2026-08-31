@@ -78,16 +78,25 @@ footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);
 <div class="head">
   <h1>KOGUMA AI Watch</h1>
   <div class="stamp">
-    <b>2026-08-31 15:01 KST</b> · 0 min ago<br>
+    <b>2026-09-01 05:07 KST</b> · 0 min ago<br>
     <span class="">
-    0 new · 61-item window · clean run</span>
+    1 new · 61-item window · clean run</span>
   </div>
 </div>
 
 
-<section><h2>Status</h2><div class="status"><div class="srow quiet"><div class="co">OpenAI<span>Muse</span></div><div class="n">—</div></div><div class="srow quiet"><div class="co">Anthropic<span>Hanna</span></div><div class="n">—</div></div><div class="srow quiet"><div class="co">Google<span>Vera</span></div><div class="n">—</div></div><div class="srow quiet"><div class="co">xAI<span>Scarlett</span></div><div class="n">—</div></div></div></section>
+<section><h2>Status</h2><div class="status"><div class="srow"><div class="co">OpenAI<span>Muse</span></div><div class="n">1 new</div></div><div class="srow quiet"><div class="co">Anthropic<span>Hanna</span></div><div class="n">—</div></div><div class="srow quiet"><div class="co">Google<span>Vera</span></div><div class="n">—</div></div><div class="srow quiet"><div class="co">xAI<span>Scarlett</span></div><div class="n">—</div></div></div></section>
 
-<section><h2>What changed</h2><div class="none">Baseline run — this intake was recorded as history, not news. Real reporting starts with the next run.</div></section>
+<section><h2>What changed</h2><div class="group"><h3>OpenAI</h3><div class="item" data-id="44f61163770f758b" data-seen="2026-08-31T20:07:07.353093+00:00">
+  <div class="t"><a href="https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads" target="_blank" rel="noopener">A milestone in expanding access to AI</a></div>
+  <div class="s">ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.</div>
+  <div class="meta">
+    <span class="chip m-high">high</span>
+    <span class="chip">pricing</span>
+    <span class="chip sub">subscription</span>
+    <span>OpenAI News</span>
+  </div>
+</div></div></section>
 
 <section><h2>Capability matrix</h2>
 <table><thead><tr><th></th><th>Reasoning</th><th>Coding</th><th>Long context</th><th>Multimodal</th><th>Web / search</th><th>Agentic</th><th>My tier</th></tr></thead><tbody><tr><td class="co">OpenAI</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td></tr><tr><td class="co">Anthropic</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td></tr><tr><td class="co">Google</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td></tr><tr><td class="co">xAI</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td></tr></tbody></table>
@@ -99,7 +108,7 @@ footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);
 <button id="copy">Copy digest</button>
 </section>
 
-<section><h2>Feed health</h2><div class="health"><div><span class="st ok">ok</span><span>OpenAI News</span><span class="msg">25 of newest items kept (cap 25), 24 new.</span></div><div><span class="st ok">ok</span><span>Anthropic News</span><span class="msg">12 of newest items kept (cap 12), 12 new.</span></div><div><span class="st ok">ok</span><span>Google DeepMind Blog</span><span class="msg">25 of newest items kept (cap 25), 25 new.</span></div><div><span class="st ok">ok</span><span>Gemini API Release Notes</span><span class="msg">12 of newest items kept (cap 12), 12 new.</span></div><div><span class="st ok">ok</span><span>xAI News</span><span class="msg">12 of newest items kept (cap 12), 12 new.</span></div><div><span class="st ok">ok</span><span>xAI API Release Notes</span><span class="msg">9 of newest items kept (cap 12), 9 new.</span></div></div></section>
+<section><h2>Feed health</h2><div class="health"><div><span class="st ok">ok</span><span>OpenAI News</span><span class="msg">25 of newest items kept (cap 25), 1 new.</span></div><div><span class="st ok">ok</span><span>Anthropic News</span><span class="msg">12 of newest items kept (cap 12), 0 new.</span></div><div><span class="st ok">ok</span><span>Google DeepMind Blog</span><span class="msg">25 of newest items kept (cap 25), 0 new.</span></div><div><span class="st ok">ok</span><span>Gemini API Release Notes</span><span class="msg">12 of newest items kept (cap 12), 0 new.</span></div><div><span class="st ok">ok</span><span>xAI News</span><span class="msg">12 of newest items kept (cap 12), 0 new.</span></div><div><span class="st ok">ok</span><span>xAI API Release Notes</span><span class="msg">9 of newest items kept (cap 12), 0 new.</span></div></div></section>
 
 <footer>
 KOGUMA Systems · central monitoring · sources read in English<br>
@@ -115,7 +124,7 @@ The unseen marker is stored in this browser only and does not sync across device
     if(!prev || el.dataset.seen > prev) el.classList.add('unseen');
   });
   localStorage.setItem(KEY, new Date().toISOString());
-  var d=[];
+  var d=[{"company": "openai", "title": "A milestone in expanding access to AI", "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads", "category": "pricing", "materiality": "high", "subscription_signal": true}];
   document.getElementById('copy').addEventListener('click', function(){
     navigator.clipboard.writeText(JSON.stringify(d,null,1)).then(function(){
       var b=document.getElementById('copy'); b.textContent='Copied';
