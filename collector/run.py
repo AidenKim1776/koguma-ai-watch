@@ -119,6 +119,25 @@ def parse_feed(text):
     return out
 
 
+DATE_RX = re.compile(
+    r"\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+\d{1,2},?\s+\d{4}\b", re.I)
+TRAILING_RX = re.compile(r"\s*(read more|learn more|read the (post|announcement))\s*$", re.I)
+
+
+def clean_scraped_title(s):
+    """Card links wrap date + heading + blurb in one anchor, often duplicated.
+    Keep the first clean sentence-like heading."""
+    s = TRAILING_RX.sub("", s)
+    s = re.sub(r"\s+", " ", DATE_RX.sub(" ", s)).strip()
+    # Collapse an immediately repeated prefix: "X X ..." -> "X ..."
+    for n in range(len(s) // 2, 8, -1):
+        head = s[:n].strip()
+        if head and s[n:].strip().startswith(head):
+            s = head
+            break
+    return s.rstrip(" .-–—")
+
+
 def parse_scrape(text, base_url, link_pattern):
     """Extract article links from an index page by href pattern."""
     from urllib.parse import urljoin, urlparse
@@ -135,7 +154,12 @@ def parse_scrape(text, base_url, link_pattern):
         if full in seen or len(inner) < 12:
             continue
         seen.add(full)
-        out.append({"title": inner[:300], "url": full, "raw_summary": "", "published_at": None})
+        title = clean_scraped_title(inner)
+        if len(title) < 12:
+            continue
+        blurb = inner[len(title):].strip() if inner.startswith(title) else ""
+        out.append({"title": title[:300], "url": full,
+                    "raw_summary": TRAILING_RX.sub("", blurb)[:800], "published_at": None})
     return out
 
 
@@ -215,6 +239,11 @@ def main():
     first_run = not prev.get("items")
     baseline = args.baseline or first_run
     by_id = {i["id"]: i for i in prev.get("items", [])}
+    _sp = os.path.join(os.path.dirname(LATEST), "seen.json")
+    retired_ids = set()
+    if os.path.exists(_sp):
+        with open(_sp, encoding="utf-8") as f:
+            retired_ids = set(json.load(f))
     seen_titles = {norm_title(i["title"]) for i in prev.get("items", [])}
 
     health, fresh = [], []
@@ -247,7 +276,7 @@ def main():
         for r in raw:
             iid = item_id(r["url"])
             nt = norm_title(r["title"])
-            if iid in by_id or nt in seen_titles:
+            if iid in by_id or iid in retired_ids or nt in seen_titles:
                 continue
             cat, mat = classify(r["title"], r["raw_summary"])
             if cat == "model_release" and not flagship(r["title"]):
@@ -283,6 +312,16 @@ def main():
         eff = parse_date(i.get("published_at")) or parse_date(i["first_seen_at"]) or now
         (keep if eff >= cutoff else retire).append(i)
 
+    # Retired items stay known, so they are never re-reported as new later.
+    seen_path = os.path.join(os.path.dirname(LATEST), "seen.json")
+    known = set()
+    if os.path.exists(seen_path):
+        with open(seen_path, encoding="utf-8") as f:
+            known = set(json.load(f))
+    known.update(i["id"] for i in retire)
+    with open(seen_path, "w", encoding="utf-8") as f:
+        json.dump(sorted(known), f)
+
     if args.reclassify:
         for i in keep:
             cat, mat = classify(i["title"], i.get("raw_summary", ""))
@@ -317,7 +356,8 @@ def main():
         "window_days": WINDOW_DAYS,
         "companies": COMPANIES,
         "items": keep,
-        "new_ids": [] if baseline else [i["id"] for i in fresh],
+        "new_ids": [] if baseline else [i["id"] for i in fresh if i["id"] in {k["id"] for k in keep}],
+        "collected_count": len(fresh),
         "baseline_run": baseline,
         "feed_health": health,
     }
