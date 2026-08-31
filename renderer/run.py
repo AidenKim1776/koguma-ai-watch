@@ -168,7 +168,10 @@ def main():
         changed += (f'<div class="group"><h3>{NAMES[c]}</h3>'
                     + "".join(render_item(i) for i in grp) + "</div>")
     if not changed:
-        changed = '<div class="none">No material updates in the last 24 hours.</div>'
+        changed = ('<div class="none">Baseline run — this intake was recorded as history, '
+                   'not news. Real reporting starts with the next run.</div>'
+                   if d.get("baseline_run")
+                   else '<div class="none">No material updates in the last 24 hours.</div>')
 
     # MATRIX
     cols = "".join(f"<th>{esc(x)}</th>" for x in mx["columns"])
