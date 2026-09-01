@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-31T20:07:07.353093+00:00",
- "last_success": "2026-08-31T20:07:07.353093+00:00",
+ "generated_at": "2026-09-01T20:13:35.837235+00:00",
+ "last_success": "2026-09-01T20:13:35.837235+00:00",
  "degraded": false,
  "window_days": 7,
  "companies": [
@@ -596,6 +596,123 @@
    "subscription_signal": false
   },
   {
+   "id": "07a03b3c017c8234",
+   "company": "anthropic",
+   "source_label": "Anthropic News",
+   "title": "Announcements Developing Enterprise Frontier Safeguards with our customers",
+   "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-09-01T20:13:35.837235+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "e83ff5faec702b5a",
+   "company": "anthropic",
+   "source_label": "Anthropic News",
+   "title": "Improving our alignment and security efforts",
+   "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-09-01T20:13:35.837235+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "7b7f1282e8a8069e",
+   "company": "xai",
+   "source_label": "xAI News",
+   "title": "Biosecurity at the frontier",
+   "url": "https://x.ai/news/biosafety-at-the-frontier",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-09-01T20:13:35.837235+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "dfd1ea2e5518b0ed",
+   "company": "google",
+   "source_label": "Google DeepMind Blog",
+   "title": "Introducing agentic video understanding with Gemini",
+   "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+   "raw_summary": "",
+   "published_at": "2026-09-01T17:08:51+00:00",
+   "first_seen_at": "2026-09-01T20:13:35.837235+00:00",
+   "category": "model_release",
+   "materiality": "high",
+   "subscription_signal": false
+  },
+  {
+   "id": "3b5f2688fec1191a",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "How AI-native companies turn workflows into operating capability",
+   "url": "https://openai.com/index/ai-native-company-workflows",
+   "raw_summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+   "published_at": "2026-09-01T17:00:00+00:00",
+   "first_seen_at": "2026-09-01T20:13:35.837235+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "309be27bdcfe3156",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Path to Astra: critical capabilities and frontier safeguards",
+   "url": "https://openai.com/index/path-to-astra",
+   "raw_summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+   "published_at": "2026-09-01T13:00:00+00:00",
+   "first_seen_at": "2026-09-01T20:13:35.837235+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "50e05f9b472e33e2",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+   "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+   "raw_summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+   "published_at": "2026-09-01T12:00:00+00:00",
+   "first_seen_at": "2026-09-01T20:13:35.837235+00:00",
+   "category": "research",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "0703988e3a331916",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "OpenAI supports California’s bill to advance youth AI safety",
+   "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+   "raw_summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+   "published_at": "2026-08-31T07:00:00+00:00",
+   "first_seen_at": "2026-09-01T20:13:35.837235+00:00",
+   "category": "policy",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
+   "id": "7bc3415714321008",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Polimill builds Japan's next-generation public AI infrastructure",
+   "url": "https://openai.com/index/polimill",
+   "raw_summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+   "published_at": "2026-08-31T07:00:00+00:00",
+   "first_seen_at": "2026-09-01T20:13:35.837235+00:00",
+   "category": "capability",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
    "id": "44f61163770f758b",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -750,83 +867,39 @@
    "category": "customer_story",
    "materiality": "low",
    "subscription_signal": true
-  },
-  {
-   "id": "829e237a888dfb1d",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "The full stack behind abundant intelligence",
-   "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-   "raw_summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-   "published_at": "2026-08-25T07:05:00+00:00",
-   "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
-   "category": "pricing",
-   "materiality": "high",
-   "subscription_signal": false
-  },
-  {
-   "id": "9ad99bb5f40a3110",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-   "url": "https://openai.com/index/jalapeno-first-results",
-   "raw_summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-   "published_at": "2026-08-25T07:00:00+00:00",
-   "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
-   "category": "infrastructure",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "da55f7d7bd9decaa",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Disrupting a new covert influence campaign from Russia",
-   "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-   "raw_summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
-   "published_at": "2026-08-25T00:00:00+00:00",
-   "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "cfc376addf8c8224",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-   "url": "https://openai.com/index/introducing-admin-plugin",
-   "raw_summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
-   "published_at": "2026-08-25T00:00:00+00:00",
-   "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
-   "category": "model_release",
-   "materiality": "high",
-   "subscription_signal": false
   }
  ],
  "new_ids": [
-  "44f61163770f758b"
+  "3b5f2688fec1191a",
+  "309be27bdcfe3156",
+  "50e05f9b472e33e2",
+  "0703988e3a331916",
+  "7bc3415714321008",
+  "07a03b3c017c8234",
+  "e83ff5faec702b5a",
+  "dfd1ea2e5518b0ed",
+  "7b7f1282e8a8069e"
  ],
- "collected_count": 1,
+ "collected_count": 9,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 1 new."
+   "message": "25 of newest items kept (cap 25), 5 new."
   },
   {
    "label": "Anthropic News",
    "company": "anthropic",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 0 new."
+   "message": "12 of newest items kept (cap 12), 2 new."
   },
   {
    "label": "Google DeepMind Blog",
    "company": "google",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 0 new."
+   "message": "25 of newest items kept (cap 25), 1 new."
   },
   {
    "label": "Gemini API Release Notes",
@@ -838,7 +911,7 @@
    "label": "xAI News",
    "company": "xai",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 0 new."
+   "message": "12 of newest items kept (cap 12), 1 new."
   },
   {
    "label": "xAI API Release Notes",
