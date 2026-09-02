@@ -1,0 +1,67 @@
+[
+ {
+  "id": "83abfc082897739b",
+  "company": "google",
+  "source_label": "Google DeepMind Blog",
+  "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+  "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+  "raw_summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+  "published_at": "2026-08-26T17:01:00+00:00",
+  "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "cdfc10030b4b066d",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Learning never stops: How AI makes learning continuous",
+  "url": "https://openai.com/index/learning-never-stops",
+  "raw_summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+  "published_at": "2026-08-26T10:00:00+00:00",
+  "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
+  "category": "research",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "d6bb1031e66bcecd",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+  "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+  "raw_summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+  "published_at": "2026-08-26T10:00:00+00:00",
+  "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "504dd1ec950803b8",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "The Hugging Face incident and the road ahead",
+  "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+  "raw_summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+  "published_at": "2026-08-26T00:00:00+00:00",
+  "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "d34e82eae2f299fc",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "How loveholidays is making everyone a builder with Codex",
+  "url": "https://openai.com/index/loveholidays",
+  "raw_summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+  "published_at": "2026-08-26T00:00:00+00:00",
+  "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
+  "category": "customer_story",
+  "materiality": "low",
+  "subscription_signal": true
+ }
+]

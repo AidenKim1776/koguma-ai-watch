@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-01T20:13:35.837235+00:00",
- "last_success": "2026-09-01T20:13:35.837235+00:00",
+ "generated_at": "2026-09-02T20:13:32.406947+00:00",
+ "last_success": "2026-09-02T20:13:32.406947+00:00",
  "degraded": false,
  "window_days": 7,
  "companies": [
@@ -635,6 +635,32 @@
    "subscription_signal": false
   },
   {
+   "id": "383dbcd782aba68f",
+   "company": "google",
+   "source_label": "Google DeepMind Blog",
+   "title": "Proactive cyber defense for governments and enterprises",
+   "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+   "raw_summary": "",
+   "published_at": "2026-09-02T16:24:24+00:00",
+   "first_seen_at": "2026-09-02T20:13:32.406947+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "18ef68f77655a435",
+   "company": "google",
+   "source_label": "Google DeepMind Blog",
+   "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+   "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+   "raw_summary": "",
+   "published_at": "2026-09-02T16:18:31+00:00",
+   "first_seen_at": "2026-09-02T20:13:32.406947+00:00",
+   "category": "model_release",
+   "materiality": "high",
+   "subscription_signal": false
+  },
+  {
    "id": "dfd1ea2e5518b0ed",
    "company": "google",
    "source_label": "Google DeepMind Blog",
@@ -684,6 +710,19 @@
    "first_seen_at": "2026-09-01T20:13:35.837235+00:00",
    "category": "research",
    "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "631a857c7a24a6f9",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+   "url": "https://openai.com/index/gilbert-tobin",
+   "raw_summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+   "published_at": "2026-09-01T01:00:00+00:00",
+   "first_seen_at": "2026-09-02T20:13:32.406947+00:00",
+   "category": "policy",
+   "materiality": "medium",
    "subscription_signal": false
   },
   {
@@ -802,104 +841,33 @@
    "category": "other",
    "materiality": "low",
    "subscription_signal": false
-  },
-  {
-   "id": "83abfc082897739b",
-   "company": "google",
-   "source_label": "Google DeepMind Blog",
-   "title": "Intelligent transcription with Gemini 3.5 Transcribe",
-   "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-   "raw_summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
-   "published_at": "2026-08-26T17:01:00+00:00",
-   "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "cdfc10030b4b066d",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Learning never stops: How AI makes learning continuous",
-   "url": "https://openai.com/index/learning-never-stops",
-   "raw_summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-   "published_at": "2026-08-26T10:00:00+00:00",
-   "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
-   "category": "research",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "d6bb1031e66bcecd",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-   "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-   "raw_summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-   "published_at": "2026-08-26T10:00:00+00:00",
-   "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "504dd1ec950803b8",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "The Hugging Face incident and the road ahead",
-   "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-   "raw_summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
-   "published_at": "2026-08-26T00:00:00+00:00",
-   "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "d34e82eae2f299fc",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "How loveholidays is making everyone a builder with Codex",
-   "url": "https://openai.com/index/loveholidays",
-   "raw_summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
-   "published_at": "2026-08-26T00:00:00+00:00",
-   "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
-   "category": "customer_story",
-   "materiality": "low",
-   "subscription_signal": true
   }
  ],
  "new_ids": [
-  "3b5f2688fec1191a",
-  "309be27bdcfe3156",
-  "50e05f9b472e33e2",
-  "0703988e3a331916",
-  "7bc3415714321008",
-  "07a03b3c017c8234",
-  "e83ff5faec702b5a",
-  "dfd1ea2e5518b0ed",
-  "7b7f1282e8a8069e"
+  "631a857c7a24a6f9",
+  "383dbcd782aba68f",
+  "18ef68f77655a435"
  ],
- "collected_count": 9,
+ "collected_count": 3,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 5 new."
+   "message": "25 of newest items kept (cap 25), 1 new."
   },
   {
    "label": "Anthropic News",
    "company": "anthropic",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 2 new."
+   "message": "12 of newest items kept (cap 12), 0 new."
   },
   {
    "label": "Google DeepMind Blog",
    "company": "google",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 1 new."
+   "message": "25 of newest items kept (cap 25), 2 new."
   },
   {
    "label": "Gemini API Release Notes",
@@ -911,7 +879,7 @@
    "label": "xAI News",
    "company": "xai",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 1 new."
+   "message": "12 of newest items kept (cap 12), 0 new."
   },
   {
    "label": "xAI API Release Notes",
