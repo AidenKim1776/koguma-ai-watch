@@ -1,0 +1,54 @@
+[
+ {
+  "id": "a13e39d4fa54504b",
+  "company": "google",
+  "source_label": "Google DeepMind Blog",
+  "title": "Gemini Omni 1.1 Flash lets you build with more control",
+  "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+  "raw_summary": "",
+  "published_at": "2026-08-27T16:11:32+00:00",
+  "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "d9b2bc36ffdfc77e",
+  "company": "google",
+  "source_label": "Google DeepMind Blog",
+  "title": "Piloting the world's first double-blind AI evaluations",
+  "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+  "raw_summary": "Piloting the world's first double-blind AI evaluations",
+  "published_at": "2026-08-27T12:59:16+00:00",
+  "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "3062d8cdad5fdcd9",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+  "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+  "raw_summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+  "published_at": "2026-08-27T09:00:00+00:00",
+  "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
+  "category": "research",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "57e276283c193e59",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Expanding OpenAI’s presence in Brazil",
+  "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+  "raw_summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+  "published_at": "2026-08-27T03:00:00+00:00",
+  "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ }
+]
