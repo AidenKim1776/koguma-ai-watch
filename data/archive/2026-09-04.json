@@ -1,0 +1,28 @@
+[
+ {
+  "id": "092c8de02e8b135e",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Our decision on Cursor following its acquisition by SpaceX",
+  "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+  "raw_summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+  "published_at": "2026-08-28T06:00:00+00:00",
+  "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
+  "category": "legal",
+  "materiality": "high",
+  "subscription_signal": false
+ },
+ {
+  "id": "0b00c80d502cc3ab",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Supporting Thailand’s next generation of AI startups",
+  "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+  "raw_summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+  "published_at": "2026-08-28T02:00:00+00:00",
+  "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ }
+]

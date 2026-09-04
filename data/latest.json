@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-03T20:12:59.274180+00:00",
- "last_success": "2026-09-03T20:12:59.274180+00:00",
+ "generated_at": "2026-09-04T20:12:53.989839+00:00",
+ "last_success": "2026-09-04T20:12:53.989839+00:00",
  "degraded": false,
  "window_days": 7,
  "companies": [
@@ -648,6 +648,32 @@
    "subscription_signal": false
   },
   {
+   "id": "f7e420ab15f7aa56",
+   "company": "xai",
+   "source_label": "xAI News",
+   "title": "Grok Bot for Enterprise",
+   "url": "https://x.ai/news/grok-bot-for-enterprise",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-09-04T20:12:53.989839+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "7b08ecf43270df6f",
+   "company": "xai",
+   "source_label": "xAI News",
+   "title": "Setting Grok Bot loose on procurement",
+   "url": "https://x.ai/news/grok-bot-procurement",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-09-04T20:12:53.989839+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "56da2c8ef80375f1",
    "company": "google",
    "source_label": "Google DeepMind Blog",
@@ -658,6 +684,58 @@
    "first_seen_at": "2026-09-03T20:12:59.274180+00:00",
    "category": "other",
    "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "5190d2a1dccd48dc",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+   "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+   "raw_summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+   "published_at": "2026-09-03T13:15:00+00:00",
+   "first_seen_at": "2026-09-04T20:12:53.989839+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "7a45b185cff53085",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+   "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+   "raw_summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+   "published_at": "2026-09-03T12:00:00+00:00",
+   "first_seen_at": "2026-09-04T20:12:53.989839+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "be4a3c5426264d71",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+   "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+   "raw_summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+   "published_at": "2026-09-03T12:00:00+00:00",
+   "first_seen_at": "2026-09-04T20:12:53.989839+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "2e155b11d8093d3e",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Safety overview: GPT-6 Astra",
+   "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+   "raw_summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+   "published_at": "2026-09-03T00:00:00+00:00",
+   "first_seen_at": "2026-09-04T20:12:53.989839+00:00",
+   "category": "policy",
+   "materiality": "medium",
    "subscription_signal": false
   },
   {
@@ -802,47 +880,24 @@
    "category": "pricing",
    "materiality": "high",
    "subscription_signal": true
-  },
-  {
-   "id": "092c8de02e8b135e",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Our decision on Cursor following its acquisition by SpaceX",
-   "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-   "raw_summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
-   "published_at": "2026-08-28T06:00:00+00:00",
-   "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
-   "category": "legal",
-   "materiality": "high",
-   "subscription_signal": false
-  },
-  {
-   "id": "0b00c80d502cc3ab",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Supporting Thailand’s next generation of AI startups",
-   "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-   "raw_summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
-   "published_at": "2026-08-28T02:00:00+00:00",
-   "first_seen_at": "2026-08-31T06:01:48.636600+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
   }
  ],
  "new_ids": [
-  "b07b0b2b4d66deed",
-  "56da2c8ef80375f1",
-  "2b3ec0461f94204a"
+  "5190d2a1dccd48dc",
+  "7a45b185cff53085",
+  "be4a3c5426264d71",
+  "2e155b11d8093d3e",
+  "f7e420ab15f7aa56",
+  "7b08ecf43270df6f"
  ],
- "collected_count": 3,
+ "collected_count": 6,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 1 new."
+   "message": "25 of newest items kept (cap 25), 4 new."
   },
   {
    "label": "Anthropic News",
@@ -854,7 +909,7 @@
    "label": "Google DeepMind Blog",
    "company": "google",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 1 new."
+   "message": "25 of newest items kept (cap 25), 0 new."
   },
   {
    "label": "Gemini API Release Notes",
@@ -866,7 +921,7 @@
    "label": "xAI News",
    "company": "xai",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 1 new."
+   "message": "12 of newest items kept (cap 12), 2 new."
   },
   {
    "label": "xAI API Release Notes",
