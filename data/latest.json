@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-04T20:12:53.989839+00:00",
- "last_success": "2026-09-04T20:12:53.989839+00:00",
+ "generated_at": "2026-09-05T20:13:00.028987+00:00",
+ "last_success": "2026-09-05T20:13:00.028987+00:00",
  "degraded": false,
  "window_days": 7,
  "companies": [
@@ -726,6 +726,19 @@
    "subscription_signal": false
   },
   {
+   "id": "0f3b76bc480d3619",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "GPT-6 Astra: A new generation of intelligence",
+   "url": "https://openai.com/index/gpt-6-astra",
+   "raw_summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+   "published_at": "2026-09-03T11:00:00+00:00",
+   "first_seen_at": "2026-09-05T20:13:00.028987+00:00",
+   "category": "model_release",
+   "materiality": "high",
+   "subscription_signal": false
+  },
+  {
    "id": "2e155b11d8093d3e",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -883,21 +896,16 @@
   }
  ],
  "new_ids": [
-  "5190d2a1dccd48dc",
-  "7a45b185cff53085",
-  "be4a3c5426264d71",
-  "2e155b11d8093d3e",
-  "f7e420ab15f7aa56",
-  "7b08ecf43270df6f"
+  "0f3b76bc480d3619"
  ],
- "collected_count": 6,
+ "collected_count": 1,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 4 new."
+   "message": "25 of newest items kept (cap 25), 1 new."
   },
   {
    "label": "Anthropic News",
@@ -921,7 +929,7 @@
    "label": "xAI News",
    "company": "xai",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 2 new."
+   "message": "12 of newest items kept (cap 12), 0 new."
   },
   {
    "label": "xAI API Release Notes",
