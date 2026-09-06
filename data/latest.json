@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-05T20:13:00.028987+00:00",
- "last_success": "2026-09-05T20:13:00.028987+00:00",
+ "generated_at": "2026-09-06T20:13:04.020823+00:00",
+ "last_success": "2026-09-06T20:13:04.020823+00:00",
  "degraded": false,
  "window_days": 7,
  "companies": [
@@ -674,6 +674,32 @@
    "subscription_signal": false
   },
   {
+   "id": "a8e8f9dc895a026b",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "An Alien Mind",
+   "url": "https://openai.com/index/an-alien-mind",
+   "raw_summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+   "published_at": "2026-09-06T09:00:00+00:00",
+   "first_seen_at": "2026-09-06T20:13:04.020823+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "19672c4832d4c9bc",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Research acceleration: The view inside OpenAI",
+   "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+   "raw_summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+   "published_at": "2026-09-06T08:00:00+00:00",
+   "first_seen_at": "2026-09-06T20:13:04.020823+00:00",
+   "category": "capability",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
    "id": "56da2c8ef80375f1",
    "company": "google",
    "source_label": "Google DeepMind Blog",
@@ -896,16 +922,17 @@
   }
  ],
  "new_ids": [
-  "0f3b76bc480d3619"
+  "a8e8f9dc895a026b",
+  "19672c4832d4c9bc"
  ],
- "collected_count": 1,
+ "collected_count": 2,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 1 new."
+   "message": "25 of newest items kept (cap 25), 2 new."
   },
   {
    "label": "Anthropic News",
