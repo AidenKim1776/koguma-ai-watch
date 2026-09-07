@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-06T20:13:04.020823+00:00",
- "last_success": "2026-09-06T20:13:04.020823+00:00",
+ "generated_at": "2026-09-07T20:13:55.366689+00:00",
+ "last_success": "2026-09-07T20:13:55.366689+00:00",
  "degraded": false,
  "window_days": 7,
  "companies": [
@@ -674,6 +674,19 @@
    "subscription_signal": false
   },
   {
+   "id": "e02ae19def6b6f7c",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Supporting independent journalism in Ukraine",
+   "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+   "raw_summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+   "published_at": "2026-09-07T00:00:00+00:00",
+   "first_seen_at": "2026-09-07T20:13:55.366689+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "a8e8f9dc895a026b",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -880,59 +893,19 @@
    "category": "policy",
    "materiality": "medium",
    "subscription_signal": false
-  },
-  {
-   "id": "0703988e3a331916",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "OpenAI supports California’s bill to advance youth AI safety",
-   "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-   "raw_summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
-   "published_at": "2026-08-31T07:00:00+00:00",
-   "first_seen_at": "2026-09-01T20:13:35.837235+00:00",
-   "category": "policy",
-   "materiality": "medium",
-   "subscription_signal": false
-  },
-  {
-   "id": "7bc3415714321008",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Polimill builds Japan's next-generation public AI infrastructure",
-   "url": "https://openai.com/index/polimill",
-   "raw_summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-   "published_at": "2026-08-31T07:00:00+00:00",
-   "first_seen_at": "2026-09-01T20:13:35.837235+00:00",
-   "category": "capability",
-   "materiality": "medium",
-   "subscription_signal": false
-  },
-  {
-   "id": "44f61163770f758b",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "A milestone in expanding access to AI",
-   "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-   "raw_summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-   "published_at": "2026-08-31T04:00:00+00:00",
-   "first_seen_at": "2026-08-31T20:07:07.353093+00:00",
-   "category": "pricing",
-   "materiality": "high",
-   "subscription_signal": true
   }
  ],
  "new_ids": [
-  "a8e8f9dc895a026b",
-  "19672c4832d4c9bc"
+  "e02ae19def6b6f7c"
  ],
- "collected_count": 2,
+ "collected_count": 1,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 2 new."
+   "message": "25 of newest items kept (cap 25), 1 new."
   },
   {
    "label": "Anthropic News",
