@@ -1,0 +1,67 @@
+[
+ {
+  "id": "dfd1ea2e5518b0ed",
+  "company": "google",
+  "source_label": "Google DeepMind Blog",
+  "title": "Introducing agentic video understanding with Gemini",
+  "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+  "raw_summary": "",
+  "published_at": "2026-09-01T17:08:51+00:00",
+  "first_seen_at": "2026-09-01T20:13:35.837235+00:00",
+  "category": "model_release",
+  "materiality": "high",
+  "subscription_signal": false
+ },
+ {
+  "id": "3b5f2688fec1191a",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "How AI-native companies turn workflows into operating capability",
+  "url": "https://openai.com/index/ai-native-company-workflows",
+  "raw_summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+  "published_at": "2026-09-01T17:00:00+00:00",
+  "first_seen_at": "2026-09-01T20:13:35.837235+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "309be27bdcfe3156",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Path to Astra: critical capabilities and frontier safeguards",
+  "url": "https://openai.com/index/path-to-astra",
+  "raw_summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+  "published_at": "2026-09-01T13:00:00+00:00",
+  "first_seen_at": "2026-09-01T20:13:35.837235+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "50e05f9b472e33e2",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+  "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+  "raw_summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+  "published_at": "2026-09-01T12:00:00+00:00",
+  "first_seen_at": "2026-09-01T20:13:35.837235+00:00",
+  "category": "research",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "631a857c7a24a6f9",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+  "url": "https://openai.com/index/gilbert-tobin",
+  "raw_summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+  "published_at": "2026-09-01T01:00:00+00:00",
+  "first_seen_at": "2026-09-02T20:13:32.406947+00:00",
+  "category": "policy",
+  "materiality": "medium",
+  "subscription_signal": false
+ }
+]
