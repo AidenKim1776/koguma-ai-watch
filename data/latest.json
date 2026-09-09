@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-08T20:13:45.940392+00:00",
- "last_success": "2026-09-08T20:13:45.940392+00:00",
+ "generated_at": "2026-09-09T20:14:05.099533+00:00",
+ "last_success": "2026-09-09T20:14:05.099533+00:00",
  "degraded": false,
  "window_days": 7,
  "companies": [
@@ -674,6 +674,19 @@
    "subscription_signal": false
   },
   {
+   "id": "534907e0d31e4171",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Paul Christiano joins OpenAI Foundation Board",
+   "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+   "raw_summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+   "published_at": "2026-09-09T17:00:00+00:00",
+   "first_seen_at": "2026-09-09T20:14:05.099533+00:00",
+   "category": "policy",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
    "id": "167bce5d47e71e47",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -893,65 +906,19 @@
    "category": "policy",
    "materiality": "medium",
    "subscription_signal": false
-  },
-  {
-   "id": "383dbcd782aba68f",
-   "company": "google",
-   "source_label": "Google DeepMind Blog",
-   "title": "Proactive cyber defense for governments and enterprises",
-   "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-   "raw_summary": "",
-   "published_at": "2026-09-02T16:24:24+00:00",
-   "first_seen_at": "2026-09-02T20:13:32.406947+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "18ef68f77655a435",
-   "company": "google",
-   "source_label": "Google DeepMind Blog",
-   "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-   "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-   "raw_summary": "",
-   "published_at": "2026-09-02T16:18:31+00:00",
-   "first_seen_at": "2026-09-02T20:13:32.406947+00:00",
-   "category": "model_release",
-   "materiality": "high",
-   "subscription_signal": false
-  },
-  {
-   "id": "b07b0b2b4d66deed",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-   "url": "https://openai.com/index/atv-big-air-tour",
-   "raw_summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-   "published_at": "2026-09-02T12:00:00+00:00",
-   "first_seen_at": "2026-09-03T20:12:59.274180+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
   }
  ],
  "new_ids": [
-  "167bce5d47e71e47",
-  "aaada63e998e3254",
-  "305f03a4aa6aa16d",
-  "fbb79928f7d9c051",
-  "99c22bc85dd5ff7a",
-  "671a9fed35e21548",
-  "9816f5beea82e263",
-  "80d284f58871ce28"
+  "534907e0d31e4171"
  ],
- "collected_count": 8,
+ "collected_count": 1,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 7 new."
+   "message": "25 of newest items kept (cap 25), 1 new."
   },
   {
    "label": "Anthropic News",
@@ -963,7 +930,7 @@
    "label": "Google DeepMind Blog",
    "company": "google",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 1 new."
+   "message": "25 of newest items kept (cap 25), 0 new."
   },
   {
    "label": "Gemini API Release Notes",

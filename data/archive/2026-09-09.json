@@ -1,0 +1,41 @@
+[
+ {
+  "id": "383dbcd782aba68f",
+  "company": "google",
+  "source_label": "Google DeepMind Blog",
+  "title": "Proactive cyber defense for governments and enterprises",
+  "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+  "raw_summary": "",
+  "published_at": "2026-09-02T16:24:24+00:00",
+  "first_seen_at": "2026-09-02T20:13:32.406947+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "18ef68f77655a435",
+  "company": "google",
+  "source_label": "Google DeepMind Blog",
+  "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+  "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+  "raw_summary": "",
+  "published_at": "2026-09-02T16:18:31+00:00",
+  "first_seen_at": "2026-09-02T20:13:32.406947+00:00",
+  "category": "model_release",
+  "materiality": "high",
+  "subscription_signal": false
+ },
+ {
+  "id": "b07b0b2b4d66deed",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+  "url": "https://openai.com/index/atv-big-air-tour",
+  "raw_summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+  "published_at": "2026-09-02T12:00:00+00:00",
+  "first_seen_at": "2026-09-03T20:12:59.274180+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ }
+]
