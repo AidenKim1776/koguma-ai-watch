@@ -1,0 +1,80 @@
+[
+ {
+  "id": "56da2c8ef80375f1",
+  "company": "google",
+  "source_label": "Google DeepMind Blog",
+  "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+  "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+  "raw_summary": "",
+  "published_at": "2026-09-03T15:02:08+00:00",
+  "first_seen_at": "2026-09-03T20:12:59.274180+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "5190d2a1dccd48dc",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+  "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+  "raw_summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+  "published_at": "2026-09-03T13:15:00+00:00",
+  "first_seen_at": "2026-09-04T20:12:53.989839+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "7a45b185cff53085",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+  "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+  "raw_summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+  "published_at": "2026-09-03T12:00:00+00:00",
+  "first_seen_at": "2026-09-04T20:12:53.989839+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "be4a3c5426264d71",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+  "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+  "raw_summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+  "published_at": "2026-09-03T12:00:00+00:00",
+  "first_seen_at": "2026-09-04T20:12:53.989839+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "0f3b76bc480d3619",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "GPT-6 Astra: A new generation of intelligence",
+  "url": "https://openai.com/index/gpt-6-astra",
+  "raw_summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+  "published_at": "2026-09-03T11:00:00+00:00",
+  "first_seen_at": "2026-09-05T20:13:00.028987+00:00",
+  "category": "model_release",
+  "materiality": "high",
+  "subscription_signal": false
+ },
+ {
+  "id": "2e155b11d8093d3e",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Safety overview: GPT-6 Astra",
+  "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+  "raw_summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+  "published_at": "2026-09-03T00:00:00+00:00",
+  "first_seen_at": "2026-09-04T20:12:53.989839+00:00",
+  "category": "policy",
+  "materiality": "medium",
+  "subscription_signal": false
+ }
+]
