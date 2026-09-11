@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-10T20:12:54.348809+00:00",
- "last_success": "2026-09-10T20:12:54.348809+00:00",
+ "generated_at": "2026-09-11T20:14:00.833919+00:00",
+ "last_success": "2026-09-11T20:14:00.833919+00:00",
  "degraded": false,
  "window_days": 7,
  "companies": [
@@ -674,6 +674,19 @@
    "subscription_signal": false
   },
   {
+   "id": "c7d3c8aeae425678",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+   "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+   "raw_summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+   "published_at": "2026-09-11T10:00:00+00:00",
+   "first_seen_at": "2026-09-11T20:14:00.833919+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "014159943e4d9643",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -935,23 +948,16 @@
   }
  ],
  "new_ids": [
-  "014159943e4d9643",
-  "4d4e7920d8a762a2",
-  "016c3ec9b775a98e",
-  "1ef5285e671d0ace",
-  "4e410dad70fb9298",
-  "2b26a8066576cc98",
-  "9786c92a289dc0ec",
-  "587a70348a735f61"
+  "c7d3c8aeae425678"
  ],
- "collected_count": 8,
+ "collected_count": 1,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 8 new."
+   "message": "25 of newest items kept (cap 25), 1 new."
   },
   {
    "label": "Anthropic News",
