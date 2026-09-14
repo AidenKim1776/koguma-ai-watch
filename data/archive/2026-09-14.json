@@ -1,0 +1,15 @@
+[
+ {
+  "id": "e02ae19def6b6f7c",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Supporting independent journalism in Ukraine",
+  "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+  "raw_summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+  "published_at": "2026-09-07T00:00:00+00:00",
+  "first_seen_at": "2026-09-07T20:13:55.366689+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ }
+]
