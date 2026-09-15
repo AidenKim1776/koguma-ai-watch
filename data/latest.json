@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-14T20:14:22.820174+00:00",
- "last_success": "2026-09-14T20:14:22.820174+00:00",
+ "generated_at": "2026-09-15T20:14:06.283719+00:00",
+ "last_success": "2026-09-15T20:14:06.283719+00:00",
  "degraded": false,
  "window_days": 7,
  "companies": [
@@ -674,6 +674,19 @@
    "subscription_signal": false
   },
   {
+   "id": "f4c3141ce9f2ce84",
+   "company": "google",
+   "source_label": "Google DeepMind Blog",
+   "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+   "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+   "raw_summary": "",
+   "published_at": "2026-09-15T17:05:57+00:00",
+   "first_seen_at": "2026-09-15T20:14:06.283719+00:00",
+   "category": "model_release",
+   "materiality": "high",
+   "subscription_signal": false
+  },
+  {
    "id": "296d33defd03a1b2",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -841,114 +854,10 @@
    "category": "capability",
    "materiality": "medium",
    "subscription_signal": true
-  },
-  {
-   "id": "167bce5d47e71e47",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-   "url": "https://openai.com/index/codex-quantum-computing-experiments",
-   "raw_summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
-   "published_at": "2026-09-08T17:00:00+00:00",
-   "first_seen_at": "2026-09-08T20:13:45.940392+00:00",
-   "category": "customer_story",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "80d284f58871ce28",
-   "company": "google",
-   "source_label": "Google DeepMind Blog",
-   "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-   "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-   "raw_summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
-   "published_at": "2026-09-08T14:00:15+00:00",
-   "first_seen_at": "2026-09-08T20:13:45.940392+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "aaada63e998e3254",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "The Work Now Within Reach",
-   "url": "https://openai.com/index/the-work-now-within-reach",
-   "raw_summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
-   "published_at": "2026-09-08T13:00:00+00:00",
-   "first_seen_at": "2026-09-08T20:13:45.940392+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "305f03a4aa6aa16d",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Introducing ChatGPT Images 2.5",
-   "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-   "raw_summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
-   "published_at": "2026-09-08T11:30:00+00:00",
-   "first_seen_at": "2026-09-08T20:13:45.940392+00:00",
-   "category": "model_release",
-   "materiality": "high",
-   "subscription_signal": false
-  },
-  {
-   "id": "fbb79928f7d9c051",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "On the Navier–Stokes Millennium Prize Problem",
-   "url": "https://openai.com/index/navier-stokes-solution",
-   "raw_summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
-   "published_at": "2026-09-08T10:00:00+00:00",
-   "first_seen_at": "2026-09-08T20:13:45.940392+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "99c22bc85dd5ff7a",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Funding grants for new research into AI and teen development",
-   "url": "https://openai.com/index/teen-development-research-grants",
-   "raw_summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
-   "published_at": "2026-09-08T09:00:00+00:00",
-   "first_seen_at": "2026-09-08T20:13:45.940392+00:00",
-   "category": "policy",
-   "materiality": "medium",
-   "subscription_signal": false
-  },
-  {
-   "id": "671a9fed35e21548",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-   "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
-   "raw_summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
-   "published_at": "2026-09-08T00:00:00+00:00",
-   "first_seen_at": "2026-09-08T20:13:45.940392+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "9816f5beea82e263",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "1Password increases engineering productivity 21% with Codex",
-   "url": "https://openai.com/index/1password",
-   "raw_summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
-   "published_at": "2026-09-08T00:00:00+00:00",
-   "first_seen_at": "2026-09-08T20:13:45.940392+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
   }
  ],
  "new_ids": [
-  "296d33defd03a1b2"
+  "f4c3141ce9f2ce84"
  ],
  "collected_count": 1,
  "baseline_run": false,
@@ -957,7 +866,7 @@
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 1 new."
+   "message": "25 of newest items kept (cap 25), 0 new."
   },
   {
    "label": "Anthropic News",
@@ -969,7 +878,7 @@
    "label": "Google DeepMind Blog",
    "company": "google",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 0 new."
+   "message": "25 of newest items kept (cap 25), 1 new."
   },
   {
    "label": "Gemini API Release Notes",

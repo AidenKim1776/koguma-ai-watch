@@ -78,23 +78,23 @@ footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);
 <div class="head">
   <h1>KOGUMA AI Watch</h1>
   <div class="stamp">
-    <b>2026-09-15 05:14 KST</b> · 0 min ago<br>
+    <b>2026-09-16 05:14 KST</b> · 0 min ago<br>
     <span class="">
-    1 new · 72-item window · clean run</span>
+    1 new · 65-item window · clean run</span>
   </div>
 </div>
 
 
-<section><h2>Status</h2><div class="status"><div class="srow"><div class="co">OpenAI<span>Muse</span></div><div class="n">1 new</div></div><div class="srow quiet"><div class="co">Anthropic<span>Hanna</span></div><div class="n">—</div></div><div class="srow quiet"><div class="co">Google<span>Vera</span></div><div class="n">—</div></div><div class="srow quiet"><div class="co">xAI<span>Scarlett</span></div><div class="n">—</div></div></div></section>
+<section><h2>Status</h2><div class="status"><div class="srow quiet"><div class="co">OpenAI<span>Muse</span></div><div class="n">—</div></div><div class="srow quiet"><div class="co">Anthropic<span>Hanna</span></div><div class="n">—</div></div><div class="srow"><div class="co">Google<span>Vera</span></div><div class="n">1 new</div></div><div class="srow quiet"><div class="co">xAI<span>Scarlett</span></div><div class="n">—</div></div></div></section>
 
-<section><h2>What changed</h2><div class="group"><h3>OpenAI</h3><div class="item" data-id="296d33defd03a1b2" data-seen="2026-09-14T20:14:22.820174+00:00">
-  <div class="t"><a href="https://openai.com/index/fyxer" target="_blank" rel="noopener">How Fyxer built an AI executive assistant people trust</a></div>
-  <div class="s">Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.</div>
+<section><h2>What changed</h2><div class="group"><h3>Google</h3><div class="item" data-id="f4c3141ce9f2ce84" data-seen="2026-09-15T20:14:06.283719+00:00">
+  <div class="t"><a href="https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/" target="_blank" rel="noopener">Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking</a></div>
+  
   <div class="meta">
-    <span class="chip m-low">low</span>
-    <span class="chip">customer story</span>
+    <span class="chip m-high">high</span>
+    <span class="chip">model release</span>
     
-    <span>OpenAI News</span>
+    <span>Google DeepMind Blog</span>
   </div>
 </div></div></section>
 
@@ -108,7 +108,7 @@ footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);
 <button id="copy">Copy digest</button>
 </section>
 
-<section><h2>Feed health</h2><div class="health"><div><span class="st ok">ok</span><span>OpenAI News</span><span class="msg">25 of newest items kept (cap 25), 1 new.</span></div><div><span class="st ok">ok</span><span>Anthropic News</span><span class="msg">12 of newest items kept (cap 12), 0 new.</span></div><div><span class="st ok">ok</span><span>Google DeepMind Blog</span><span class="msg">25 of newest items kept (cap 25), 0 new.</span></div><div><span class="st ok">ok</span><span>Gemini API Release Notes</span><span class="msg">12 of newest items kept (cap 12), 0 new.</span></div><div><span class="st ok">ok</span><span>xAI News</span><span class="msg">12 of newest items kept (cap 12), 0 new.</span></div><div><span class="st ok">ok</span><span>xAI API Release Notes</span><span class="msg">9 of newest items kept (cap 12), 0 new.</span></div></div></section>
+<section><h2>Feed health</h2><div class="health"><div><span class="st ok">ok</span><span>OpenAI News</span><span class="msg">25 of newest items kept (cap 25), 0 new.</span></div><div><span class="st ok">ok</span><span>Anthropic News</span><span class="msg">12 of newest items kept (cap 12), 0 new.</span></div><div><span class="st ok">ok</span><span>Google DeepMind Blog</span><span class="msg">25 of newest items kept (cap 25), 1 new.</span></div><div><span class="st ok">ok</span><span>Gemini API Release Notes</span><span class="msg">12 of newest items kept (cap 12), 0 new.</span></div><div><span class="st ok">ok</span><span>xAI News</span><span class="msg">12 of newest items kept (cap 12), 0 new.</span></div><div><span class="st ok">ok</span><span>xAI API Release Notes</span><span class="msg">9 of newest items kept (cap 12), 0 new.</span></div></div></section>
 
 <footer>
 KOGUMA Systems · central monitoring · sources read in English<br>
@@ -124,7 +124,7 @@ The unseen marker is stored in this browser only and does not sync across device
     if(!prev || el.dataset.seen > prev) el.classList.add('unseen');
   });
   localStorage.setItem(KEY, new Date().toISOString());
-  var d=[{"company": "openai", "title": "How Fyxer built an AI executive assistant people trust", "url": "https://openai.com/index/fyxer", "category": "customer_story", "materiality": "low", "subscription_signal": false}];
+  var d=[{"company": "google", "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking", "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/", "category": "model_release", "materiality": "high", "subscription_signal": false}];
   document.getElementById('copy').addEventListener('click', function(){
     navigator.clipboard.writeText(JSON.stringify(d,null,1)).then(function(){
       var b=document.getElementById('copy'); b.textContent='Copied';
