@@ -1,0 +1,41 @@
+[
+ {
+  "id": "534907e0d31e4171",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Paul Christiano joins OpenAI Foundation Board",
+  "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+  "raw_summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+  "published_at": "2026-09-09T17:00:00+00:00",
+  "first_seen_at": "2026-09-09T20:14:05.099533+00:00",
+  "category": "policy",
+  "materiality": "medium",
+  "subscription_signal": false
+ },
+ {
+  "id": "9786c92a289dc0ec",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "The AI policy window is open. We need to act.",
+  "url": "https://openai.com/index/ai-policy-window",
+  "raw_summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+  "published_at": "2026-09-09T13:00:00+00:00",
+  "first_seen_at": "2026-09-10T20:12:54.348809+00:00",
+  "category": "policy",
+  "materiality": "medium",
+  "subscription_signal": false
+ },
+ {
+  "id": "587a70348a735f61",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "GPT-6 Astra: The next generation in intelligence for work",
+  "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+  "raw_summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+  "published_at": "2026-09-09T11:00:00+00:00",
+  "first_seen_at": "2026-09-10T20:12:54.348809+00:00",
+  "category": "capability",
+  "materiality": "medium",
+  "subscription_signal": true
+ }
+]

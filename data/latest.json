@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-15T20:14:06.283719+00:00",
- "last_success": "2026-09-15T20:14:06.283719+00:00",
+ "generated_at": "2026-09-16T20:14:52.236890+00:00",
+ "last_success": "2026-09-16T20:14:52.236890+00:00",
  "degraded": false,
  "window_days": 7,
  "companies": [
@@ -674,6 +674,71 @@
    "subscription_signal": false
   },
   {
+   "id": "e506197bdd3967b0",
+   "company": "xai",
+   "source_label": "xAI News",
+   "title": "Product · Memory in Grok Build",
+   "url": "https://x.ai/news/grok-build-memory",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-09-16T20:14:52.236890+00:00",
+   "category": "capability",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
+   "id": "027811ca1632d0f5",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Helping older adults use AI in everyday life",
+   "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+   "raw_summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+   "published_at": "2026-09-16T16:00:00+00:00",
+   "first_seen_at": "2026-09-16T20:14:52.236890+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "52752974efc060af",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Reimagining advertising with AI",
+   "url": "https://openai.com/index/reimagining-advertising-with-ai",
+   "raw_summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+   "published_at": "2026-09-16T13:00:00+00:00",
+   "first_seen_at": "2026-09-16T20:14:52.236890+00:00",
+   "category": "pricing",
+   "materiality": "high",
+   "subscription_signal": true
+  },
+  {
+   "id": "5f7e182a53f2403b",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "How to connect AI usage to business value",
+   "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+   "raw_summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+   "published_at": "2026-09-16T12:00:00+00:00",
+   "first_seen_at": "2026-09-16T20:14:52.236890+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": true
+  },
+  {
+   "id": "71646fffd914b496",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "How workers are unlocking new ways of working",
+   "url": "https://openai.com/index/unlocking-new-ways-of-working",
+   "raw_summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+   "published_at": "2026-09-16T09:00:00+00:00",
+   "first_seen_at": "2026-09-16T20:14:52.236890+00:00",
+   "category": "customer_story",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "f4c3141ce9f2ce84",
    "company": "google",
    "source_label": "Google DeepMind Blog",
@@ -815,58 +880,23 @@
    "category": "model_release",
    "materiality": "medium",
    "subscription_signal": false
-  },
-  {
-   "id": "534907e0d31e4171",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Paul Christiano joins OpenAI Foundation Board",
-   "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-   "raw_summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-   "published_at": "2026-09-09T17:00:00+00:00",
-   "first_seen_at": "2026-09-09T20:14:05.099533+00:00",
-   "category": "policy",
-   "materiality": "medium",
-   "subscription_signal": false
-  },
-  {
-   "id": "9786c92a289dc0ec",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "The AI policy window is open. We need to act.",
-   "url": "https://openai.com/index/ai-policy-window",
-   "raw_summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
-   "published_at": "2026-09-09T13:00:00+00:00",
-   "first_seen_at": "2026-09-10T20:12:54.348809+00:00",
-   "category": "policy",
-   "materiality": "medium",
-   "subscription_signal": false
-  },
-  {
-   "id": "587a70348a735f61",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "GPT-6 Astra: The next generation in intelligence for work",
-   "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-   "raw_summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-   "published_at": "2026-09-09T11:00:00+00:00",
-   "first_seen_at": "2026-09-10T20:12:54.348809+00:00",
-   "category": "capability",
-   "materiality": "medium",
-   "subscription_signal": true
   }
  ],
  "new_ids": [
-  "f4c3141ce9f2ce84"
+  "027811ca1632d0f5",
+  "52752974efc060af",
+  "5f7e182a53f2403b",
+  "71646fffd914b496",
+  "e506197bdd3967b0"
  ],
- "collected_count": 1,
+ "collected_count": 5,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 0 new."
+   "message": "25 of newest items kept (cap 25), 4 new."
   },
   {
    "label": "Anthropic News",
@@ -878,7 +908,7 @@
    "label": "Google DeepMind Blog",
    "company": "google",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 1 new."
+   "message": "25 of newest items kept (cap 25), 0 new."
   },
   {
    "label": "Gemini API Release Notes",
@@ -890,7 +920,7 @@
    "label": "xAI News",
    "company": "xai",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 0 new."
+   "message": "12 of newest items kept (cap 12), 1 new."
   },
   {
    "label": "xAI API Release Notes",
