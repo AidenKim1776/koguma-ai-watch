@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-20T20:12:35.309655+00:00",
- "last_success": "2026-09-20T20:12:35.309655+00:00",
+ "generated_at": "2026-09-21T20:13:10.036664+00:00",
+ "last_success": "2026-09-21T20:13:10.036664+00:00",
  "degraded": false,
  "window_days": 7,
  "companies": [
@@ -739,6 +739,97 @@
    "subscription_signal": false
   },
   {
+   "id": "81104d8861cf94c4",
+   "company": "xai",
+   "source_label": "xAI News",
+   "title": "Grok 4.7 Introducing Grok 4.7 SpaceXAI's most powerful model for coding and knowledge work. Twice as fast, at half the price of comparable models",
+   "url": "https://x.ai/news/grok-4-7",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-09-21T20:13:10.036664+00:00",
+   "category": "pricing",
+   "materiality": "high",
+   "subscription_signal": true
+  },
+  {
+   "id": "0a00adc2366f0723",
+   "company": "xai",
+   "source_label": "xAI API Release Notes",
+   "title": "Grok 4.7 Latest",
+   "url": "https://docs.x.ai/developers/grok-4-7",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-09-21T20:13:10.036664+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "a7ca59844a94ccd6",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Advisory Group on Mathematics and Artificial Intelligence",
+   "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+   "raw_summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+   "published_at": "2026-09-21T12:00:00+00:00",
+   "first_seen_at": "2026-09-21T20:13:10.036664+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "d37f5b2c59270d01",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+   "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+   "raw_summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+   "published_at": "2026-09-21T12:00:00+00:00",
+   "first_seen_at": "2026-09-21T20:13:10.036664+00:00",
+   "category": "pricing",
+   "materiality": "high",
+   "subscription_signal": true
+  },
+  {
+   "id": "2c9792fbb14ae5db",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Building standards for the next phase of AI",
+   "url": "https://openai.com/index/building-standards-next-phase-ai",
+   "raw_summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+   "published_at": "2026-09-21T10:00:00+00:00",
+   "first_seen_at": "2026-09-21T20:13:10.036664+00:00",
+   "category": "policy",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
+   "id": "530db518a73a5717",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Expanding OpenAI Academy with new learning paths",
+   "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+   "raw_summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+   "published_at": "2026-09-21T07:00:00+00:00",
+   "first_seen_at": "2026-09-21T20:13:10.036664+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "d1749ba76a98e7a5",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "How V7 gives AI agents institutional memory",
+   "url": "https://openai.com/index/v7",
+   "raw_summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+   "published_at": "2026-09-21T00:00:00+00:00",
+   "first_seen_at": "2026-09-21T20:13:10.036664+00:00",
+   "category": "capability",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
    "id": "559b0cf1119746d2",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -867,43 +958,25 @@
    "category": "model_release",
    "materiality": "high",
    "subscription_signal": false
-  },
-  {
-   "id": "296d33defd03a1b2",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "How Fyxer built an AI executive assistant people trust",
-   "url": "https://openai.com/index/fyxer",
-   "raw_summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
-   "published_at": "2026-09-14T12:00:00+00:00",
-   "first_seen_at": "2026-09-14T20:14:22.820174+00:00",
-   "category": "customer_story",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "12e9dd6851803557",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-   "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-   "raw_summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
-   "published_at": "2026-09-14T00:00:00+00:00",
-   "first_seen_at": "2026-09-12T20:12:51.799690+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
   }
  ],
- "new_ids": [],
- "collected_count": 0,
+ "new_ids": [
+  "a7ca59844a94ccd6",
+  "d37f5b2c59270d01",
+  "2c9792fbb14ae5db",
+  "530db518a73a5717",
+  "d1749ba76a98e7a5",
+  "81104d8861cf94c4",
+  "0a00adc2366f0723"
+ ],
+ "collected_count": 7,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 0 new."
+   "message": "25 of newest items kept (cap 25), 5 new."
   },
   {
    "label": "Anthropic News",
@@ -927,13 +1000,13 @@
    "label": "xAI News",
    "company": "xai",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 0 new."
+   "message": "12 of newest items kept (cap 12), 1 new."
   },
   {
    "label": "xAI API Release Notes",
    "company": "xai",
    "status": "ok",
-   "message": "9 of newest items kept (cap 12), 0 new."
+   "message": "10 of newest items kept (cap 12), 1 new."
   }
  ]
 }

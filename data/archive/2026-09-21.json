@@ -1,0 +1,28 @@
+[
+ {
+  "id": "296d33defd03a1b2",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "How Fyxer built an AI executive assistant people trust",
+  "url": "https://openai.com/index/fyxer",
+  "raw_summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+  "published_at": "2026-09-14T12:00:00+00:00",
+  "first_seen_at": "2026-09-14T20:14:22.820174+00:00",
+  "category": "customer_story",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "12e9dd6851803557",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+  "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+  "raw_summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+  "published_at": "2026-09-14T00:00:00+00:00",
+  "first_seen_at": "2026-09-12T20:12:51.799690+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ }
+]
