@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-22T20:12:58.421150+00:00",
- "last_success": "2026-09-22T20:12:58.421150+00:00",
- "degraded": false,
+ "generated_at": "2026-09-23T20:14:33.051610+00:00",
+ "last_success": "2026-09-23T20:14:33.051610+00:00",
+ "degraded": true,
  "window_days": 7,
  "companies": [
   "openai",
@@ -778,6 +778,149 @@
    "subscription_signal": false
   },
   {
+   "id": "f82afb648776b097",
+   "company": "anthropic",
+   "source_label": "Anthropic News",
+   "title": "Science Claude discovers a novel enzyme system with CRISPR-like repeats",
+   "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "614140f580b822e7",
+   "company": "google",
+   "source_label": "Gemini API Release Notes",
+   "title": "Voice design",
+   "url": "https://ai.google.dev/gemini-api/docs/voice-design",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
+   "category": "capability",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
+   "id": "4cce488d4be3e9c9",
+   "company": "google",
+   "source_label": "Gemini API Release Notes",
+   "title": "Voice replication",
+   "url": "https://ai.google.dev/gemini-api/docs/voice-replication",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
+   "category": "capability",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
+   "id": "9d02eeb8cef10808",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Two years of OpenAI Academy",
+   "url": "https://openai.com/index/two-years-of-openai-academy",
+   "raw_summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+   "published_at": "2026-09-23T16:00:00+00:00",
+   "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "1d77064cbebb782f",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+   "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+   "raw_summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+   "published_at": "2026-09-23T13:00:00+00:00",
+   "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "f7558dc5c9de5bb5",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+   "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+   "raw_summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+   "published_at": "2026-09-23T12:00:00+00:00",
+   "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "7357353a1f1d61a6",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+   "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+   "raw_summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+   "published_at": "2026-09-23T12:00:00+00:00",
+   "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
+   "category": "pricing",
+   "materiality": "high",
+   "subscription_signal": true
+  },
+  {
+   "id": "7cff1964bf19497f",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+   "url": "https://openai.com/index/ringg",
+   "raw_summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+   "published_at": "2026-09-23T12:00:00+00:00",
+   "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
+   "category": "pricing",
+   "materiality": "high",
+   "subscription_signal": false
+  },
+  {
+   "id": "1d5a9cc2d9509da8",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Introducing MentalHealthBench",
+   "url": "https://openai.com/index/introducing-mentalhealthbench",
+   "raw_summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+   "published_at": "2026-09-23T10:00:00+00:00",
+   "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
+   "category": "research",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "09a0c6dbf1c6c00d",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+   "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+   "raw_summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+   "published_at": "2026-09-23T00:00:00+00:00",
+   "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "b6b1e4118cdbb529",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Better prompt caching for GPT-6",
+   "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+   "raw_summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+   "published_at": "2026-09-22T21:00:00+00:00",
+   "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "3d48e529ad7a20b1",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -786,6 +929,19 @@
    "raw_summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
    "published_at": "2026-09-22T18:00:00+00:00",
    "first_seen_at": "2026-09-22T20:12:58.421150+00:00",
+   "category": "pricing",
+   "materiality": "high",
+   "subscription_signal": false
+  },
+  {
+   "id": "ce45d8dc0f6c9cea",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+   "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+   "raw_summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+   "published_at": "2026-09-22T12:00:00+00:00",
+   "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
    "category": "pricing",
    "materiality": "high",
    "subscription_signal": false
@@ -906,123 +1062,54 @@
    "category": "other",
    "materiality": "low",
    "subscription_signal": false
-  },
-  {
-   "id": "bbe6c30a33c9c72e",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Our framework for reporting model misalignment",
-   "url": "https://openai.com/index/model-misalignment-reporting-framework",
-   "raw_summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
-   "published_at": "2026-09-16T17:00:00+00:00",
-   "first_seen_at": "2026-09-17T20:14:18.351209+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "027811ca1632d0f5",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Helping older adults use AI in everyday life",
-   "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-   "raw_summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-   "published_at": "2026-09-16T16:00:00+00:00",
-   "first_seen_at": "2026-09-16T20:14:52.236890+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "52752974efc060af",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Reimagining advertising with AI",
-   "url": "https://openai.com/index/reimagining-advertising-with-ai",
-   "raw_summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-   "published_at": "2026-09-16T13:00:00+00:00",
-   "first_seen_at": "2026-09-16T20:14:52.236890+00:00",
-   "category": "pricing",
-   "materiality": "high",
-   "subscription_signal": true
-  },
-  {
-   "id": "5f7e182a53f2403b",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "How to connect AI usage to business value",
-   "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-   "raw_summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-   "published_at": "2026-09-16T12:00:00+00:00",
-   "first_seen_at": "2026-09-16T20:14:52.236890+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": true
-  },
-  {
-   "id": "973a91148c502943",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
-   "url": "https://openai.com/index/hex-gpt-6-astra",
-   "raw_summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
-   "published_at": "2026-09-16T12:00:00+00:00",
-   "first_seen_at": "2026-09-19T20:12:47.081129+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "71646fffd914b496",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "How workers are unlocking new ways of working",
-   "url": "https://openai.com/index/unlocking-new-ways-of-working",
-   "raw_summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
-   "published_at": "2026-09-16T09:00:00+00:00",
-   "first_seen_at": "2026-09-16T20:14:52.236890+00:00",
-   "category": "customer_story",
-   "materiality": "low",
-   "subscription_signal": false
   }
  ],
  "new_ids": [
-  "3d48e529ad7a20b1",
-  "b4fb82cc1313a309",
-  "c485f3f61a993c05"
+  "9d02eeb8cef10808",
+  "1d77064cbebb782f",
+  "f7558dc5c9de5bb5",
+  "7357353a1f1d61a6",
+  "7cff1964bf19497f",
+  "1d5a9cc2d9509da8",
+  "09a0c6dbf1c6c00d",
+  "b6b1e4118cdbb529",
+  "ce45d8dc0f6c9cea",
+  "f82afb648776b097",
+  "614140f580b822e7",
+  "4cce488d4be3e9c9"
  ],
- "collected_count": 3,
+ "collected_count": 12,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 2 new."
+   "message": "25 of newest items kept (cap 25), 9 new."
   },
   {
    "label": "Anthropic News",
    "company": "anthropic",
    "status": "ok",
-   "message": "11 of newest items kept (cap 12), 0 new."
+   "message": "11 of newest items kept (cap 12), 1 new."
   },
   {
    "label": "Google DeepMind Blog",
    "company": "google",
-   "status": "ok",
-   "message": "25 of newest items kept (cap 25), 0 new."
+   "status": "failed",
+   "message": "ParseError: not well-formed (invalid token): line 1, column 0"
   },
   {
    "label": "Gemini API Release Notes",
    "company": "google",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 0 new."
+   "message": "12 of newest items kept (cap 12), 2 new."
   },
   {
    "label": "xAI News",
    "company": "xai",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 1 new."
+   "message": "12 of newest items kept (cap 12), 0 new."
   },
   {
    "label": "xAI API Release Notes",
