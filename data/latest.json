@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-23T20:14:33.051610+00:00",
- "last_success": "2026-09-23T20:14:33.051610+00:00",
- "degraded": true,
+ "generated_at": "2026-09-24T20:14:46.977262+00:00",
+ "last_success": "2026-09-24T20:14:46.977262+00:00",
+ "degraded": false,
  "window_days": 7,
  "companies": [
   "openai",
@@ -817,6 +817,32 @@
    "subscription_signal": false
   },
   {
+   "id": "e7107d9a76d915c4",
+   "company": "google",
+   "source_label": "Google DeepMind Blog",
+   "title": "Introducing Gemini 3.8 Live with Live Avatar",
+   "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+   "raw_summary": "",
+   "published_at": "2026-09-24T16:20:39+00:00",
+   "first_seen_at": "2026-09-24T20:14:46.977262+00:00",
+   "category": "model_release",
+   "materiality": "high",
+   "subscription_signal": false
+  },
+  {
+   "id": "4c4abcff4acd2c4c",
+   "company": "google",
+   "source_label": "Google DeepMind Blog",
+   "title": "Advancing Private AI Compute with secure, server-side memory",
+   "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+   "raw_summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+   "published_at": "2026-09-23T16:00:57+00:00",
+   "first_seen_at": "2026-09-24T20:14:46.977262+00:00",
+   "category": "capability",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
    "id": "9d02eeb8cef10808",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -825,6 +851,19 @@
    "raw_summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
    "published_at": "2026-09-23T16:00:00+00:00",
    "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "be2314c62992cc2b",
+   "company": "google",
+   "source_label": "Google DeepMind Blog",
+   "title": "Gemini 3.8 text-to-speech says hello",
+   "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+   "raw_summary": "",
+   "published_at": "2026-09-23T15:25:14+00:00",
+   "first_seen_at": "2026-09-24T20:14:46.977262+00:00",
    "category": "other",
    "materiality": "low",
    "subscription_signal": false
@@ -882,6 +921,19 @@
    "subscription_signal": false
   },
   {
+   "id": "01d4e543c9419cea",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Sam Altman’s remarks at the United Nations Security Council",
+   "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+   "raw_summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+   "published_at": "2026-09-23T12:00:00+00:00",
+   "first_seen_at": "2026-09-24T20:14:46.977262+00:00",
+   "category": "policy",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
    "id": "1d5a9cc2d9509da8",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -891,6 +943,32 @@
    "published_at": "2026-09-23T10:00:00+00:00",
    "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
    "category": "research",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "1dd9ce125c6e0e60",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+   "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+   "raw_summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
+   "published_at": "2026-09-23T02:00:00+00:00",
+   "first_seen_at": "2026-09-24T20:14:46.977262+00:00",
+   "category": "pricing",
+   "materiality": "high",
+   "subscription_signal": true
+  },
+  {
+   "id": "73fafdf6f45f6a41",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+   "url": "https://openai.com/index/airbnb-gpt-6-astra",
+   "raw_summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
+   "published_at": "2026-09-23T01:00:00+00:00",
+   "first_seen_at": "2026-09-24T20:14:46.977262+00:00",
+   "category": "other",
    "materiality": "low",
    "subscription_signal": false
   },
@@ -1036,74 +1114,42 @@
    "category": "policy",
    "materiality": "medium",
    "subscription_signal": false
-  },
-  {
-   "id": "964ae1dd0facf551",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "How Cooley is accelerating IPO work with ChatGPT",
-   "url": "https://openai.com/index/cooley-gopublic",
-   "raw_summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-   "published_at": "2026-09-17T12:00:00+00:00",
-   "first_seen_at": "2026-09-18T20:13:01.153661+00:00",
-   "category": "customer_story",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "363bbead77de9f9f",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Introducing Astra for Law",
-   "url": "https://openai.com/index/astra-for-law",
-   "raw_summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
-   "published_at": "2026-09-17T00:00:00+00:00",
-   "first_seen_at": "2026-09-17T20:14:18.351209+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
   }
  ],
  "new_ids": [
-  "9d02eeb8cef10808",
-  "1d77064cbebb782f",
-  "f7558dc5c9de5bb5",
-  "7357353a1f1d61a6",
-  "7cff1964bf19497f",
-  "1d5a9cc2d9509da8",
-  "09a0c6dbf1c6c00d",
-  "b6b1e4118cdbb529",
-  "ce45d8dc0f6c9cea",
-  "f82afb648776b097",
-  "614140f580b822e7",
-  "4cce488d4be3e9c9"
+  "01d4e543c9419cea",
+  "1dd9ce125c6e0e60",
+  "73fafdf6f45f6a41",
+  "e7107d9a76d915c4",
+  "4c4abcff4acd2c4c",
+  "be2314c62992cc2b"
  ],
- "collected_count": 12,
+ "collected_count": 6,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 9 new."
+   "message": "25 of newest items kept (cap 25), 3 new."
   },
   {
    "label": "Anthropic News",
    "company": "anthropic",
    "status": "ok",
-   "message": "11 of newest items kept (cap 12), 1 new."
+   "message": "11 of newest items kept (cap 12), 0 new."
   },
   {
    "label": "Google DeepMind Blog",
    "company": "google",
-   "status": "failed",
-   "message": "ParseError: not well-formed (invalid token): line 1, column 0"
+   "status": "ok",
+   "message": "25 of newest items kept (cap 25), 3 new."
   },
   {
    "label": "Gemini API Release Notes",
    "company": "google",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 2 new."
+   "message": "12 of newest items kept (cap 12), 0 new."
   },
   {
    "label": "xAI News",

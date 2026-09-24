@@ -1,0 +1,28 @@
+[
+ {
+  "id": "964ae1dd0facf551",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "How Cooley is accelerating IPO work with ChatGPT",
+  "url": "https://openai.com/index/cooley-gopublic",
+  "raw_summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+  "published_at": "2026-09-17T12:00:00+00:00",
+  "first_seen_at": "2026-09-18T20:13:01.153661+00:00",
+  "category": "customer_story",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "363bbead77de9f9f",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Introducing Astra for Law",
+  "url": "https://openai.com/index/astra-for-law",
+  "raw_summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+  "published_at": "2026-09-17T00:00:00+00:00",
+  "first_seen_at": "2026-09-17T20:14:18.351209+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ }
+]
