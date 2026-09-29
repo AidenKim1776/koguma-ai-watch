@@ -1,0 +1,80 @@
+[
+ {
+  "id": "b4fb82cc1313a309",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Priorities and principles for effective third party assessments",
+  "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+  "raw_summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+  "published_at": "2026-09-22T00:00:00+00:00",
+  "first_seen_at": "2026-09-22T20:12:58.421150+00:00",
+  "category": "policy",
+  "materiality": "medium",
+  "subscription_signal": false
+ },
+ {
+  "id": "a7ca59844a94ccd6",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Advisory Group on Mathematics and Artificial Intelligence",
+  "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+  "raw_summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+  "published_at": "2026-09-21T12:00:00+00:00",
+  "first_seen_at": "2026-09-21T20:13:10.036664+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "d37f5b2c59270d01",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+  "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+  "raw_summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+  "published_at": "2026-09-21T12:00:00+00:00",
+  "first_seen_at": "2026-09-21T20:13:10.036664+00:00",
+  "category": "pricing",
+  "materiality": "high",
+  "subscription_signal": true
+ },
+ {
+  "id": "2c9792fbb14ae5db",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Building standards for the next phase of AI",
+  "url": "https://openai.com/index/building-standards-next-phase-ai",
+  "raw_summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+  "published_at": "2026-09-21T10:00:00+00:00",
+  "first_seen_at": "2026-09-21T20:13:10.036664+00:00",
+  "category": "policy",
+  "materiality": "medium",
+  "subscription_signal": false
+ },
+ {
+  "id": "530db518a73a5717",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Expanding OpenAI Academy with new learning paths",
+  "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+  "raw_summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+  "published_at": "2026-09-21T07:00:00+00:00",
+  "first_seen_at": "2026-09-21T20:13:10.036664+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "d1749ba76a98e7a5",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "How V7 gives AI agents institutional memory",
+  "url": "https://openai.com/index/v7",
+  "raw_summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+  "published_at": "2026-09-21T00:00:00+00:00",
+  "first_seen_at": "2026-09-21T20:13:10.036664+00:00",
+  "category": "capability",
+  "materiality": "medium",
+  "subscription_signal": false
+ }
+]
