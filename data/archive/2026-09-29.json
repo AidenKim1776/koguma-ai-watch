@@ -76,5 +76,44 @@
   "category": "capability",
   "materiality": "medium",
   "subscription_signal": false
+ },
+ {
+  "id": "b6b1e4118cdbb529",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Better prompt caching for GPT-6",
+  "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+  "raw_summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+  "published_at": "2026-09-22T21:00:00+00:00",
+  "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "3d48e529ad7a20b1",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Introducing GPT-6 Sol and Luna",
+  "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+  "raw_summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+  "published_at": "2026-09-22T18:00:00+00:00",
+  "first_seen_at": "2026-09-22T20:12:58.421150+00:00",
+  "category": "pricing",
+  "materiality": "high",
+  "subscription_signal": false
+ },
+ {
+  "id": "ce45d8dc0f6c9cea",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+  "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+  "raw_summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+  "published_at": "2026-09-22T12:00:00+00:00",
+  "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
+  "category": "pricing",
+  "materiality": "high",
+  "subscription_signal": false
  }
 ]
