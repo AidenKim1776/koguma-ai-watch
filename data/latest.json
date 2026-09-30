@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-29T23:32:37.244645+00:00",
- "last_success": "2026-09-29T23:32:37.244645+00:00",
+ "generated_at": "2026-09-30T23:33:53.826158+00:00",
+ "last_success": "2026-09-30T23:33:53.826158+00:00",
  "degraded": false,
  "window_days": 7,
  "companies": [
@@ -830,6 +830,58 @@
    "subscription_signal": false
   },
   {
+   "id": "15e70ee5e4a75a6c",
+   "company": "google",
+   "source_label": "Google DeepMind Blog",
+   "title": "Gemini 4 Argon: our next era of frontier intelligence",
+   "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+   "raw_summary": "",
+   "published_at": "2026-09-30T20:01:45+00:00",
+   "first_seen_at": "2026-09-30T23:33:53.826158+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "0a622a33b8e3e3e9",
+   "company": "google",
+   "source_label": "Google DeepMind Blog",
+   "title": "Introducing SynthID Bio",
+   "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+   "raw_summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+   "published_at": "2026-09-30T15:03:07+00:00",
+   "first_seen_at": "2026-09-30T23:33:53.826158+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "6a91381a429232e7",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Disrupting a coordinated model-distillation campaign",
+   "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+   "raw_summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+   "published_at": "2026-09-30T10:30:00+00:00",
+   "first_seen_at": "2026-09-30T23:33:53.826158+00:00",
+   "category": "capability",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
+   "id": "b5e5e43443d214df",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Helping small businesses put AI to work",
+   "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+   "raw_summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+   "published_at": "2026-09-30T10:00:00+00:00",
+   "first_seen_at": "2026-09-30T23:33:53.826158+00:00",
+   "category": "research",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "dd66acaed2a04b44",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -958,179 +1010,22 @@
    "category": "model_release",
    "materiality": "high",
    "subscription_signal": false
-  },
-  {
-   "id": "4c4abcff4acd2c4c",
-   "company": "google",
-   "source_label": "Google DeepMind Blog",
-   "title": "Advancing Private AI Compute with secure, server-side memory",
-   "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-   "raw_summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-   "published_at": "2026-09-23T16:00:57+00:00",
-   "first_seen_at": "2026-09-24T20:14:46.977262+00:00",
-   "category": "capability",
-   "materiality": "medium",
-   "subscription_signal": false
-  },
-  {
-   "id": "9d02eeb8cef10808",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Two years of OpenAI Academy",
-   "url": "https://openai.com/index/two-years-of-openai-academy",
-   "raw_summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-   "published_at": "2026-09-23T16:00:00+00:00",
-   "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "be2314c62992cc2b",
-   "company": "google",
-   "source_label": "Google DeepMind Blog",
-   "title": "Gemini 3.8 text-to-speech says hello",
-   "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-   "raw_summary": "",
-   "published_at": "2026-09-23T15:25:14+00:00",
-   "first_seen_at": "2026-09-24T20:14:46.977262+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "1d77064cbebb782f",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-   "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-   "raw_summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
-   "published_at": "2026-09-23T13:00:00+00:00",
-   "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "f7558dc5c9de5bb5",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-   "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-   "raw_summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-   "published_at": "2026-09-23T12:00:00+00:00",
-   "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "7357353a1f1d61a6",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "How invideo improves color grading 3x with GPT‑6 Astra",
-   "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-   "raw_summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-   "published_at": "2026-09-23T12:00:00+00:00",
-   "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
-   "category": "pricing",
-   "materiality": "high",
-   "subscription_signal": true
-  },
-  {
-   "id": "7cff1964bf19497f",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-   "url": "https://openai.com/index/ringg",
-   "raw_summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-   "published_at": "2026-09-23T12:00:00+00:00",
-   "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
-   "category": "pricing",
-   "materiality": "high",
-   "subscription_signal": false
-  },
-  {
-   "id": "01d4e543c9419cea",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Sam Altman’s remarks at the United Nations Security Council",
-   "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-   "raw_summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-   "published_at": "2026-09-23T12:00:00+00:00",
-   "first_seen_at": "2026-09-24T20:14:46.977262+00:00",
-   "category": "policy",
-   "materiality": "medium",
-   "subscription_signal": false
-  },
-  {
-   "id": "1d5a9cc2d9509da8",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Introducing MentalHealthBench",
-   "url": "https://openai.com/index/introducing-mentalhealthbench",
-   "raw_summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
-   "published_at": "2026-09-23T10:00:00+00:00",
-   "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
-   "category": "research",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "1dd9ce125c6e0e60",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
-   "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-   "raw_summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
-   "published_at": "2026-09-23T02:00:00+00:00",
-   "first_seen_at": "2026-09-24T20:14:46.977262+00:00",
-   "category": "pricing",
-   "materiality": "high",
-   "subscription_signal": true
-  },
-  {
-   "id": "73fafdf6f45f6a41",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
-   "url": "https://openai.com/index/airbnb-gpt-6-astra",
-   "raw_summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
-   "published_at": "2026-09-23T01:00:00+00:00",
-   "first_seen_at": "2026-09-24T20:14:46.977262+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "09a0c6dbf1c6c00d",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-   "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-   "raw_summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
-   "published_at": "2026-09-23T00:00:00+00:00",
-   "first_seen_at": "2026-09-23T20:14:33.051610+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
   }
  ],
  "new_ids": [
-  "dd66acaed2a04b44",
-  "19db7cc5ca5cc5ea",
-  "884977ecb8004cb3",
-  "cf468ec39dd67f09",
-  "cfe8e900401f31bb"
+  "6a91381a429232e7",
+  "b5e5e43443d214df",
+  "15e70ee5e4a75a6c",
+  "0a622a33b8e3e3e9"
  ],
- "collected_count": 5,
+ "collected_count": 4,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 5 new."
+   "message": "25 of newest items kept (cap 25), 2 new."
   },
   {
    "label": "Anthropic News",
@@ -1142,7 +1037,7 @@
    "label": "Google DeepMind Blog",
    "company": "google",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 0 new."
+   "message": "25 of newest items kept (cap 25), 2 new."
   },
   {
    "label": "Gemini API Release Notes",
