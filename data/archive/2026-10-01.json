@@ -1,0 +1,15 @@
+[
+ {
+  "id": "e7107d9a76d915c4",
+  "company": "google",
+  "source_label": "Google DeepMind Blog",
+  "title": "Introducing Gemini 3.8 Live with Live Avatar",
+  "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+  "raw_summary": "",
+  "published_at": "2026-09-24T16:20:39+00:00",
+  "first_seen_at": "2026-09-24T20:14:46.977262+00:00",
+  "category": "model_release",
+  "materiality": "high",
+  "subscription_signal": false
+ }
+]
