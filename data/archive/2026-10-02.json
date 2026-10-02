@@ -1,0 +1,15 @@
+[
+ {
+  "id": "d2d497e5eee41848",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+  "url": "https://openai.com/index/proaction",
+  "raw_summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+  "published_at": "2026-09-25T19:00:00+00:00",
+  "first_seen_at": "2026-09-25T20:12:45.617659+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ }
+]
