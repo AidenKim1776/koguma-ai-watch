@@ -1,0 +1,93 @@
+[
+ {
+  "id": "884977ecb8004cb3",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Introducing dots",
+  "url": "https://openai.com/index/introducing-dots",
+  "raw_summary": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+  "published_at": "2026-09-29T00:00:00+00:00",
+  "first_seen_at": "2026-09-29T23:32:37.244645+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "cf468ec39dd67f09",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Towards safety cases for frontier AI training",
+  "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+  "raw_summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+  "published_at": "2026-09-28T19:00:00+00:00",
+  "first_seen_at": "2026-09-29T23:32:37.244645+00:00",
+  "category": "policy",
+  "materiality": "medium",
+  "subscription_signal": false
+ },
+ {
+  "id": "cfe8e900401f31bb",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "How we will do better for Australia",
+  "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+  "raw_summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+  "published_at": "2026-09-28T19:00:00+00:00",
+  "first_seen_at": "2026-09-29T23:32:37.244645+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "216d56bba26ca458",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+  "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+  "raw_summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+  "published_at": "2026-09-28T07:00:00+00:00",
+  "first_seen_at": "2026-09-29T00:15:47.306452+00:00",
+  "category": "pricing",
+  "materiality": "high",
+  "subscription_signal": true
+ },
+ {
+  "id": "914f14710638400c",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Are you a Codex Original?",
+  "url": "https://openai.com/form/codex-originals",
+  "raw_summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
+  "published_at": "2026-09-28T00:00:00+00:00",
+  "first_seen_at": "2026-09-29T00:15:47.306452+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "bf0fe8cc388a3447",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+  "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+  "raw_summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+  "published_at": "2026-09-28T00:00:00+00:00",
+  "first_seen_at": "2026-09-29T00:15:47.306452+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "69f2b5ec7d181072",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+  "url": "https://openai.com/index/wayfair",
+  "raw_summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
+  "published_at": "2026-09-25T00:00:00+00:00",
+  "first_seen_at": "2026-10-06T01:12:23.308446+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ }
+]
