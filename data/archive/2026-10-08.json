@@ -1,0 +1,67 @@
+[
+ {
+  "id": "3bba527585738108",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+  "url": "https://openai.com/index/the-den-family-social",
+  "raw_summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+  "published_at": "2026-10-01T00:00:00+00:00",
+  "first_seen_at": "2026-10-01T23:46:24.771147+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "15e70ee5e4a75a6c",
+  "company": "google",
+  "source_label": "Google DeepMind Blog",
+  "title": "Gemini 4 Argon: our next era of frontier intelligence",
+  "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+  "raw_summary": "",
+  "published_at": "2026-09-30T20:01:45+00:00",
+  "first_seen_at": "2026-09-30T23:33:53.826158+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "0a622a33b8e3e3e9",
+  "company": "google",
+  "source_label": "Google DeepMind Blog",
+  "title": "Introducing SynthID Bio",
+  "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+  "raw_summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+  "published_at": "2026-09-30T15:03:07+00:00",
+  "first_seen_at": "2026-09-30T23:33:53.826158+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "6a91381a429232e7",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Disrupting a coordinated model-distillation campaign",
+  "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+  "raw_summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+  "published_at": "2026-09-30T10:30:00+00:00",
+  "first_seen_at": "2026-09-30T23:33:53.826158+00:00",
+  "category": "capability",
+  "materiality": "medium",
+  "subscription_signal": false
+ },
+ {
+  "id": "b5e5e43443d214df",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Helping small businesses put AI to work",
+  "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+  "raw_summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+  "published_at": "2026-09-30T10:00:00+00:00",
+  "first_seen_at": "2026-09-30T23:33:53.826158+00:00",
+  "category": "research",
+  "materiality": "low",
+  "subscription_signal": false
+ }
+]
