@@ -37,5 +37,18 @@
   "category": "customer_story",
   "materiality": "low",
   "subscription_signal": false
+ },
+ {
+  "id": "8e206c4d9ed6ea5b",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "A model guide for the GPT-6 family",
+  "url": "https://openai.com/index/practical-guide-building-gpt-6",
+  "raw_summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+  "published_at": "2026-10-02T16:15:00+00:00",
+  "first_seen_at": "2026-10-02T23:37:17.234492+00:00",
+  "category": "capability",
+  "materiality": "medium",
+  "subscription_signal": false
  }
 ]
