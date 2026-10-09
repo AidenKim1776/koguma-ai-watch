@@ -1,0 +1,41 @@
+[
+ {
+  "id": "a97398f76ee518bf",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Chatham scales its capital markets expertise with OpenAI",
+  "url": "https://openai.com/index/chatham-financial",
+  "raw_summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+  "published_at": "2026-10-02T00:00:00+00:00",
+  "first_seen_at": "2026-10-02T23:37:17.234492+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "7e67b43cf9d0e609",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "The eternal complement",
+  "url": "https://openai.com/index/the-eternal-complement",
+  "raw_summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+  "published_at": "2026-10-01T17:00:00+00:00",
+  "first_seen_at": "2026-10-01T23:46:24.771147+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "a80484c2d5849bdb",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "How Albertsons Companies is reimagining retail from the inside out",
+  "url": "https://openai.com/index/albertsons-reimagining-retail",
+  "raw_summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+  "published_at": "2026-10-01T16:00:00+00:00",
+  "first_seen_at": "2026-10-01T23:46:24.771147+00:00",
+  "category": "customer_story",
+  "materiality": "low",
+  "subscription_signal": false
+ }
+]
