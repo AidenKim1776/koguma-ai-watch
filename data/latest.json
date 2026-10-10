@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-09T23:52:54.569983+00:00",
- "last_success": "2026-10-09T23:52:54.569983+00:00",
- "degraded": true,
+ "generated_at": "2026-10-10T23:20:19.369917+00:00",
+ "last_success": "2026-10-10T23:20:19.369917+00:00",
+ "degraded": false,
  "window_days": 7,
  "companies": [
   "openai",
@@ -1116,18 +1116,15 @@
    "subscription_signal": true
   }
  ],
- "new_ids": [
-  "edd58468d564448f",
-  "90995f7dbc9c2674"
- ],
- "collected_count": 2,
+ "new_ids": [],
+ "collected_count": 0,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 2 new."
+   "message": "25 of newest items kept (cap 25), 0 new."
   },
   {
    "label": "Anthropic News",
@@ -1138,8 +1135,8 @@
   {
    "label": "Google DeepMind Blog",
    "company": "google",
-   "status": "failed",
-   "message": "ParseError: not well-formed (invalid token): line 1, column 0"
+   "status": "ok",
+   "message": "25 of newest items kept (cap 25), 0 new."
   },
   {
    "label": "Gemini API Release Notes",
