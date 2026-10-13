@@ -78,16 +78,25 @@ footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);
 <div class="head">
   <h1>KOGUMA AI Watch</h1>
   <div class="stamp">
-    <b>2026-10-12 08:30 KST</b> · 0 min ago<br>
+    <b>2026-10-13 10:53 KST</b> · 0 min ago<br>
     <span class="">
-    0 new · 85-item window · degraded run</span>
+    1 new · 84-item window · degraded run</span>
   </div>
 </div>
 
 
-<section><h2>Status</h2><div class="status"><div class="srow quiet"><div class="co">OpenAI<span>Muse</span></div><div class="n">—</div></div><div class="srow quiet"><div class="co">Anthropic<span>Hanna</span></div><div class="n">—</div></div><div class="srow quiet"><div class="co">Google<span>Vera</span></div><div class="n">—</div></div><div class="srow quiet"><div class="co">xAI<span>Scarlett</span></div><div class="n">—</div></div></div></section>
+<section><h2>Status</h2><div class="status"><div class="srow quiet"><div class="co">OpenAI<span>Muse</span></div><div class="n">—</div></div><div class="srow quiet"><div class="co">Anthropic<span>Hanna</span></div><div class="n">—</div></div><div class="srow quiet"><div class="co">Google<span>Vera</span></div><div class="n">—</div></div><div class="srow"><div class="co">xAI<span>Scarlett</span></div><div class="n">1 new</div></div></div></section>
 
-<section><h2>What changed</h2><div class="none">No material updates in the last 24 hours.</div></section>
+<section><h2>What changed</h2><div class="group"><h3>xAI</h3><div class="item" data-id="6d96079a65b1b219" data-seen="2026-10-13T01:53:45.697291+00:00">
+  <div class="t"><a href="https://x.ai/news/x-subscription" target="_blank" rel="noopener">Product · Introducing The X Subscription</a></div>
+  
+  <div class="meta">
+    <span class="chip m-high">high</span>
+    <span class="chip">pricing</span>
+    <span class="chip sub">subscription</span>
+    <span>xAI News</span>
+  </div>
+</div></div></section>
 
 <section><h2>Capability matrix</h2>
 <table><thead><tr><th></th><th>Reasoning</th><th>Coding</th><th>Long context</th><th>Multimodal</th><th>Web / search</th><th>Agentic</th><th>My tier</th></tr></thead><tbody><tr><td class="co">OpenAI</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td></tr><tr><td class="co">Anthropic</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td></tr><tr><td class="co">Google</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td></tr><tr><td class="co">xAI</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td></tr></tbody></table>
@@ -99,7 +108,7 @@ footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);
 <button id="copy">Copy digest</button>
 </section>
 
-<section><h2>Feed health</h2><div class="health"><div><span class="st ok">ok</span><span>OpenAI News</span><span class="msg">25 of newest items kept (cap 25), 0 new.</span></div><div><span class="st ok">ok</span><span>Anthropic News</span><span class="msg">11 of newest items kept (cap 12), 0 new.</span></div><div><span class="st failed">failed</span><span>Google DeepMind Blog</span><span class="msg">ParseError: not well-formed (invalid token): line 1, column 0</span></div><div><span class="st ok">ok</span><span>Gemini API Release Notes</span><span class="msg">12 of newest items kept (cap 12), 0 new.</span></div><div><span class="st ok">ok</span><span>xAI News</span><span class="msg">12 of newest items kept (cap 12), 0 new.</span></div><div><span class="st ok">ok</span><span>xAI API Release Notes</span><span class="msg">10 of newest items kept (cap 12), 0 new.</span></div></div></section>
+<section><h2>Feed health</h2><div class="health"><div><span class="st ok">ok</span><span>OpenAI News</span><span class="msg">25 of newest items kept (cap 25), 0 new.</span></div><div><span class="st ok">ok</span><span>Anthropic News</span><span class="msg">11 of newest items kept (cap 12), 0 new.</span></div><div><span class="st failed">failed</span><span>Google DeepMind Blog</span><span class="msg">ParseError: not well-formed (invalid token): line 1, column 0</span></div><div><span class="st ok">ok</span><span>Gemini API Release Notes</span><span class="msg">12 of newest items kept (cap 12), 0 new.</span></div><div><span class="st ok">ok</span><span>xAI News</span><span class="msg">12 of newest items kept (cap 12), 1 new.</span></div><div><span class="st ok">ok</span><span>xAI API Release Notes</span><span class="msg">10 of newest items kept (cap 12), 0 new.</span></div></div></section>
 
 <footer>
 KOGUMA Systems · central monitoring · sources read in English<br>
@@ -115,7 +124,7 @@ The unseen marker is stored in this browser only and does not sync across device
     if(!prev || el.dataset.seen > prev) el.classList.add('unseen');
   });
   localStorage.setItem(KEY, new Date().toISOString());
-  var d=[];
+  var d=[{"company": "xai", "title": "Product · Introducing The X Subscription", "url": "https://x.ai/news/x-subscription", "category": "pricing", "materiality": "high", "subscription_signal": true}];
   document.getElementById('copy').addEventListener('click', function(){
     navigator.clipboard.writeText(JSON.stringify(d,null,1)).then(function(){
       var b=document.getElementById('copy'); b.textContent='Copied';

@@ -1,0 +1,28 @@
+[
+ {
+  "id": "78ad53815846c15c",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Our approach to EU text provenance rules",
+  "url": "https://openai.com/index/eu-text-provenance",
+  "raw_summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+  "published_at": "2026-10-05T15:00:00+00:00",
+  "first_seen_at": "2026-10-06T01:12:23.308446+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "3cbec84de8bf6155",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Building advertising for the way people use AI",
+  "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+  "raw_summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+  "published_at": "2026-10-05T10:00:00+00:00",
+  "first_seen_at": "2026-10-06T01:12:23.308446+00:00",
+  "category": "pricing",
+  "materiality": "high",
+  "subscription_signal": true
+ }
+]
