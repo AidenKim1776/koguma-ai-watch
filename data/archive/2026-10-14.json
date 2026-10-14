@@ -1,0 +1,41 @@
+[
+ {
+  "id": "ad4e14640e358f44",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Helping teens learn, plan, and shape the future of AI",
+  "url": "https://openai.com/index/teens-learn-and-plan",
+  "raw_summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+  "published_at": "2026-10-07T12:00:00+00:00",
+  "first_seen_at": "2026-10-08T00:03:49.831486+00:00",
+  "category": "pricing",
+  "materiality": "high",
+  "subscription_signal": true
+ },
+ {
+  "id": "04e9dc3828b5420c",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+  "url": "https://openai.com/index/radisson",
+  "raw_summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+  "published_at": "2026-10-07T07:00:00+00:00",
+  "first_seen_at": "2026-10-08T00:03:49.831486+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "0ca1450969b5beb5",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "GPT-6 and Intelligent UI for everyone",
+  "url": "https://openai.com/index/gpt-6-for-everyone",
+  "raw_summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+  "published_at": "2026-10-07T00:00:00+00:00",
+  "first_seen_at": "2026-10-08T00:03:49.831486+00:00",
+  "category": "model_release",
+  "materiality": "high",
+  "subscription_signal": false
+ }
+]
