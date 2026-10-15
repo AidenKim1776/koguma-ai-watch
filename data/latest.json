@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-14T23:03:22.519290+00:00",
- "last_success": "2026-10-14T23:03:22.519290+00:00",
- "degraded": true,
+ "generated_at": "2026-10-15T22:56:32.302365+00:00",
+ "last_success": "2026-10-15T22:56:32.302365+00:00",
+ "degraded": false,
  "window_days": 7,
  "companies": [
   "openai",
@@ -960,6 +960,58 @@
    "subscription_signal": false
   },
   {
+   "id": "dc9ed14da7f573e5",
+   "company": "anthropic",
+   "source_label": "Anthropic News",
+   "title": "Announcements An update on independent evaluators",
+   "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-10-15T22:56:32.302365+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "a72d1e4da6b0e106",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Bringing GPT-Rosalind to academic research labs",
+   "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+   "raw_summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+   "published_at": "2026-10-15T19:00:00+00:00",
+   "first_seen_at": "2026-10-15T22:56:32.302365+00:00",
+   "category": "pricing",
+   "materiality": "high",
+   "subscription_signal": true
+  },
+  {
+   "id": "996b33c09ad57427",
+   "company": "google",
+   "source_label": "Google DeepMind Blog",
+   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+   "raw_summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+   "published_at": "2026-10-15T16:08:03+00:00",
+   "first_seen_at": "2026-10-15T22:56:32.302365+00:00",
+   "category": "capability",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
+   "id": "fa14b8f7db4605df",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Teaching students to think and learn through questions",
+   "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+   "raw_summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+   "published_at": "2026-10-15T13:00:00+00:00",
+   "first_seen_at": "2026-10-15T22:56:32.302365+00:00",
+   "category": "research",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "a0e0fec2c2b5f568",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -1008,6 +1060,19 @@
    "published_at": "2026-10-14T07:00:00+00:00",
    "first_seen_at": "2026-10-14T23:03:22.519290+00:00",
    "category": "customer_story",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "58e4191fcfe4b88c",
+   "company": "google",
+   "source_label": "Google DeepMind Blog",
+   "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+   "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+   "raw_summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+   "published_at": "2026-10-14T02:00:14+00:00",
+   "first_seen_at": "2026-10-15T22:56:32.302365+00:00",
+   "category": "other",
    "materiality": "low",
    "subscription_signal": false
   },
@@ -1101,90 +1166,35 @@
    "category": "capability",
    "materiality": "medium",
    "subscription_signal": false
-  },
-  {
-   "id": "112b5f00879d4fef",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-   "url": "https://openai.com/index/oracle",
-   "raw_summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-   "published_at": "2026-10-08T16:00:00+00:00",
-   "first_seen_at": "2026-10-09T00:12:06.177219+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "ca1ec6c6a1a1314d",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-   "url": "https://openai.com/index/pollo-ai",
-   "raw_summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
-   "published_at": "2026-10-08T12:00:00+00:00",
-   "first_seen_at": "2026-10-09T00:12:06.177219+00:00",
-   "category": "pricing",
-   "materiality": "high",
-   "subscription_signal": true
-  },
-  {
-   "id": "f6d3626eb7c890d9",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "LegalOn halves Codex costs while maintaining development speed",
-   "url": "https://openai.com/index/legalon-halves-codex-costs",
-   "raw_summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
-   "published_at": "2026-10-08T12:00:00+00:00",
-   "first_seen_at": "2026-10-09T00:12:06.177219+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "077dea1e8a7adb2e",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Disrupting AI-enabled “false front” operations",
-   "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-   "raw_summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-   "published_at": "2026-10-08T00:00:00+00:00",
-   "first_seen_at": "2026-10-09T00:12:06.177219+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
   }
  ],
  "new_ids": [
-  "a0e0fec2c2b5f568",
-  "24cc989c02dbc2a2",
-  "e181547094b0a112",
-  "7d10f0ddfecf202c",
-  "2f3282e483141f68",
-  "c9ddbc2bb8934c94",
-  "87253efedaff810e",
-  "793cd0506ac47972"
+  "a72d1e4da6b0e106",
+  "fa14b8f7db4605df",
+  "dc9ed14da7f573e5",
+  "996b33c09ad57427",
+  "58e4191fcfe4b88c"
  ],
- "collected_count": 8,
+ "collected_count": 5,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 5 new."
+   "message": "25 of newest items kept (cap 25), 2 new."
   },
   {
    "label": "Anthropic News",
    "company": "anthropic",
    "status": "ok",
-   "message": "11 of newest items kept (cap 12), 2 new."
+   "message": "11 of newest items kept (cap 12), 1 new."
   },
   {
    "label": "Google DeepMind Blog",
    "company": "google",
-   "status": "failed",
-   "message": "ParseError: not well-formed (invalid token): line 1, column 0"
+   "status": "ok",
+   "message": "25 of newest items kept (cap 25), 2 new."
   },
   {
    "label": "Gemini API Release Notes",
@@ -1196,7 +1206,7 @@
    "label": "xAI News",
    "company": "xai",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 1 new."
+   "message": "12 of newest items kept (cap 12), 0 new."
   },
   {
    "label": "xAI API Release Notes",
