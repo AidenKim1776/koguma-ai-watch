@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-16T22:40:16.770115+00:00",
- "last_success": "2026-10-16T22:40:16.770115+00:00",
+ "generated_at": "2026-10-17T22:02:18.419253+00:00",
+ "last_success": "2026-10-17T22:02:18.419253+00:00",
  "degraded": false,
  "window_days": 7,
  "companies": [
@@ -973,6 +973,19 @@
    "subscription_signal": false
   },
   {
+   "id": "65442e708214c10b",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "How Itaú is building generative AI for its entire customer base",
+   "url": "https://openai.com/index/itau-generative-ai",
+   "raw_summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+   "published_at": "2026-10-16T19:00:00+00:00",
+   "first_seen_at": "2026-10-17T22:02:18.419253+00:00",
+   "category": "customer_story",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "9db4940a53f86840",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -984,6 +997,19 @@
    "category": "capability",
    "materiality": "medium",
    "subscription_signal": false
+  },
+  {
+   "id": "4a2f3ca18eb9cee6",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Benefit Street Partners answers questions faster with Codex",
+   "url": "https://openai.com/index/benefit-street-partners",
+   "raw_summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+   "published_at": "2026-10-16T00:00:00+00:00",
+   "first_seen_at": "2026-10-17T22:02:18.419253+00:00",
+   "category": "pricing",
+   "materiality": "high",
+   "subscription_signal": true
   },
   {
    "id": "a72d1e4da6b0e106",
@@ -1169,8 +1195,8 @@
   }
  ],
  "new_ids": [
-  "9db4940a53f86840",
-  "dd00c04c9b95848e"
+  "65442e708214c10b",
+  "4a2f3ca18eb9cee6"
  ],
  "collected_count": 2,
  "baseline_run": false,
