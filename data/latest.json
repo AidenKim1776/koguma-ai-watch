@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-17T22:02:18.419253+00:00",
- "last_success": "2026-10-17T22:02:18.419253+00:00",
- "degraded": false,
+ "generated_at": "2026-10-18T22:17:39.031854+00:00",
+ "last_success": "2026-10-18T22:17:39.031854+00:00",
+ "degraded": true,
  "window_days": 7,
  "companies": [
   "openai",
@@ -973,6 +973,19 @@
    "subscription_signal": false
   },
   {
+   "id": "4c6c987b65345788",
+   "company": "anthropic",
+   "source_label": "Anthropic News",
+   "title": "Announcements Investing in the public benefit",
+   "url": "https://www.anthropic.com/news/public-benefit-fund",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-10-18T22:17:39.031854+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "65442e708214c10b",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -1195,29 +1208,28 @@
   }
  ],
  "new_ids": [
-  "65442e708214c10b",
-  "4a2f3ca18eb9cee6"
+  "4c6c987b65345788"
  ],
- "collected_count": 2,
+ "collected_count": 1,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 2 new."
+   "message": "25 of newest items kept (cap 25), 0 new."
   },
   {
    "label": "Anthropic News",
    "company": "anthropic",
    "status": "ok",
-   "message": "11 of newest items kept (cap 12), 0 new."
+   "message": "11 of newest items kept (cap 12), 1 new."
   },
   {
    "label": "Google DeepMind Blog",
    "company": "google",
-   "status": "ok",
-   "message": "25 of newest items kept (cap 25), 0 new."
+   "status": "failed",
+   "message": "ParseError: not well-formed (invalid token): line 1, column 0"
   },
   {
    "label": "Gemini API Release Notes",
