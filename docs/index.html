@@ -78,23 +78,23 @@ footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);
 <div class="head">
   <h1>KOGUMA AI Watch</h1>
   <div class="stamp">
-    <b>2026-10-19 07:17 KST</b> · 0 min ago<br>
+    <b>2026-10-20 08:26 KST</b> · 0 min ago<br>
     <span class="">
-    1 new · 92-item window · degraded run</span>
+    1 new · 93-item window · degraded run</span>
   </div>
 </div>
 
 
-<section><h2>Status</h2><div class="status"><div class="srow quiet"><div class="co">OpenAI<span>Muse</span></div><div class="n">—</div></div><div class="srow"><div class="co">Anthropic<span>Hanna</span></div><div class="n">1 new</div></div><div class="srow quiet"><div class="co">Google<span>Vera</span></div><div class="n">—</div></div><div class="srow quiet"><div class="co">xAI<span>Scarlett</span></div><div class="n">—</div></div></div></section>
+<section><h2>Status</h2><div class="status"><div class="srow"><div class="co">OpenAI<span>Muse</span></div><div class="n">1 new</div></div><div class="srow quiet"><div class="co">Anthropic<span>Hanna</span></div><div class="n">—</div></div><div class="srow quiet"><div class="co">Google<span>Vera</span></div><div class="n">—</div></div><div class="srow quiet"><div class="co">xAI<span>Scarlett</span></div><div class="n">—</div></div></div></section>
 
-<section><h2>What changed</h2><div class="group"><h3>Anthropic</h3><div class="item" data-id="4c6c987b65345788" data-seen="2026-10-18T22:17:39.031854+00:00">
-  <div class="t"><a href="https://www.anthropic.com/news/public-benefit-fund" target="_blank" rel="noopener">Announcements Investing in the public benefit</a></div>
-  
+<section><h2>What changed</h2><div class="group"><h3>OpenAI</h3><div class="item" data-id="7a364f356aab4946" data-seen="2026-10-19T23:26:53.463751+00:00">
+  <div class="t"><a href="https://openai.com/index/low-resource-programming-languages" target="_blank" rel="noopener">Advancing Coding in Low-Resource Programming Languages</a></div>
+  <div class="s">Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.</div>
   <div class="meta">
-    <span class="chip m-low">low</span>
-    <span class="chip">other</span>
+    <span class="chip m-medium">medium</span>
+    <span class="chip">capability</span>
     
-    <span>Anthropic News</span>
+    <span>OpenAI News</span>
   </div>
 </div></div></section>
 
@@ -108,7 +108,7 @@ footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);
 <button id="copy">Copy digest</button>
 </section>
 
-<section><h2>Feed health</h2><div class="health"><div><span class="st ok">ok</span><span>OpenAI News</span><span class="msg">25 of newest items kept (cap 25), 0 new.</span></div><div><span class="st ok">ok</span><span>Anthropic News</span><span class="msg">11 of newest items kept (cap 12), 1 new.</span></div><div><span class="st failed">failed</span><span>Google DeepMind Blog</span><span class="msg">ParseError: not well-formed (invalid token): line 1, column 0</span></div><div><span class="st ok">ok</span><span>Gemini API Release Notes</span><span class="msg">12 of newest items kept (cap 12), 0 new.</span></div><div><span class="st ok">ok</span><span>xAI News</span><span class="msg">12 of newest items kept (cap 12), 0 new.</span></div><div><span class="st ok">ok</span><span>xAI API Release Notes</span><span class="msg">10 of newest items kept (cap 12), 0 new.</span></div></div></section>
+<section><h2>Feed health</h2><div class="health"><div><span class="st ok">ok</span><span>OpenAI News</span><span class="msg">25 of newest items kept (cap 25), 1 new.</span></div><div><span class="st ok">ok</span><span>Anthropic News</span><span class="msg">11 of newest items kept (cap 12), 0 new.</span></div><div><span class="st failed">failed</span><span>Google DeepMind Blog</span><span class="msg">ParseError: not well-formed (invalid token): line 1, column 0</span></div><div><span class="st ok">ok</span><span>Gemini API Release Notes</span><span class="msg">12 of newest items kept (cap 12), 0 new.</span></div><div><span class="st ok">ok</span><span>xAI News</span><span class="msg">12 of newest items kept (cap 12), 0 new.</span></div><div><span class="st ok">ok</span><span>xAI API Release Notes</span><span class="msg">10 of newest items kept (cap 12), 0 new.</span></div></div></section>
 
 <footer>
 KOGUMA Systems · central monitoring · sources read in English<br>
@@ -124,7 +124,7 @@ The unseen marker is stored in this browser only and does not sync across device
     if(!prev || el.dataset.seen > prev) el.classList.add('unseen');
   });
   localStorage.setItem(KEY, new Date().toISOString());
-  var d=[{"company": "anthropic", "title": "Announcements Investing in the public benefit", "url": "https://www.anthropic.com/news/public-benefit-fund", "category": "other", "materiality": "low", "subscription_signal": false}];
+  var d=[{"company": "openai", "title": "Advancing Coding in Low-Resource Programming Languages", "url": "https://openai.com/index/low-resource-programming-languages", "category": "capability", "materiality": "medium", "subscription_signal": false}];
   document.getElementById('copy').addEventListener('click', function(){
     navigator.clipboard.writeText(JSON.stringify(d,null,1)).then(function(){
       var b=document.getElementById('copy'); b.textContent='Copied';
