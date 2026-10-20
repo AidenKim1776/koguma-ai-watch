@@ -1,0 +1,54 @@
+[
+ {
+  "id": "471508c04c304cbd",
+  "company": "google",
+  "source_label": "Google DeepMind Blog",
+  "title": "Developing Gemini 4 Argon responsibly and safely",
+  "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+  "raw_summary": "",
+  "published_at": "2026-10-13T19:43:07+00:00",
+  "first_seen_at": "2026-10-13T23:39:02.683923+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "884ebf3c3978ea46",
+  "company": "google",
+  "source_label": "Google DeepMind Blog",
+  "title": "Gemini 4 Argon for Robotics",
+  "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+  "raw_summary": "",
+  "published_at": "2026-10-13T16:01:58+00:00",
+  "first_seen_at": "2026-10-13T23:39:02.683923+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "f174716114a9131e",
+  "company": "google",
+  "source_label": "Google DeepMind Blog",
+  "title": "Gemini 4 Argon: Built to solve your hardest problems",
+  "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+  "raw_summary": "",
+  "published_at": "2026-10-13T16:01:52+00:00",
+  "first_seen_at": "2026-10-13T23:39:02.683923+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "ffc748cb8d88a919",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Higgsfield takes AI video from 1 minute to over 10",
+  "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+  "raw_summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+  "published_at": "2026-10-13T12:00:00+00:00",
+  "first_seen_at": "2026-10-13T23:39:02.683923+00:00",
+  "category": "capability",
+  "materiality": "medium",
+  "subscription_signal": false
+ }
+]

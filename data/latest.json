@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-19T23:26:53.463751+00:00",
- "last_success": "2026-10-19T23:26:53.463751+00:00",
+ "generated_at": "2026-10-20T23:01:14.795059+00:00",
+ "last_success": "2026-10-20T23:01:14.795059+00:00",
  "degraded": true,
  "window_days": 7,
  "companies": [
@@ -986,6 +986,84 @@
    "subscription_signal": false
   },
   {
+   "id": "10310c209328b333",
+   "company": "anthropic",
+   "source_label": "Anthropic News",
+   "title": "Announcements",
+   "url": "https://www.anthropic.com/news/announcements",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-10-20T23:01:14.795059+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "31508cd64d59a827",
+   "company": "anthropic",
+   "source_label": "Anthropic News",
+   "title": "Partnerships",
+   "url": "https://www.anthropic.com/news/partnerships",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-10-20T23:01:14.795059+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "7f42709de2ad0d9b",
+   "company": "anthropic",
+   "source_label": "Anthropic News",
+   "title": "Strengthening our defenses against distillation attacks",
+   "url": "https://www.anthropic.com/news/distillation-defenses",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-10-20T23:01:14.795059+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "27c2ca35edce8812",
+   "company": "xai",
+   "source_label": "xAI News",
+   "title": "Product · Using Grok Bot to detect and respond to incidents",
+   "url": "https://x.ai/news/incident-sweep",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-10-20T23:01:14.795059+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "b3fcb2e42d321123",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+   "url": "https://openai.com/index/ted-taylor-restaurant",
+   "raw_summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+   "published_at": "2026-10-20T10:00:00+00:00",
+   "first_seen_at": "2026-10-20T23:01:14.795059+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "dbaa902542534b3a",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "OpenAI acquires Orchestra Bio",
+   "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+   "raw_summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+   "published_at": "2026-10-20T00:00:00+00:00",
+   "first_seen_at": "2026-10-20T23:01:14.795059+00:00",
+   "category": "legal",
+   "materiality": "high",
+   "subscription_signal": false
+  },
+  {
    "id": "7a364f356aab4946",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -1166,77 +1244,30 @@
    "category": "capability",
    "materiality": "medium",
    "subscription_signal": false
-  },
-  {
-   "id": "471508c04c304cbd",
-   "company": "google",
-   "source_label": "Google DeepMind Blog",
-   "title": "Developing Gemini 4 Argon responsibly and safely",
-   "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-   "raw_summary": "",
-   "published_at": "2026-10-13T19:43:07+00:00",
-   "first_seen_at": "2026-10-13T23:39:02.683923+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "884ebf3c3978ea46",
-   "company": "google",
-   "source_label": "Google DeepMind Blog",
-   "title": "Gemini 4 Argon for Robotics",
-   "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-   "raw_summary": "",
-   "published_at": "2026-10-13T16:01:58+00:00",
-   "first_seen_at": "2026-10-13T23:39:02.683923+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "f174716114a9131e",
-   "company": "google",
-   "source_label": "Google DeepMind Blog",
-   "title": "Gemini 4 Argon: Built to solve your hardest problems",
-   "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-   "raw_summary": "",
-   "published_at": "2026-10-13T16:01:52+00:00",
-   "first_seen_at": "2026-10-13T23:39:02.683923+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "ffc748cb8d88a919",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Higgsfield takes AI video from 1 minute to over 10",
-   "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-   "raw_summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-   "published_at": "2026-10-13T12:00:00+00:00",
-   "first_seen_at": "2026-10-13T23:39:02.683923+00:00",
-   "category": "capability",
-   "materiality": "medium",
-   "subscription_signal": false
   }
  ],
  "new_ids": [
-  "7a364f356aab4946"
+  "b3fcb2e42d321123",
+  "dbaa902542534b3a",
+  "10310c209328b333",
+  "31508cd64d59a827",
+  "7f42709de2ad0d9b",
+  "27c2ca35edce8812"
  ],
- "collected_count": 1,
+ "collected_count": 6,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 1 new."
+   "message": "25 of newest items kept (cap 25), 2 new."
   },
   {
    "label": "Anthropic News",
    "company": "anthropic",
    "status": "ok",
-   "message": "11 of newest items kept (cap 12), 0 new."
+   "message": "12 of newest items kept (cap 12), 3 new."
   },
   {
    "label": "Google DeepMind Blog",
@@ -1254,7 +1285,7 @@
    "label": "xAI News",
    "company": "xai",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 0 new."
+   "message": "12 of newest items kept (cap 12), 1 new."
   },
   {
    "label": "xAI API Release Notes",
