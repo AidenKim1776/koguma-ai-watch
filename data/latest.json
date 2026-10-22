@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-21T23:04:39.449934+00:00",
- "last_success": "2026-10-21T23:04:39.449934+00:00",
+ "generated_at": "2026-10-22T23:03:35.838690+00:00",
+ "last_success": "2026-10-22T23:03:35.838690+00:00",
  "degraded": false,
  "window_days": 7,
  "companies": [
@@ -1051,6 +1051,97 @@
    "subscription_signal": false
   },
   {
+   "id": "86405d6d1e9fb855",
+   "company": "anthropic",
+   "source_label": "Anthropic News",
+   "title": "Donating Agent Skills to the Agentic AI Foundation",
+   "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-10-22T23:03:35.838690+00:00",
+   "category": "capability",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
+   "id": "98d45c75b11c937c",
+   "company": "anthropic",
+   "source_label": "Anthropic News",
+   "title": "Open call for guest investigators in the life sciences",
+   "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-10-22T23:03:35.838690+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "2a74798a26bb36cf",
+   "company": "xai",
+   "source_label": "xAI News",
+   "title": "Company · Introducing the SpaceX Super Intelligence Partner Network",
+   "url": "https://x.ai/news/partnernetworkannouncement",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-10-22T23:03:35.838690+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "27825e3003584012",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Build more responsive apps with the Decisions API",
+   "url": "https://openai.com/index/decisions-api",
+   "raw_summary": "Fast, focused, low-cost decisions for any application.",
+   "published_at": "2026-10-22T19:00:00+00:00",
+   "first_seen_at": "2026-10-22T23:03:35.838690+00:00",
+   "category": "pricing",
+   "materiality": "high",
+   "subscription_signal": false
+  },
+  {
+   "id": "e66e9796ba6be5e9",
+   "company": "google",
+   "source_label": "Google DeepMind Blog",
+   "title": "Beyond tree cover: mapping the world’s forest types",
+   "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+   "raw_summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+   "published_at": "2026-10-22T14:30:24+00:00",
+   "first_seen_at": "2026-10-22T23:03:35.838690+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "63c31ca523f91ccf",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "What FDE means at OpenAI",
+   "url": "https://openai.com/index/forward-deployed-engineering-means",
+   "raw_summary": "What forward deployed engineering means at OpenAI",
+   "published_at": "2026-10-22T06:00:00+00:00",
+   "first_seen_at": "2026-10-22T23:03:35.838690+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "ba6fa07d677a8221",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+   "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+   "raw_summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+   "published_at": "2026-10-22T00:00:00+00:00",
+   "first_seen_at": "2026-10-22T23:03:35.838690+00:00",
+   "category": "model_release",
+   "materiality": "high",
+   "subscription_signal": false
+  },
+  {
    "id": "2ed22a61b2f19a0c",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -1155,6 +1246,19 @@
    "subscription_signal": false
   },
   {
+   "id": "9201054eeb4c743a",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+   "url": "https://openai.com/index/cloudflare-cyber",
+   "raw_summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+   "published_at": "2026-10-21T00:00:00+00:00",
+   "first_seen_at": "2026-10-22T23:03:35.838690+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "b3fcb2e42d321123",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -1244,92 +1348,38 @@
    "category": "pricing",
    "materiality": "high",
    "subscription_signal": true
-  },
-  {
-   "id": "a72d1e4da6b0e106",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Bringing GPT-Rosalind to academic research labs",
-   "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-   "raw_summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-   "published_at": "2026-10-15T19:00:00+00:00",
-   "first_seen_at": "2026-10-15T22:56:32.302365+00:00",
-   "category": "pricing",
-   "materiality": "high",
-   "subscription_signal": true
-  },
-  {
-   "id": "996b33c09ad57427",
-   "company": "google",
-   "source_label": "Google DeepMind Blog",
-   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-   "raw_summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-   "published_at": "2026-10-15T16:08:03+00:00",
-   "first_seen_at": "2026-10-15T22:56:32.302365+00:00",
-   "category": "capability",
-   "materiality": "medium",
-   "subscription_signal": false
-  },
-  {
-   "id": "fa14b8f7db4605df",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Teaching students to think and learn through questions",
-   "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-   "raw_summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-   "published_at": "2026-10-15T13:00:00+00:00",
-   "first_seen_at": "2026-10-15T22:56:32.302365+00:00",
-   "category": "research",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "dd00c04c9b95848e",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-   "url": "https://openai.com/index/sullivan-cromwell",
-   "raw_summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-   "published_at": "2026-10-15T00:00:00+00:00",
-   "first_seen_at": "2026-10-16T22:40:16.770115+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
   }
  ],
  "new_ids": [
-  "4ab93569e260b2b0",
-  "2ed22a61b2f19a0c",
-  "61f4d0141ff303c0",
-  "d3f519557f32dd3d",
-  "74fcf21eca7add4a",
-  "1de8e62ff715d1f1",
-  "edef63b51aedc012",
-  "b2deaf97c98cf0ff",
-  "a84b6a7bee5c68a6",
-  "b12d9d8f20127ff6"
+  "27825e3003584012",
+  "63c31ca523f91ccf",
+  "ba6fa07d677a8221",
+  "9201054eeb4c743a",
+  "86405d6d1e9fb855",
+  "98d45c75b11c937c",
+  "e66e9796ba6be5e9",
+  "2a74798a26bb36cf"
  ],
- "collected_count": 10,
+ "collected_count": 8,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 9 new."
+   "message": "25 of newest items kept (cap 25), 4 new."
   },
   {
    "label": "Anthropic News",
    "company": "anthropic",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 1 new."
+   "message": "12 of newest items kept (cap 12), 2 new."
   },
   {
    "label": "Google DeepMind Blog",
    "company": "google",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 0 new."
+   "message": "25 of newest items kept (cap 25), 1 new."
   },
   {
    "label": "Gemini API Release Notes",
@@ -1341,7 +1391,7 @@
    "label": "xAI News",
    "company": "xai",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 0 new."
+   "message": "12 of newest items kept (cap 12), 1 new."
   },
   {
    "label": "xAI API Release Notes",

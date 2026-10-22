@@ -1,0 +1,54 @@
+[
+ {
+  "id": "a72d1e4da6b0e106",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Bringing GPT-Rosalind to academic research labs",
+  "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+  "raw_summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+  "published_at": "2026-10-15T19:00:00+00:00",
+  "first_seen_at": "2026-10-15T22:56:32.302365+00:00",
+  "category": "pricing",
+  "materiality": "high",
+  "subscription_signal": true
+ },
+ {
+  "id": "996b33c09ad57427",
+  "company": "google",
+  "source_label": "Google DeepMind Blog",
+  "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+  "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+  "raw_summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+  "published_at": "2026-10-15T16:08:03+00:00",
+  "first_seen_at": "2026-10-15T22:56:32.302365+00:00",
+  "category": "capability",
+  "materiality": "medium",
+  "subscription_signal": false
+ },
+ {
+  "id": "fa14b8f7db4605df",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Teaching students to think and learn through questions",
+  "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+  "raw_summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+  "published_at": "2026-10-15T13:00:00+00:00",
+  "first_seen_at": "2026-10-15T22:56:32.302365+00:00",
+  "category": "research",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "dd00c04c9b95848e",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+  "url": "https://openai.com/index/sullivan-cromwell",
+  "raw_summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+  "published_at": "2026-10-15T00:00:00+00:00",
+  "first_seen_at": "2026-10-16T22:40:16.770115+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ }
+]
