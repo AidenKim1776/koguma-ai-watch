@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-25T22:22:20.934034+00:00",
- "last_success": "2026-10-25T22:22:20.934034+00:00",
- "degraded": false,
+ "generated_at": "2026-10-26T23:38:36.333793+00:00",
+ "last_success": "2026-10-26T23:38:36.333793+00:00",
+ "degraded": true,
  "window_days": 7,
  "companies": [
   "openai",
@@ -1090,6 +1090,110 @@
    "subscription_signal": false
   },
   {
+   "id": "edf59637f599d673",
+   "company": "anthropic",
+   "source_label": "Anthropic News",
+   "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+   "url": "https://www.anthropic.com/news/s1-sec",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-10-26T23:38:36.333793+00:00",
+   "category": "legal",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
+   "id": "250e5d8f302445e7",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+   "url": "https://openai.com/index/greptile-code-review-codex-astra",
+   "raw_summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+   "published_at": "2026-10-26T22:00:00+00:00",
+   "first_seen_at": "2026-10-26T23:38:36.333793+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "f16aefe89a6e3f3b",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Working with academic communities to build scientific understanding",
+   "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+   "raw_summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+   "published_at": "2026-10-26T14:30:00+00:00",
+   "first_seen_at": "2026-10-26T23:38:36.333793+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "1a1d4bf2fc111eb8",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+   "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+   "raw_summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+   "published_at": "2026-10-26T13:45:00+00:00",
+   "first_seen_at": "2026-10-26T23:38:36.333793+00:00",
+   "category": "capability",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
+   "id": "64d59b55a8fb8666",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "ChatGPT’s expanding world of work",
+   "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+   "raw_summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+   "published_at": "2026-10-26T10:00:00+00:00",
+   "first_seen_at": "2026-10-26T23:38:36.333793+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "eb7708c5f537ab79",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "How Fanatics and OpenAI streamline the fan experience",
+   "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+   "raw_summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+   "published_at": "2026-10-26T07:00:00+00:00",
+   "first_seen_at": "2026-10-26T23:38:36.333793+00:00",
+   "category": "customer_story",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "8f2f08b6e197805b",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+   "url": "https://openai.com/index/openai-cut-incident-investigation",
+   "raw_summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+   "published_at": "2026-10-26T07:00:00+00:00",
+   "first_seen_at": "2026-10-26T23:38:36.333793+00:00",
+   "category": "customer_story",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "1758535ac6be3e6b",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Introducing GPT-6.1 Terra",
+   "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+   "raw_summary": "Bringing fast and capable computer use to everyone",
+   "published_at": "2026-10-26T00:00:00+00:00",
+   "first_seen_at": "2026-10-26T23:38:36.333793+00:00",
+   "category": "model_release",
+   "materiality": "high",
+   "subscription_signal": false
+  },
+  {
    "id": "298c8de07d18f423",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -1335,42 +1439,38 @@
    "category": "legal",
    "materiality": "high",
    "subscription_signal": false
-  },
-  {
-   "id": "7a364f356aab4946",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Advancing Coding in Low-Resource Programming Languages",
-   "url": "https://openai.com/index/low-resource-programming-languages",
-   "raw_summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-   "published_at": "2026-10-19T12:00:00+00:00",
-   "first_seen_at": "2026-10-19T23:26:53.463751+00:00",
-   "category": "capability",
-   "materiality": "medium",
-   "subscription_signal": false
   }
  ],
- "new_ids": [],
- "collected_count": 0,
+ "new_ids": [
+  "250e5d8f302445e7",
+  "f16aefe89a6e3f3b",
+  "1a1d4bf2fc111eb8",
+  "64d59b55a8fb8666",
+  "eb7708c5f537ab79",
+  "8f2f08b6e197805b",
+  "1758535ac6be3e6b",
+  "edf59637f599d673"
+ ],
+ "collected_count": 8,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 0 new."
+   "message": "25 of newest items kept (cap 25), 7 new."
   },
   {
    "label": "Anthropic News",
    "company": "anthropic",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 0 new."
+   "message": "12 of newest items kept (cap 12), 1 new."
   },
   {
    "label": "Google DeepMind Blog",
    "company": "google",
-   "status": "ok",
-   "message": "25 of newest items kept (cap 25), 0 new."
+   "status": "failed",
+   "message": "ParseError: not well-formed (invalid token): line 1, column 0"
   },
   {
    "label": "Gemini API Release Notes",

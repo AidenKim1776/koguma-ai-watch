@@ -1,0 +1,15 @@
+[
+ {
+  "id": "7a364f356aab4946",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Advancing Coding in Low-Resource Programming Languages",
+  "url": "https://openai.com/index/low-resource-programming-languages",
+  "raw_summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+  "published_at": "2026-10-19T12:00:00+00:00",
+  "first_seen_at": "2026-10-19T23:26:53.463751+00:00",
+  "category": "capability",
+  "materiality": "medium",
+  "subscription_signal": false
+ }
+]
