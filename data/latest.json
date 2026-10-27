@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-26T23:38:36.333793+00:00",
- "last_success": "2026-10-26T23:38:36.333793+00:00",
+ "generated_at": "2026-10-27T23:38:02.302405+00:00",
+ "last_success": "2026-10-27T23:38:02.302405+00:00",
  "degraded": true,
  "window_days": 7,
  "companies": [
@@ -1103,6 +1103,71 @@
    "subscription_signal": false
   },
   {
+   "id": "16faca12f9641778",
+   "company": "anthropic",
+   "source_label": "Anthropic News",
+   "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+   "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-10-27T23:38:02.302405+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "063c371f6239ac93",
+   "company": "xai",
+   "source_label": "xAI News",
+   "title": "Product · Your next sales teammate should be a Grok Bot",
+   "url": "https://x.ai/news/grok-bot-sales",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-10-27T23:38:02.302405+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "d42fb1eb3362412f",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Retell uses OpenAI models to help power 100M monthly calls",
+   "url": "https://openai.com/index/retell-ai",
+   "raw_summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+   "published_at": "2026-10-27T15:00:00+00:00",
+   "first_seen_at": "2026-10-27T23:38:02.302405+00:00",
+   "category": "capability",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
+   "id": "a3a879144b2984ac",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+   "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+   "raw_summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+   "published_at": "2026-10-27T07:00:00+00:00",
+   "first_seen_at": "2026-10-27T23:38:02.302405+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": true
+  },
+  {
+   "id": "8cb333260a17a324",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "How Check Point accelerates vulnerability research with Daybreak",
+   "url": "https://openai.com/index/check-point-daybreak",
+   "raw_summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+   "published_at": "2026-10-27T00:00:00+00:00",
+   "first_seen_at": "2026-10-27T23:38:02.302405+00:00",
+   "category": "research",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "250e5d8f302445e7",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -1230,6 +1295,19 @@
    "first_seen_at": "2026-10-23T22:57:21.026212+00:00",
    "category": "policy",
    "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
+   "id": "c6099fc8919f3d54",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+   "url": "https://openai.com/index/anima",
+   "raw_summary": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
+   "published_at": "2026-10-23T00:00:00+00:00",
+   "first_seen_at": "2026-10-27T23:38:02.302405+00:00",
+   "category": "other",
+   "materiality": "low",
    "subscription_signal": false
   },
   {
@@ -1400,65 +1478,24 @@
    "category": "other",
    "materiality": "low",
    "subscription_signal": false
-  },
-  {
-   "id": "b3fcb2e42d321123",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-   "url": "https://openai.com/index/ted-taylor-restaurant",
-   "raw_summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-   "published_at": "2026-10-20T10:00:00+00:00",
-   "first_seen_at": "2026-10-20T23:01:14.795059+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "a84b6a7bee5c68a6",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-   "url": "https://openai.com/index/terminal-x",
-   "raw_summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-   "published_at": "2026-10-20T07:00:00+00:00",
-   "first_seen_at": "2026-10-21T23:04:39.449934+00:00",
-   "category": "capability",
-   "materiality": "medium",
-   "subscription_signal": false
-  },
-  {
-   "id": "dbaa902542534b3a",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "OpenAI acquires Orchestra Bio",
-   "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-   "raw_summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-   "published_at": "2026-10-20T00:00:00+00:00",
-   "first_seen_at": "2026-10-20T23:01:14.795059+00:00",
-   "category": "legal",
-   "materiality": "high",
-   "subscription_signal": false
   }
  ],
  "new_ids": [
-  "250e5d8f302445e7",
-  "f16aefe89a6e3f3b",
-  "1a1d4bf2fc111eb8",
-  "64d59b55a8fb8666",
-  "eb7708c5f537ab79",
-  "8f2f08b6e197805b",
-  "1758535ac6be3e6b",
-  "edf59637f599d673"
+  "d42fb1eb3362412f",
+  "a3a879144b2984ac",
+  "8cb333260a17a324",
+  "c6099fc8919f3d54",
+  "16faca12f9641778",
+  "063c371f6239ac93"
  ],
- "collected_count": 8,
+ "collected_count": 6,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 7 new."
+   "message": "25 of newest items kept (cap 25), 4 new."
   },
   {
    "label": "Anthropic News",
@@ -1482,7 +1519,7 @@
    "label": "xAI News",
    "company": "xai",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 0 new."
+   "message": "12 of newest items kept (cap 12), 1 new."
   },
   {
    "label": "xAI API Release Notes",

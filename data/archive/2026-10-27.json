@@ -1,0 +1,41 @@
+[
+ {
+  "id": "b3fcb2e42d321123",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+  "url": "https://openai.com/index/ted-taylor-restaurant",
+  "raw_summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+  "published_at": "2026-10-20T10:00:00+00:00",
+  "first_seen_at": "2026-10-20T23:01:14.795059+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "a84b6a7bee5c68a6",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+  "url": "https://openai.com/index/terminal-x",
+  "raw_summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+  "published_at": "2026-10-20T07:00:00+00:00",
+  "first_seen_at": "2026-10-21T23:04:39.449934+00:00",
+  "category": "capability",
+  "materiality": "medium",
+  "subscription_signal": false
+ },
+ {
+  "id": "dbaa902542534b3a",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "OpenAI acquires Orchestra Bio",
+  "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+  "raw_summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+  "published_at": "2026-10-20T00:00:00+00:00",
+  "first_seen_at": "2026-10-20T23:01:14.795059+00:00",
+  "category": "legal",
+  "materiality": "high",
+  "subscription_signal": false
+ }
+]
