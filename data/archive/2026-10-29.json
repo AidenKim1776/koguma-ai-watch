@@ -1,0 +1,54 @@
+[
+ {
+  "id": "27825e3003584012",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Build more responsive apps with the Decisions API",
+  "url": "https://openai.com/index/decisions-api",
+  "raw_summary": "Fast, focused, low-cost decisions for any application.",
+  "published_at": "2026-10-22T19:00:00+00:00",
+  "first_seen_at": "2026-10-22T23:03:35.838690+00:00",
+  "category": "pricing",
+  "materiality": "high",
+  "subscription_signal": false
+ },
+ {
+  "id": "e66e9796ba6be5e9",
+  "company": "google",
+  "source_label": "Google DeepMind Blog",
+  "title": "Beyond tree cover: mapping the world’s forest types",
+  "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+  "raw_summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+  "published_at": "2026-10-22T14:30:24+00:00",
+  "first_seen_at": "2026-10-22T23:03:35.838690+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "63c31ca523f91ccf",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "What FDE means at OpenAI",
+  "url": "https://openai.com/index/forward-deployed-engineering-means",
+  "raw_summary": "What forward deployed engineering means at OpenAI",
+  "published_at": "2026-10-22T06:00:00+00:00",
+  "first_seen_at": "2026-10-22T23:03:35.838690+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "ba6fa07d677a8221",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+  "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+  "raw_summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+  "published_at": "2026-10-22T00:00:00+00:00",
+  "first_seen_at": "2026-10-22T23:03:35.838690+00:00",
+  "category": "model_release",
+  "materiality": "high",
+  "subscription_signal": false
+ }
+]
