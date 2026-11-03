@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-01T23:25:06.828894+00:00",
- "last_success": "2026-11-01T23:25:06.828894+00:00",
+ "generated_at": "2026-11-03T02:04:30.333591+00:00",
+ "last_success": "2026-11-03T02:04:30.333591+00:00",
  "degraded": true,
  "window_days": 7,
  "companies": [
@@ -1142,6 +1142,84 @@
    "subscription_signal": false
   },
   {
+   "id": "95e7a57b90366731",
+   "company": "xai",
+   "source_label": "xAI News",
+   "title": "Product · Giving every team a data scientist with Grok Bot",
+   "url": "https://x.ai/news/data-bot",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-11-03T02:04:30.333591+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "de4cf53f9db96311",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Scaling Git at OpenAI",
+   "url": "https://openai.com/index/scaling-git-at-openai",
+   "raw_summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+   "published_at": "2026-11-02T15:30:00+00:00",
+   "first_seen_at": "2026-11-03T02:04:30.333591+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "19244c7aa2063fd3",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Introducing the Grid Protectors Program",
+   "url": "https://openai.com/index/grid-protectors-program",
+   "raw_summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+   "published_at": "2026-11-02T15:00:00+00:00",
+   "first_seen_at": "2026-11-03T02:04:30.333591+00:00",
+   "category": "infrastructure",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "ed4b58253682640f",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "LifeVal",
+   "url": "https://openai.com/index/lifeval",
+   "raw_summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+   "published_at": "2026-11-02T09:00:00+00:00",
+   "first_seen_at": "2026-11-03T02:04:30.333591+00:00",
+   "category": "research",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "598c6194c0d34c23",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Qodo builds context into AI code review with Codex",
+   "url": "https://openai.com/index/qodo-codex-plugin",
+   "raw_summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+   "published_at": "2026-11-02T00:00:00+00:00",
+   "first_seen_at": "2026-11-03T02:04:30.333591+00:00",
+   "category": "capability",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
+   "id": "ff138f709a7e7c37",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+   "url": "https://openai.com/index/dan-driscoll-joins-openai",
+   "raw_summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+   "published_at": "2026-11-02T00:00:00+00:00",
+   "first_seen_at": "2026-11-03T02:04:30.333591+00:00",
+   "category": "personnel",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "25cc4c9bb2e3e7e5",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -1322,121 +1400,24 @@
    "category": "other",
    "materiality": "low",
    "subscription_signal": true
-  },
-  {
-   "id": "8cb333260a17a324",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "How Check Point accelerates vulnerability research with Daybreak",
-   "url": "https://openai.com/index/check-point-daybreak",
-   "raw_summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-   "published_at": "2026-10-27T00:00:00+00:00",
-   "first_seen_at": "2026-10-27T23:38:02.302405+00:00",
-   "category": "research",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "250e5d8f302445e7",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-   "url": "https://openai.com/index/greptile-code-review-codex-astra",
-   "raw_summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-   "published_at": "2026-10-26T22:00:00+00:00",
-   "first_seen_at": "2026-10-26T23:38:36.333793+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "f16aefe89a6e3f3b",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Working with academic communities to build scientific understanding",
-   "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-   "raw_summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-   "published_at": "2026-10-26T14:30:00+00:00",
-   "first_seen_at": "2026-10-26T23:38:36.333793+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "1a1d4bf2fc111eb8",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-   "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-   "raw_summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-   "published_at": "2026-10-26T13:45:00+00:00",
-   "first_seen_at": "2026-10-26T23:38:36.333793+00:00",
-   "category": "capability",
-   "materiality": "medium",
-   "subscription_signal": false
-  },
-  {
-   "id": "64d59b55a8fb8666",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "ChatGPT’s expanding world of work",
-   "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-   "raw_summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-   "published_at": "2026-10-26T10:00:00+00:00",
-   "first_seen_at": "2026-10-26T23:38:36.333793+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "eb7708c5f537ab79",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "How Fanatics and OpenAI streamline the fan experience",
-   "url": "https://openai.com/index/fanatics-streamline-fan-experience",
-   "raw_summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
-   "published_at": "2026-10-26T07:00:00+00:00",
-   "first_seen_at": "2026-10-26T23:38:36.333793+00:00",
-   "category": "customer_story",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "8f2f08b6e197805b",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-   "url": "https://openai.com/index/openai-cut-incident-investigation",
-   "raw_summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
-   "published_at": "2026-10-26T07:00:00+00:00",
-   "first_seen_at": "2026-10-26T23:38:36.333793+00:00",
-   "category": "customer_story",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "1758535ac6be3e6b",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Introducing GPT-6.1 Terra",
-   "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-   "raw_summary": "Bringing fast and capable computer use to everyone",
-   "published_at": "2026-10-26T00:00:00+00:00",
-   "first_seen_at": "2026-10-26T23:38:36.333793+00:00",
-   "category": "model_release",
-   "materiality": "high",
-   "subscription_signal": false
   }
  ],
- "new_ids": [],
- "collected_count": 0,
+ "new_ids": [
+  "de4cf53f9db96311",
+  "19244c7aa2063fd3",
+  "ed4b58253682640f",
+  "598c6194c0d34c23",
+  "ff138f709a7e7c37",
+  "95e7a57b90366731"
+ ],
+ "collected_count": 6,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 0 new."
+   "message": "25 of newest items kept (cap 25), 5 new."
   },
   {
    "label": "Anthropic News",
@@ -1453,14 +1434,14 @@
   {
    "label": "Gemini API Release Notes",
    "company": "google",
-   "status": "ok",
-   "message": "12 of newest items kept (cap 12), 0 new."
+   "status": "empty",
+   "message": "Source parsed but returned no items."
   },
   {
    "label": "xAI News",
    "company": "xai",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 0 new."
+   "message": "12 of newest items kept (cap 12), 1 new."
   },
   {
    "label": "xAI API Release Notes",
