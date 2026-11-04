@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-03T02:04:30.333591+00:00",
- "last_success": "2026-11-03T02:04:30.333591+00:00",
+ "generated_at": "2026-11-04T00:28:08.928892+00:00",
+ "last_success": "2026-11-04T00:28:08.928892+00:00",
  "degraded": true,
  "window_days": 7,
  "companies": [
@@ -1155,6 +1155,84 @@
    "subscription_signal": false
   },
   {
+   "id": "26c6032e1d267765",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Accelerating engineering for the physical world",
+   "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+   "raw_summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+   "published_at": "2026-11-03T12:00:00+00:00",
+   "first_seen_at": "2026-11-04T00:28:08.928892+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "a2357e701f020223",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "How Cisco defends at machine speed with OpenAI",
+   "url": "https://openai.com/index/cisco-cyber",
+   "raw_summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+   "published_at": "2026-11-03T08:00:00+00:00",
+   "first_seen_at": "2026-11-04T00:28:08.928892+00:00",
+   "category": "customer_story",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "08b710f1e7801fa8",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Heimstaden is changing residential real estate management with AI",
+   "url": "https://openai.com/index/heimstaden",
+   "raw_summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+   "published_at": "2026-11-03T08:00:00+00:00",
+   "first_seen_at": "2026-11-04T00:28:08.928892+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "3d509e27bae229a3",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+   "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+   "raw_summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+   "published_at": "2026-11-03T00:00:00+00:00",
+   "first_seen_at": "2026-11-04T00:28:08.928892+00:00",
+   "category": "personnel",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "262cfa35f4308cc0",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Preparing our next security sprint to harden OpenAI",
+   "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+   "raw_summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+   "published_at": "2026-11-02T18:00:00+00:00",
+   "first_seen_at": "2026-11-04T00:28:08.928892+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "6fd6ad7938fa5bc5",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Rewarding defenders with bigger bug bounties",
+   "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+   "raw_summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+   "published_at": "2026-11-02T18:00:00+00:00",
+   "first_seen_at": "2026-11-04T00:28:08.928892+00:00",
+   "category": "research",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "de4cf53f9db96311",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -1311,6 +1389,19 @@
    "subscription_signal": true
   },
   {
+   "id": "bbd4d7a8dcb56d48",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Evernote turns AI-driven discovery into paid subscriptions",
+   "url": "https://openai.com/ads/customers/evernote",
+   "raw_summary": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
+   "published_at": "2026-10-28T19:40:49+00:00",
+   "first_seen_at": "2026-11-04T00:28:08.928892+00:00",
+   "category": "pricing",
+   "materiality": "high",
+   "subscription_signal": true
+  },
+  {
    "id": "b0da25ea6c1a2967",
    "company": "google",
    "source_label": "Google DeepMind Blog",
@@ -1361,63 +1452,25 @@
    "category": "capability",
    "materiality": "medium",
    "subscription_signal": false
-  },
-  {
-   "id": "d17d13a0006a776d",
-   "company": "google",
-   "source_label": "Google DeepMind Blog",
-   "title": "Genie 4: A new generation of world simulation",
-   "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-   "raw_summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
-   "published_at": "2026-10-27T16:01:38+00:00",
-   "first_seen_at": "2026-10-28T23:55:25.006925+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "d42fb1eb3362412f",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Retell uses OpenAI models to help power 100M monthly calls",
-   "url": "https://openai.com/index/retell-ai",
-   "raw_summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-   "published_at": "2026-10-27T15:00:00+00:00",
-   "first_seen_at": "2026-10-27T23:38:02.302405+00:00",
-   "category": "capability",
-   "materiality": "medium",
-   "subscription_signal": false
-  },
-  {
-   "id": "a3a879144b2984ac",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-   "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-   "raw_summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-   "published_at": "2026-10-27T07:00:00+00:00",
-   "first_seen_at": "2026-10-27T23:38:02.302405+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": true
   }
  ],
  "new_ids": [
-  "de4cf53f9db96311",
-  "19244c7aa2063fd3",
-  "ed4b58253682640f",
-  "598c6194c0d34c23",
-  "ff138f709a7e7c37",
-  "95e7a57b90366731"
+  "26c6032e1d267765",
+  "a2357e701f020223",
+  "08b710f1e7801fa8",
+  "3d509e27bae229a3",
+  "262cfa35f4308cc0",
+  "6fd6ad7938fa5bc5",
+  "bbd4d7a8dcb56d48"
  ],
- "collected_count": 6,
+ "collected_count": 7,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 5 new."
+   "message": "25 of newest items kept (cap 25), 7 new."
   },
   {
    "label": "Anthropic News",
@@ -1441,7 +1494,7 @@
    "label": "xAI News",
    "company": "xai",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 1 new."
+   "message": "12 of newest items kept (cap 12), 0 new."
   },
   {
    "label": "xAI API Release Notes",
