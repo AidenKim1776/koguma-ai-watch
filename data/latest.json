@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-04T00:28:08.928892+00:00",
- "last_success": "2026-11-04T00:28:08.928892+00:00",
+ "generated_at": "2026-11-05T00:47:19.988560+00:00",
+ "last_success": "2026-11-05T00:47:19.988560+00:00",
  "degraded": true,
  "window_days": 7,
  "companies": [
@@ -1155,6 +1155,71 @@
    "subscription_signal": false
   },
   {
+   "id": "3a06f84c0f51a102",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+   "url": "https://openai.com/index/openai-to-acquire-pierre",
+   "raw_summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+   "published_at": "2026-11-04T14:30:00+00:00",
+   "first_seen_at": "2026-11-05T00:47:19.988560+00:00",
+   "category": "legal",
+   "materiality": "high",
+   "subscription_signal": false
+  },
+  {
+   "id": "a4f4c423c5426033",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "A thousand fewer paths to root",
+   "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+   "raw_summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+   "published_at": "2026-11-04T08:00:00+00:00",
+   "first_seen_at": "2026-11-05T00:47:19.988560+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "75679f5aa60bfcf8",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+   "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+   "raw_summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+   "published_at": "2026-11-04T07:00:00+00:00",
+   "first_seen_at": "2026-11-05T00:47:19.988560+00:00",
+   "category": "model_release",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
+   "id": "0a437d67f2effbc5",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Introducing Images 2.6",
+   "url": "https://openai.com/index/introducing-images-2-6",
+   "raw_summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+   "published_at": "2026-11-04T00:00:00+00:00",
+   "first_seen_at": "2026-11-05T00:47:19.988560+00:00",
+   "category": "model_release",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
+   "id": "bf25be8f87794d7d",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+   "url": "https://openai.com/index/devrev-enterprise-self-service",
+   "raw_summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+   "published_at": "2026-11-04T00:00:00+00:00",
+   "first_seen_at": "2026-11-05T00:47:19.988560+00:00",
+   "category": "pricing",
+   "materiality": "high",
+   "subscription_signal": false
+  },
+  {
    "id": "26c6032e1d267765",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -1374,103 +1439,23 @@
    "category": "customer_story",
    "materiality": "low",
    "subscription_signal": false
-  },
-  {
-   "id": "6750c2461412185f",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-   "url": "https://openai.com/index/credit-saison",
-   "raw_summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
-   "published_at": "2026-10-29T00:00:00+00:00",
-   "first_seen_at": "2026-10-30T23:31:00.052170+00:00",
-   "category": "pricing",
-   "materiality": "high",
-   "subscription_signal": true
-  },
-  {
-   "id": "bbd4d7a8dcb56d48",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Evernote turns AI-driven discovery into paid subscriptions",
-   "url": "https://openai.com/ads/customers/evernote",
-   "raw_summary": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
-   "published_at": "2026-10-28T19:40:49+00:00",
-   "first_seen_at": "2026-11-04T00:28:08.928892+00:00",
-   "category": "pricing",
-   "materiality": "high",
-   "subscription_signal": true
-  },
-  {
-   "id": "b0da25ea6c1a2967",
-   "company": "google",
-   "source_label": "Google DeepMind Blog",
-   "title": "Gemini 4 Carbon: Our next frontier model",
-   "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-   "raw_summary": "",
-   "published_at": "2026-10-28T17:00:58+00:00",
-   "first_seen_at": "2026-10-28T23:55:25.006925+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "75e2017ed4c5a2ec",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-   "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-   "raw_summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
-   "published_at": "2026-10-28T13:15:00+00:00",
-   "first_seen_at": "2026-10-28T23:55:25.006925+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "0dc3cf0b7c98dcde",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "The future of the firm",
-   "url": "https://openai.com/index/the-future-of-the-firm",
-   "raw_summary": "How AI might enter the org chart—beneath, beside, and between us.",
-   "published_at": "2026-10-28T10:00:00+00:00",
-   "first_seen_at": "2026-10-28T23:55:25.006925+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "41c97fe8dc29ac4a",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Legora is building the agentic operating system for legal work",
-   "url": "https://openai.com/index/legora",
-   "raw_summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-   "published_at": "2026-10-28T09:30:00+00:00",
-   "first_seen_at": "2026-10-28T23:55:25.006925+00:00",
-   "category": "capability",
-   "materiality": "medium",
-   "subscription_signal": false
   }
  ],
  "new_ids": [
-  "26c6032e1d267765",
-  "a2357e701f020223",
-  "08b710f1e7801fa8",
-  "3d509e27bae229a3",
-  "262cfa35f4308cc0",
-  "6fd6ad7938fa5bc5",
-  "bbd4d7a8dcb56d48"
+  "3a06f84c0f51a102",
+  "75679f5aa60bfcf8",
+  "a4f4c423c5426033",
+  "0a437d67f2effbc5",
+  "bf25be8f87794d7d"
  ],
- "collected_count": 7,
+ "collected_count": 5,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 7 new."
+   "message": "25 of newest items kept (cap 25), 5 new."
   },
   {
    "label": "Anthropic News",
