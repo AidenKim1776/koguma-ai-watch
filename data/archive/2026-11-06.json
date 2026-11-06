@@ -50,5 +50,44 @@
   "category": "customer_story",
   "materiality": "low",
   "subscription_signal": false
+ },
+ {
+  "id": "25cc4c9bb2e3e7e5",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Making it easier for websites to express AI training preferences",
+  "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+  "raw_summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+  "published_at": "2026-10-30T09:30:00+00:00",
+  "first_seen_at": "2026-10-30T23:31:00.052170+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "c7606af40dbb903f",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Community safety report and new protections for teens",
+  "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+  "raw_summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+  "published_at": "2026-10-30T09:00:00+00:00",
+  "first_seen_at": "2026-10-30T23:31:00.052170+00:00",
+  "category": "policy",
+  "materiality": "medium",
+  "subscription_signal": false
+ },
+ {
+  "id": "094c331a98fae894",
+  "company": "google",
+  "source_label": "Google DeepMind Blog",
+  "title": "Speeding up planning decisions with AI",
+  "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+  "raw_summary": "Google DeepMind and UK government work together to reduce planning assessment times",
+  "published_at": "2026-10-30T14:18:30+00:00",
+  "first_seen_at": "2026-11-06T23:59:35.513188+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
  }
 ]
