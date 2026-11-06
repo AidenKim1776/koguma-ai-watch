@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-05T00:47:19.988560+00:00",
- "last_success": "2026-11-05T00:47:19.988560+00:00",
+ "generated_at": "2026-11-06T00:53:37.544266+00:00",
+ "last_success": "2026-11-06T00:53:37.544266+00:00",
  "degraded": true,
  "window_days": 7,
  "companies": [
@@ -1155,6 +1155,58 @@
    "subscription_signal": false
   },
   {
+   "id": "53c56afbaf05f856",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+   "url": "https://openai.com/index/introducing-gpt-6-cyber",
+   "raw_summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+   "published_at": "2026-11-05T09:00:00+00:00",
+   "first_seen_at": "2026-11-06T00:53:37.544266+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "300d91101f21ec1d",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Merge builds product and business tools with OpenAI technology",
+   "url": "https://openai.com/index/merge-builds-with-openai",
+   "raw_summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+   "published_at": "2026-11-05T08:00:00+00:00",
+   "first_seen_at": "2026-11-06T00:53:37.544266+00:00",
+   "category": "pricing",
+   "materiality": "high",
+   "subscription_signal": true
+  },
+  {
+   "id": "f93567576105c713",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Setting a new standard for responsible AI infrastructure",
+   "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+   "raw_summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+   "published_at": "2026-11-05T02:00:00+00:00",
+   "first_seen_at": "2026-11-06T00:53:37.544266+00:00",
+   "category": "infrastructure",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "1f9981de57006417",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Flipsnack grows product signups with conversion optimization",
+   "url": "https://openai.com/ads/customers/flipsnack",
+   "raw_summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+   "published_at": "2026-11-05T00:45:15+00:00",
+   "first_seen_at": "2026-11-06T00:53:37.544266+00:00",
+   "category": "pricing",
+   "materiality": "high",
+   "subscription_signal": true
+  },
+  {
    "id": "3a06f84c0f51a102",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -1387,75 +1439,22 @@
    "category": "policy",
    "materiality": "medium",
    "subscription_signal": false
-  },
-  {
-   "id": "d2282bcce1625c64",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Fair use benefits everyone",
-   "url": "https://openai.com/index/fair-use-benefits-everyone",
-   "raw_summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
-   "published_at": "2026-10-30T00:00:00+00:00",
-   "first_seen_at": "2026-10-30T23:31:00.052170+00:00",
-   "category": "legal",
-   "materiality": "medium",
-   "subscription_signal": false
-  },
-  {
-   "id": "7bf0065ceb1646f5",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "An updated Model Spec for more capable and beneficial AI",
-   "url": "https://openai.com/index/updated-model-spec",
-   "raw_summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
-   "published_at": "2026-10-29T17:00:00+00:00",
-   "first_seen_at": "2026-10-29T23:50:32.708831+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "d28967fce9c692cd",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "How we detect frontier model misalignment",
-   "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-   "raw_summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-   "published_at": "2026-10-29T09:00:00+00:00",
-   "first_seen_at": "2026-10-29T23:50:32.708831+00:00",
-   "category": "customer_story",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "2d9928289658e986",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "How Ropes & Gray is developing AI for transactional diligence",
-   "url": "https://openai.com/index/ropes-gray-ai-diligence",
-   "raw_summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
-   "published_at": "2026-10-29T07:00:00+00:00",
-   "first_seen_at": "2026-10-29T23:50:32.708831+00:00",
-   "category": "customer_story",
-   "materiality": "low",
-   "subscription_signal": false
   }
  ],
  "new_ids": [
-  "3a06f84c0f51a102",
-  "75679f5aa60bfcf8",
-  "a4f4c423c5426033",
-  "0a437d67f2effbc5",
-  "bf25be8f87794d7d"
+  "53c56afbaf05f856",
+  "300d91101f21ec1d",
+  "f93567576105c713",
+  "1f9981de57006417"
  ],
- "collected_count": 5,
+ "collected_count": 4,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 5 new."
+   "message": "25 of newest items kept (cap 25), 4 new."
   },
   {
    "label": "Anthropic News",

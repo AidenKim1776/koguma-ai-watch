@@ -1,0 +1,54 @@
+[
+ {
+  "id": "d2282bcce1625c64",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Fair use benefits everyone",
+  "url": "https://openai.com/index/fair-use-benefits-everyone",
+  "raw_summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+  "published_at": "2026-10-30T00:00:00+00:00",
+  "first_seen_at": "2026-10-30T23:31:00.052170+00:00",
+  "category": "legal",
+  "materiality": "medium",
+  "subscription_signal": false
+ },
+ {
+  "id": "7bf0065ceb1646f5",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "An updated Model Spec for more capable and beneficial AI",
+  "url": "https://openai.com/index/updated-model-spec",
+  "raw_summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+  "published_at": "2026-10-29T17:00:00+00:00",
+  "first_seen_at": "2026-10-29T23:50:32.708831+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "d28967fce9c692cd",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "How we detect frontier model misalignment",
+  "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+  "raw_summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+  "published_at": "2026-10-29T09:00:00+00:00",
+  "first_seen_at": "2026-10-29T23:50:32.708831+00:00",
+  "category": "customer_story",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "2d9928289658e986",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "How Ropes & Gray is developing AI for transactional diligence",
+  "url": "https://openai.com/index/ropes-gray-ai-diligence",
+  "raw_summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+  "published_at": "2026-10-29T07:00:00+00:00",
+  "first_seen_at": "2026-10-29T23:50:32.708831+00:00",
+  "category": "customer_story",
+  "materiality": "low",
+  "subscription_signal": false
+ }
+]
