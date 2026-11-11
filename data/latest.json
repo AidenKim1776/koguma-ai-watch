@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-10T02:35:57.141843+00:00",
- "last_success": "2026-11-10T02:35:57.141843+00:00",
- "degraded": false,
+ "generated_at": "2026-11-11T00:28:10.884125+00:00",
+ "last_success": "2026-11-11T00:28:10.884125+00:00",
+ "degraded": true,
  "window_days": 7,
  "companies": [
   "openai",
@@ -1155,6 +1155,71 @@
    "subscription_signal": false
   },
   {
+   "id": "85a32fe1244f6425",
+   "company": "anthropic",
+   "source_label": "Anthropic News",
+   "title": "Anthropic launches roadshow for proposed initial public offering",
+   "url": "https://www.anthropic.com/news/roadshow-launch",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-11-11T00:28:10.884125+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "46ecb159c1535b09",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Helping caregivers use AI in everyday life",
+   "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+   "raw_summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+   "published_at": "2026-11-10T12:00:00+00:00",
+   "first_seen_at": "2026-11-11T00:28:10.884125+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "5ca4dc7b6d88cb31",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Introducing Businesses in ChatGPT",
+   "url": "https://openai.com/index/introducing-businesses-chatgpt",
+   "raw_summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+   "published_at": "2026-11-10T10:00:00+00:00",
+   "first_seen_at": "2026-11-11T00:28:10.884125+00:00",
+   "category": "model_release",
+   "materiality": "high",
+   "subscription_signal": true
+  },
+  {
+   "id": "01a8528fa117926a",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Closing the AI guidance gap in education",
+   "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+   "raw_summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+   "published_at": "2026-11-10T09:00:00+00:00",
+   "first_seen_at": "2026-11-11T00:28:10.884125+00:00",
+   "category": "research",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "3588ceed41552e46",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Work at the Frontier: AI’s effect on freelance work",
+   "url": "https://openai.com/index/ai-effect-on-freelance-work",
+   "raw_summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+   "published_at": "2026-11-10T07:00:00+00:00",
+   "first_seen_at": "2026-11-11T00:28:10.884125+00:00",
+   "category": "research",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "9c331579e229757a",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -1374,93 +1439,16 @@
    "category": "model_release",
    "materiality": "medium",
    "subscription_signal": false
-  },
-  {
-   "id": "0a437d67f2effbc5",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Introducing Images 2.6",
-   "url": "https://openai.com/index/introducing-images-2-6",
-   "raw_summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
-   "published_at": "2026-11-04T00:00:00+00:00",
-   "first_seen_at": "2026-11-05T00:47:19.988560+00:00",
-   "category": "model_release",
-   "materiality": "medium",
-   "subscription_signal": false
-  },
-  {
-   "id": "bf25be8f87794d7d",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
-   "url": "https://openai.com/index/devrev-enterprise-self-service",
-   "raw_summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
-   "published_at": "2026-11-04T00:00:00+00:00",
-   "first_seen_at": "2026-11-05T00:47:19.988560+00:00",
-   "category": "pricing",
-   "materiality": "high",
-   "subscription_signal": false
-  },
-  {
-   "id": "7b04a568c5adccd6",
-   "company": "google",
-   "source_label": "Google DeepMind Blog",
-   "title": "Agentic cheminformatics with Google Antigravity",
-   "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
-   "raw_summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
-   "published_at": "2026-11-03T17:01:49+00:00",
-   "first_seen_at": "2026-11-06T23:59:35.513188+00:00",
-   "category": "capability",
-   "materiality": "medium",
-   "subscription_signal": false
-  },
-  {
-   "id": "26c6032e1d267765",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Accelerating engineering for the physical world",
-   "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-   "raw_summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
-   "published_at": "2026-11-03T12:00:00+00:00",
-   "first_seen_at": "2026-11-04T00:28:08.928892+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "a2357e701f020223",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "How Cisco defends at machine speed with OpenAI",
-   "url": "https://openai.com/index/cisco-cyber",
-   "raw_summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
-   "published_at": "2026-11-03T08:00:00+00:00",
-   "first_seen_at": "2026-11-04T00:28:08.928892+00:00",
-   "category": "customer_story",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "08b710f1e7801fa8",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Heimstaden is changing residential real estate management with AI",
-   "url": "https://openai.com/index/heimstaden",
-   "raw_summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
-   "published_at": "2026-11-03T08:00:00+00:00",
-   "first_seen_at": "2026-11-04T00:28:08.928892+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
   }
  ],
  "new_ids": [
-  "9c331579e229757a",
-  "f37b680abcf7adcb",
-  "23b94c697622500f",
-  "932fe34bad728f30"
+  "46ecb159c1535b09",
+  "5ca4dc7b6d88cb31",
+  "01a8528fa117926a",
+  "3588ceed41552e46",
+  "85a32fe1244f6425"
  ],
- "collected_count": 4,
+ "collected_count": 5,
  "baseline_run": false,
  "feed_health": [
   {
@@ -1473,13 +1461,13 @@
    "label": "Anthropic News",
    "company": "anthropic",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 0 new."
+   "message": "12 of newest items kept (cap 12), 1 new."
   },
   {
    "label": "Google DeepMind Blog",
    "company": "google",
-   "status": "ok",
-   "message": "25 of newest items kept (cap 25), 0 new."
+   "status": "failed",
+   "message": "ParseError: not well-formed (invalid token): line 1, column 0"
   },
   {
    "label": "Gemini API Release Notes",
