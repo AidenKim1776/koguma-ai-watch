@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-11T00:28:10.884125+00:00",
- "last_success": "2026-11-11T00:28:10.884125+00:00",
+ "generated_at": "2026-11-12T01:50:07.774991+00:00",
+ "last_success": "2026-11-12T01:50:07.774991+00:00",
  "degraded": true,
  "window_days": 7,
  "companies": [
@@ -1168,6 +1168,58 @@
    "subscription_signal": false
   },
   {
+   "id": "9c7c8759efa30077",
+   "company": "xai",
+   "source_label": "xAI News",
+   "title": "Introducing Grok Bot 1.0 Bots now work with your whole team, take on work without being asked, and get more done, faster",
+   "url": "https://x.ai/news/grok-bot-1-0",
+   "raw_summary": "",
+   "published_at": null,
+   "first_seen_at": "2026-11-12T01:50:07.774991+00:00",
+   "category": "model_release",
+   "materiality": "high",
+   "subscription_signal": false
+  },
+  {
+   "id": "f28f90d2895a812c",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Gilbert + Tobin rethinks the business of law with AI",
+   "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+   "raw_summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+   "published_at": "2026-11-12T00:00:00+00:00",
+   "first_seen_at": "2026-11-12T01:50:07.774991+00:00",
+   "category": "personnel",
+   "materiality": "low",
+   "subscription_signal": true
+  },
+  {
+   "id": "80b38ea7da372c49",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "ChatGPT Plus for veterans and servicemembers",
+   "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+   "raw_summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+   "published_at": "2026-11-11T08:00:00+00:00",
+   "first_seen_at": "2026-11-12T01:50:07.774991+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": true
+  },
+  {
+   "id": "8c999d6885d24711",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+   "url": "https://openai.com/index/jiostar-vijay-seshadri",
+   "raw_summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+   "published_at": "2026-11-11T00:00:00+00:00",
+   "first_seen_at": "2026-11-12T01:50:07.774991+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "46ecb159c1535b09",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -1207,6 +1259,19 @@
    "subscription_signal": false
   },
   {
+   "id": "4e3e5904c85ae763",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+   "url": "https://openai.com/index/singapore-airlines-travel-work",
+   "raw_summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+   "published_at": "2026-11-10T08:00:00+00:00",
+   "first_seen_at": "2026-11-12T01:50:07.774991+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "3588ceed41552e46",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -1216,6 +1281,19 @@
    "published_at": "2026-11-10T07:00:00+00:00",
    "first_seen_at": "2026-11-11T00:28:10.884125+00:00",
    "category": "research",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "1ff74ee2cb106637",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+   "url": "https://openai.com/index/cogent-security",
+   "raw_summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+   "published_at": "2026-11-10T00:00:00+00:00",
+   "first_seen_at": "2026-11-12T01:50:07.774991+00:00",
+   "category": "other",
    "materiality": "low",
    "subscription_signal": false
   },
@@ -1374,94 +1452,30 @@
    "category": "infrastructure",
    "materiality": "low",
    "subscription_signal": false
-  },
-  {
-   "id": "1f9981de57006417",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Flipsnack grows product signups with conversion optimization",
-   "url": "https://openai.com/ads/customers/flipsnack",
-   "raw_summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
-   "published_at": "2026-11-05T00:45:15+00:00",
-   "first_seen_at": "2026-11-06T00:53:37.544266+00:00",
-   "category": "pricing",
-   "materiality": "high",
-   "subscription_signal": true
-  },
-  {
-   "id": "c0d7b0808284d182",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Franklin Templeton uses OpenAI to support investment research",
-   "url": "https://openai.com/index/franklin-templeton",
-   "raw_summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
-   "published_at": "2026-11-05T00:00:00+00:00",
-   "first_seen_at": "2026-11-06T23:59:35.513188+00:00",
-   "category": "research",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "3a06f84c0f51a102",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-   "url": "https://openai.com/index/openai-to-acquire-pierre",
-   "raw_summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
-   "published_at": "2026-11-04T14:30:00+00:00",
-   "first_seen_at": "2026-11-05T00:47:19.988560+00:00",
-   "category": "legal",
-   "materiality": "high",
-   "subscription_signal": false
-  },
-  {
-   "id": "a4f4c423c5426033",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "A thousand fewer paths to root",
-   "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-   "raw_summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
-   "published_at": "2026-11-04T08:00:00+00:00",
-   "first_seen_at": "2026-11-05T00:47:19.988560+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "75679f5aa60bfcf8",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-   "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-   "raw_summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
-   "published_at": "2026-11-04T07:00:00+00:00",
-   "first_seen_at": "2026-11-05T00:47:19.988560+00:00",
-   "category": "model_release",
-   "materiality": "medium",
-   "subscription_signal": false
   }
  ],
  "new_ids": [
-  "46ecb159c1535b09",
-  "5ca4dc7b6d88cb31",
-  "01a8528fa117926a",
-  "3588ceed41552e46",
-  "85a32fe1244f6425"
+  "f28f90d2895a812c",
+  "80b38ea7da372c49",
+  "8c999d6885d24711",
+  "4e3e5904c85ae763",
+  "1ff74ee2cb106637",
+  "9c7c8759efa30077"
  ],
- "collected_count": 5,
+ "collected_count": 6,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 4 new."
+   "message": "25 of newest items kept (cap 25), 5 new."
   },
   {
    "label": "Anthropic News",
    "company": "anthropic",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 1 new."
+   "message": "12 of newest items kept (cap 12), 0 new."
   },
   {
    "label": "Google DeepMind Blog",
@@ -1479,7 +1493,7 @@
    "label": "xAI News",
    "company": "xai",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 0 new."
+   "message": "12 of newest items kept (cap 12), 1 new."
   },
   {
    "label": "xAI API Release Notes",

@@ -1,0 +1,67 @@
+[
+ {
+  "id": "1f9981de57006417",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Flipsnack grows product signups with conversion optimization",
+  "url": "https://openai.com/ads/customers/flipsnack",
+  "raw_summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+  "published_at": "2026-11-05T00:45:15+00:00",
+  "first_seen_at": "2026-11-06T00:53:37.544266+00:00",
+  "category": "pricing",
+  "materiality": "high",
+  "subscription_signal": true
+ },
+ {
+  "id": "c0d7b0808284d182",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Franklin Templeton uses OpenAI to support investment research",
+  "url": "https://openai.com/index/franklin-templeton",
+  "raw_summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+  "published_at": "2026-11-05T00:00:00+00:00",
+  "first_seen_at": "2026-11-06T23:59:35.513188+00:00",
+  "category": "research",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "3a06f84c0f51a102",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+  "url": "https://openai.com/index/openai-to-acquire-pierre",
+  "raw_summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+  "published_at": "2026-11-04T14:30:00+00:00",
+  "first_seen_at": "2026-11-05T00:47:19.988560+00:00",
+  "category": "legal",
+  "materiality": "high",
+  "subscription_signal": false
+ },
+ {
+  "id": "a4f4c423c5426033",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "A thousand fewer paths to root",
+  "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+  "raw_summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+  "published_at": "2026-11-04T08:00:00+00:00",
+  "first_seen_at": "2026-11-05T00:47:19.988560+00:00",
+  "category": "other",
+  "materiality": "low",
+  "subscription_signal": false
+ },
+ {
+  "id": "75679f5aa60bfcf8",
+  "company": "openai",
+  "source_label": "OpenAI News",
+  "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+  "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+  "raw_summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+  "published_at": "2026-11-04T07:00:00+00:00",
+  "first_seen_at": "2026-11-05T00:47:19.988560+00:00",
+  "category": "model_release",
+  "materiality": "medium",
+  "subscription_signal": false
+ }
+]
