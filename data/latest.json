@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-12T01:50:07.774991+00:00",
- "last_success": "2026-11-12T01:50:07.774991+00:00",
+ "generated_at": "2026-11-13T00:56:45.528361+00:00",
+ "last_success": "2026-11-13T00:56:45.528361+00:00",
  "degraded": true,
  "window_days": 7,
  "companies": [
@@ -1181,6 +1181,45 @@
    "subscription_signal": false
   },
   {
+   "id": "5b0f73df89a6e310",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+   "url": "https://openai.com/business/customer-stories/amplitude",
+   "raw_summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+   "published_at": "2026-11-12T20:00:00+00:00",
+   "first_seen_at": "2026-11-13T00:56:45.528361+00:00",
+   "category": "customer_story",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "90d79223706ea3ab",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Gondola doubles revenue as its team builds more with Codex",
+   "url": "https://openai.com/business/customer-stories/gondola",
+   "raw_summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+   "published_at": "2026-11-12T12:00:00+00:00",
+   "first_seen_at": "2026-11-13T00:56:45.528361+00:00",
+   "category": "pricing",
+   "materiality": "high",
+   "subscription_signal": true
+  },
+  {
+   "id": "0990939c7d6ea9f7",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Holiday Extras is rethinking what it can build with Codex",
+   "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+   "raw_summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+   "published_at": "2026-11-12T09:30:00+00:00",
+   "first_seen_at": "2026-11-13T00:56:45.528361+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "f28f90d2895a812c",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -1192,6 +1231,19 @@
    "category": "personnel",
    "materiality": "low",
    "subscription_signal": true
+  },
+  {
+   "id": "b06379671ede1f62",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Supporting research on AI and children’s safety",
+   "url": "https://openai.com/index/children-first-declaration",
+   "raw_summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+   "published_at": "2026-11-12T00:00:00+00:00",
+   "first_seen_at": "2026-11-13T00:56:45.528361+00:00",
+   "category": "policy",
+   "materiality": "medium",
+   "subscription_signal": false
   },
   {
    "id": "80b38ea7da372c49",
@@ -1361,115 +1413,22 @@
    "category": "other",
    "materiality": "low",
    "subscription_signal": false
-  },
-  {
-   "id": "cfd4354afa14004f",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Measuring how AI agents handle everyday wet-lab science",
-   "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-   "raw_summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-   "published_at": "2026-11-06T00:00:00+00:00",
-   "first_seen_at": "2026-11-06T23:59:35.513188+00:00",
-   "category": "research",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "c88b52d0b21039c7",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Cult.fit builds operational muscle with Codex",
-   "url": "https://openai.com/index/cultfit-builds-with-codex",
-   "raw_summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
-   "published_at": "2026-11-05T20:00:00+00:00",
-   "first_seen_at": "2026-11-06T23:59:35.513188+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "825a50d1c0ad7f36",
-   "company": "google",
-   "source_label": "Google DeepMind Blog",
-   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-   "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-   "raw_summary": "",
-   "published_at": "2026-11-05T17:05:16+00:00",
-   "first_seen_at": "2026-11-06T23:59:35.513188+00:00",
-   "category": "pricing",
-   "materiality": "high",
-   "subscription_signal": false
-  },
-  {
-   "id": "b58fee4edbbb5f7a",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Australian universities are creating AI-native graduates",
-   "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-   "raw_summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
-   "published_at": "2026-11-05T17:00:00+00:00",
-   "first_seen_at": "2026-11-06T23:59:35.513188+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "53c56afbaf05f856",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
-   "url": "https://openai.com/index/introducing-gpt-6-cyber",
-   "raw_summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
-   "published_at": "2026-11-05T09:00:00+00:00",
-   "first_seen_at": "2026-11-06T00:53:37.544266+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
-  },
-  {
-   "id": "300d91101f21ec1d",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Merge builds product and business tools with OpenAI technology",
-   "url": "https://openai.com/index/merge-builds-with-openai",
-   "raw_summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
-   "published_at": "2026-11-05T08:00:00+00:00",
-   "first_seen_at": "2026-11-06T00:53:37.544266+00:00",
-   "category": "pricing",
-   "materiality": "high",
-   "subscription_signal": true
-  },
-  {
-   "id": "f93567576105c713",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Setting a new standard for responsible AI infrastructure",
-   "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-   "raw_summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
-   "published_at": "2026-11-05T02:00:00+00:00",
-   "first_seen_at": "2026-11-06T00:53:37.544266+00:00",
-   "category": "infrastructure",
-   "materiality": "low",
-   "subscription_signal": false
   }
  ],
  "new_ids": [
-  "f28f90d2895a812c",
-  "80b38ea7da372c49",
-  "8c999d6885d24711",
-  "4e3e5904c85ae763",
-  "1ff74ee2cb106637",
-  "9c7c8759efa30077"
+  "5b0f73df89a6e310",
+  "90d79223706ea3ab",
+  "0990939c7d6ea9f7",
+  "b06379671ede1f62"
  ],
- "collected_count": 6,
+ "collected_count": 4,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 5 new."
+   "message": "25 of newest items kept (cap 25), 4 new."
   },
   {
    "label": "Anthropic News",
@@ -1493,7 +1452,7 @@
    "label": "xAI News",
    "company": "xai",
    "status": "ok",
-   "message": "12 of newest items kept (cap 12), 1 new."
+   "message": "12 of newest items kept (cap 12), 0 new."
   },
   {
    "label": "xAI API Release Notes",
