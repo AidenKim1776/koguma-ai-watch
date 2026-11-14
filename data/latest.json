@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-13T00:56:45.528361+00:00",
- "last_success": "2026-11-13T00:56:45.528361+00:00",
- "degraded": true,
+ "generated_at": "2026-11-14T00:46:59.362614+00:00",
+ "last_success": "2026-11-14T00:46:59.362614+00:00",
+ "degraded": false,
  "window_days": 7,
  "companies": [
   "openai",
@@ -1181,6 +1181,32 @@
    "subscription_signal": false
   },
   {
+   "id": "5bf4951adbe9698d",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Introducing ChatGPT Wallet",
+   "url": "https://openai.com/index/introducing-chatgpt-wallet",
+   "raw_summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+   "published_at": "2026-11-13T15:00:00+00:00",
+   "first_seen_at": "2026-11-14T00:46:59.362614+00:00",
+   "category": "model_release",
+   "materiality": "high",
+   "subscription_signal": false
+  },
+  {
+   "id": "d1318183fe172893",
+   "company": "openai",
+   "source_label": "OpenAI News",
+   "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+   "url": "https://openai.com/business/customer-stories/shield",
+   "raw_summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+   "published_at": "2026-11-13T08:00:00+00:00",
+   "first_seen_at": "2026-11-14T00:46:59.362614+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "5b0f73df89a6e310",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -1191,6 +1217,19 @@
    "first_seen_at": "2026-11-13T00:56:45.528361+00:00",
    "category": "customer_story",
    "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "4bad5afe01a19f79",
+   "company": "google",
+   "source_label": "Google DeepMind Blog",
+   "title": "Introducing Gemini 4 Hydrogen",
+   "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+   "raw_summary": "",
+   "published_at": "2026-11-12T18:00:50+00:00",
+   "first_seen_at": "2026-11-14T00:46:59.362614+00:00",
+   "category": "model_release",
+   "materiality": "high",
    "subscription_signal": false
   },
   {
@@ -1246,6 +1285,19 @@
    "subscription_signal": false
   },
   {
+   "id": "5b916f1bea878c9c",
+   "company": "google",
+   "source_label": "Google DeepMind Blog",
+   "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+   "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+   "raw_summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+   "published_at": "2026-11-11T15:00:15+00:00",
+   "first_seen_at": "2026-11-14T00:46:59.362614+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "80b38ea7da372c49",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -1272,6 +1324,32 @@
    "subscription_signal": false
   },
   {
+   "id": "0b2e1c02de474f20",
+   "company": "google",
+   "source_label": "Google DeepMind Blog",
+   "title": "Gemini 4 Carbon is now available",
+   "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+   "raw_summary": "",
+   "published_at": "2026-11-10T16:03:47+00:00",
+   "first_seen_at": "2026-11-14T00:46:59.362614+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "428ac4b42c0b5f39",
+   "company": "google",
+   "source_label": "Google DeepMind Blog",
+   "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+   "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "raw_summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+   "published_at": "2026-11-10T12:02:28+00:00",
+   "first_seen_at": "2026-11-14T00:46:59.362614+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
    "id": "46ecb159c1535b09",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -1280,6 +1358,19 @@
    "raw_summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
    "published_at": "2026-11-10T12:00:00+00:00",
    "first_seen_at": "2026-11-11T00:28:10.884125+00:00",
+   "category": "other",
+   "materiality": "low",
+   "subscription_signal": false
+  },
+  {
+   "id": "51d2fad240453466",
+   "company": "google",
+   "source_label": "Google DeepMind Blog",
+   "title": "Opening the datasets behind our AI weather models",
+   "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+   "raw_summary": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+   "published_at": "2026-11-10T11:13:04+00:00",
+   "first_seen_at": "2026-11-14T00:46:59.362614+00:00",
    "category": "other",
    "materiality": "low",
    "subscription_signal": false
@@ -1350,6 +1441,19 @@
    "subscription_signal": false
   },
   {
+   "id": "a98763b80c842ad2",
+   "company": "google",
+   "source_label": "Google DeepMind Blog",
+   "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+   "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "raw_summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+   "published_at": "2026-11-09T19:51:47+00:00",
+   "first_seen_at": "2026-11-14T00:46:59.362614+00:00",
+   "category": "capability",
+   "materiality": "medium",
+   "subscription_signal": false
+  },
+  {
    "id": "9c331579e229757a",
    "company": "openai",
    "source_label": "OpenAI News",
@@ -1400,35 +1504,26 @@
    "category": "capability",
    "materiality": "medium",
    "subscription_signal": false
-  },
-  {
-   "id": "bc8f9eac19663ff6",
-   "company": "openai",
-   "source_label": "OpenAI News",
-   "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-   "url": "https://openai.com/index/partnering-with-hacktron",
-   "raw_summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-   "published_at": "2026-11-06T08:00:00+00:00",
-   "first_seen_at": "2026-11-06T23:59:35.513188+00:00",
-   "category": "other",
-   "materiality": "low",
-   "subscription_signal": false
   }
  ],
  "new_ids": [
-  "5b0f73df89a6e310",
-  "90d79223706ea3ab",
-  "0990939c7d6ea9f7",
-  "b06379671ede1f62"
+  "5bf4951adbe9698d",
+  "d1318183fe172893",
+  "4bad5afe01a19f79",
+  "5b916f1bea878c9c",
+  "0b2e1c02de474f20",
+  "428ac4b42c0b5f39",
+  "51d2fad240453466",
+  "a98763b80c842ad2"
  ],
- "collected_count": 4,
+ "collected_count": 8,
  "baseline_run": false,
  "feed_health": [
   {
    "label": "OpenAI News",
    "company": "openai",
    "status": "ok",
-   "message": "25 of newest items kept (cap 25), 4 new."
+   "message": "25 of newest items kept (cap 25), 2 new."
   },
   {
    "label": "Anthropic News",
@@ -1439,8 +1534,8 @@
   {
    "label": "Google DeepMind Blog",
    "company": "google",
-   "status": "failed",
-   "message": "ParseError: not well-formed (invalid token): line 1, column 0"
+   "status": "ok",
+   "message": "25 of newest items kept (cap 25), 6 new."
   },
   {
    "label": "Gemini API Release Notes",
